@@ -2,7 +2,9 @@
 // veja como agregamos a função ao objeto global window
 
 const example = () => {
-  return 'example';
+	e.preventDefault();
+	document.write(RICKANDMORTY.info);
+  
 };
 
 window.example = example;
