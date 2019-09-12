@@ -11,6 +11,9 @@ const example = () => {
 	let imageLoad = "";
 	let text = "";
 
+	//usar for of
+	//usar for in
+
 	for (let i=0; i < RICKANDMORTY.results.length; i++) {
 		let name = RICKANDMORTY.results.filter(char => char.name);
 		let species = RICKANDMORTY.results.filter(char => char.species);
@@ -25,7 +28,7 @@ const example = () => {
 			let imageLoad = document.getElementById('test-image');
 			imageLoad.innerHTML = `<img src="` + image[i].image + `"/>`;
 
-			let text = document.getElementById('test-here-name').innerHTML += name[i].name + " " + species[i].species + " " + origin[i].origin.name;
+			let text = document.getElementById('test-here-name').innerHTML = name[i].name + " " + species[i].species + " " + origin[i].origin.name;
 			return text + imageLoad
 		}
 
