@@ -26,7 +26,7 @@ const example = () => {
 
 		if (name[i].name === inputChar) {
 			let imageLoad = document.getElementById('test-image');
-			imageLoad.innerHTML = `<img src="` + image[i].image + `"/>`;
+			imageLoad.innerHTML = `<img src="${image[i].image}"/>`;
 
 			let text = document.getElementById('test-here-name').innerHTML = name[i].name + " " + species[i].species + " " + origin[i].origin.name;
 			return text + imageLoad
