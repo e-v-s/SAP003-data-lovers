@@ -7,10 +7,10 @@
 
 window.example = example;*/
 //filtro para um personagem especcífico
-function pesquisarPersonagem(){
-  let result = RICKANDMORTY.results.filter(character => character.name == "Rick Sanchez");
+/*function pesquisarPersonagem(){
+  let result = RICKANDMORTY.results.filter(character => character.name);
 
-  document.write("Retornou "+result[0].name+" personagens.");
+  document.write("Retornou "+result[1].name+" personagens.");
 
 }
 //filtro para pesquisar por espécie
@@ -19,5 +19,15 @@ function pesquisarEspecie(){
 
   document.write("Retotnou "+resultSpecies.length+" personagens Humanos.");
   
-} 
+}*/
+
+const personagem = RICKANDMORTY.results;
+
+for(let opcao of personagem){
+
+  const resultado = document.getElementById("resultado")
+
+  resultado.innerHTML += `${opcao.name} <img src="${opcao.image}"/></br>`
+
+}
 
