@@ -31,29 +31,37 @@ for(let opcao of personagem){
 
 }*/
 
+/*let image ="";
+let name = "";
+let species ="";
+let origin ="";
+let image = "";
+
+const searchForCharacter = (inputChar, array) => {
+
+	for (let i of array) {
+		if (i.name.toLowerCase() === inputChar.toLowerCase()) {			
+			image = i.image;
+      name = i.name;
+      species = i.species;
+      origin = i.origin.name;				
+		}
+	return image, text;
+	}
+};*/
+
+
 const searchChar = () => {
   
-  document.getElementById("btn-char").addEventListener("click", searchChar);
+  
   let input = document.getElementById("char-name").value;
-  let txt = "";
   let name = "";
   let species ="";
   let origin ="";
   let image = "";
 
-  //main
-  /*const personagem =RICKANDMORTY.results;
-  const nome = input.toLowerCase();
-  const poersonagemEncontrado = buscarPorNome(personagem, nome)
-
-  // data
-  function buscarPorNome(personagem, nome) {
-    for (let i of personagem) {
-      if (i.name.toLowerCase() === nome) {
-        return i;
-      }
-    }
-  }*/
+  const personagem = RICKANDMORTY.results;
+  //const nome = input.toLowerCase();  
   for (let i of personagem){
 
     if(i.name.toLowerCase() == input.toLowerCase()){
@@ -63,14 +71,10 @@ const searchChar = () => {
       origin=document.getElementById("origin").innerHTML=i.origin.name;
 
       return image,name,species,origin;
-
     }
-
   }
 }
-
-searchChar();
-
+document.getElementById("btn-char").addEventListener("click", searchChar);
 const personagem = RICKANDMORTY.results;
 
 for(let opcao of personagem){
@@ -79,6 +83,8 @@ for(let opcao of personagem){
 
 }
 
-window.data = {
-	searchChar : searchChar
-};
+
+/*window.data = {
+	searchForCharacter: searchForCharacter
+};*/
+
