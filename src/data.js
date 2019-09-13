@@ -1,22 +1,34 @@
 // esta é uma função de exemplo
 // veja como agregamos a função ao objeto global window
 
+let image ="";
+let text = "";
+const searchForCharacter = (inputChar, array) => {
 
-
-const example = () => {	
-	document.getElementById("btn-char").addEventListener("click", example);
-	let inputChar = document.getElementById("char-name").value;	
-
-	const array = RICKANDMORTY.results;
 
 	for (let i of array) {
-		if (i.name === inputChar) {
-			let imageLoad = document.getElementById('test-image').innerHTML = `<img src="${i.image}"/>`;
-
-			let text = document.getElementById('test-here-name').innerHTML = i.name + " " + i.species + " " + i.origin.name;
-			return text + imageLoad
+		if (i.name.toLowerCase() === inputChar.toLowerCase()) {			
+			image = i.image;
+			text = i.name + " " + i.species + " " + i.origin.name;				
 		}
-	}
+	return image, text;
+};
+
+
+// const example = () => {	
+// 	document.getElementById("btn-char").addEventListener("click", example);
+// 	let inputChar = document.getElementById("char-name").value;	
+
+// 	const array = RICKANDMORTY.results;
+
+// 	for (let i of array) {
+// 		if (i.name.toLowerCase() === inputChar.toLowerCase()) {
+// 			let imageLoad = document.getElementById('test-image').innerHTML = `<img src="${i.image}"/>`;
+
+// 			let text = document.getElementById('test-here-name').innerHTML = i.name + " " + i.species + " " + i.origin.name;
+// 			return text + imageLoad
+// 		}
+// 	}
 
 	// for (let i=0; i < RICKANDMORTY.results.length; i++) {
 	// 	let name = RICKANDMORTY.results.filter(char => char.name);
@@ -44,8 +56,9 @@ const example = () => {
 	// return text
 };
 
-example();
+window.data = {
+	searchForCharacter: searchForCharacter
+};
 
-window.example = example;
 
 
