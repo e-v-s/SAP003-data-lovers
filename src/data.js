@@ -3,8 +3,8 @@
 
 let image ="";
 let text = "";
-const searchForCharacter = (inputChar, array) => {
 
+const searchForCharacter = (inputChar, array) => {
 
 	for (let i of array) {
 		if (i.name.toLowerCase() === inputChar.toLowerCase()) {			
