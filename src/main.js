@@ -1,6 +1,5 @@
 
 const example = () => {	
-	// document.getElementById("btn-char").addEventListener("click", example);
 	let inputChar = document.getElementById("char-name").value;	
 	let array = RICKANDMORTY.results;
 
@@ -10,10 +9,5 @@ const example = () => {
 	document.getElementById("test-here-name").innerHTML = text;
 
 };
-
-// const returnSearch = (image, text) => {
-// 	document.getElementById('test-image').innerHTML = `<img src="${image}"/>`;
-// 	document.getElementById("test-here-name").innerHTML = text;
-// };
 
 document.getElementById("btn-char").addEventListener("click", example);
