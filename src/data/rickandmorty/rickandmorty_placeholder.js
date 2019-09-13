@@ -1,4 +1,4 @@
-/*const RICKANDMORTY = {
+const RICKANDMORTY = {
   "info": {
     "count": 493,
     "pages": 25,
@@ -20,7 +20,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/2", "https://rickandmortyapi.com/api/episode/3", "https://rickandmortyapi.com/api/episode/4", "https://rickandmortyapi.com/api/episode/5", "https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/7", "https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/9", "https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/12", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/14", "https://rickandmortyapi.com/api/episode/15", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/17", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/20", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/22", "https://rickandmortyapi.com/api/episode/23", "https://rickandmortyapi.com/api/episode/24", "https://rickandmortyapi.com/api/episode/25", "https://rickandmortyapi.com/api/episode/26", "https://rickandmortyapi.com/api/episode/27", "https://rickandmortyapi.com/api/episode/28", "https://rickandmortyapi.com/api/episode/29", "https://rickandmortyapi.com/api/episode/30", "https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/1",
     "created": "2017-11-04T18:48:46.250Z"
@@ -39,7 +39,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/2", "https://rickandmortyapi.com/api/episode/3", "https://rickandmortyapi.com/api/episode/4", "https://rickandmortyapi.com/api/episode/5", "https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/7", "https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/9", "https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/12", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/14", "https://rickandmortyapi.com/api/episode/15", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/17", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/20", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/22", "https://rickandmortyapi.com/api/episode/23", "https://rickandmortyapi.com/api/episode/24", "https://rickandmortyapi.com/api/episode/25", "https://rickandmortyapi.com/api/episode/26", "https://rickandmortyapi.com/api/episode/27", "https://rickandmortyapi.com/api/episode/28", "https://rickandmortyapi.com/api/episode/29", "https://rickandmortyapi.com/api/episode/30", "https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/2",
     "created": "2017-11-04T18:50:21.651Z"
@@ -58,7 +58,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/7", "https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/9", "https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/12", "https://rickandmortyapi.com/api/episode/14", "https://rickandmortyapi.com/api/episode/15", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/17", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/20", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/22", "https://rickandmortyapi.com/api/episode/23", "https://rickandmortyapi.com/api/episode/24", "https://rickandmortyapi.com/api/episode/25", "https://rickandmortyapi.com/api/episode/26", "https://rickandmortyapi.com/api/episode/27", "https://rickandmortyapi.com/api/episode/29", "https://rickandmortyapi.com/api/episode/30", "https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/3",
     "created": "2017-11-04T19:09:56.428Z"
@@ -77,7 +77,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/7", "https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/9", "https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/12", "https://rickandmortyapi.com/api/episode/14", "https://rickandmortyapi.com/api/episode/15", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/20", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/22", "https://rickandmortyapi.com/api/episode/23", "https://rickandmortyapi.com/api/episode/24", "https://rickandmortyapi.com/api/episode/25", "https://rickandmortyapi.com/api/episode/26", "https://rickandmortyapi.com/api/episode/27", "https://rickandmortyapi.com/api/episode/28", "https://rickandmortyapi.com/api/episode/29", "https://rickandmortyapi.com/api/episode/30", "https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/4",
     "created": "2017-11-04T19:22:43.665Z"
@@ -96,7 +96,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/7", "https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/9", "https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/12", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/14", "https://rickandmortyapi.com/api/episode/15", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/20", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/22", "https://rickandmortyapi.com/api/episode/23", "https://rickandmortyapi.com/api/episode/26", "https://rickandmortyapi.com/api/episode/29", "https://rickandmortyapi.com/api/episode/30", "https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/5",
     "created": "2017-11-04T19:26:56.301Z"
@@ -115,7 +115,7 @@
       "name": "Abadango",
       "url": "https://rickandmortyapi.com/api/location/2"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/6",
     "created": "2017-11-04T19:50:28.250Z"
@@ -134,7 +134,7 @@
       "name": "Testicle Monster Dimension",
       "url": "https://rickandmortyapi.com/api/location/21"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/11"],
     "url": "https://rickandmortyapi.com/api/character/7",
     "created": "2017-11-04T19:59:20.523Z"
@@ -153,7 +153,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/8",
     "created": "2017-11-04T20:03:34.737Z"
@@ -172,7 +172,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/24"],
     "url": "https://rickandmortyapi.com/api/character/9",
     "created": "2017-11-04T20:06:54.976Z"
@@ -191,7 +191,7 @@
       "name": "Worldender's lair",
       "url": "https://rickandmortyapi.com/api/location/4"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/10",
     "created": "2017-11-04T20:19:09.017Z"
@@ -210,7 +210,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/12"],
     "url": "https://rickandmortyapi.com/api/character/11",
     "created": "2017-11-04T20:20:20.965Z"
@@ -229,7 +229,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/12.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/12",
     "created": "2017-11-04T20:32:33.144Z"
@@ -248,7 +248,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/13",
     "created": "2017-11-04T20:33:30.779Z"
@@ -267,7 +267,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/14",
     "created": "2017-11-04T20:51:31.373Z"
@@ -286,7 +286,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/15",
     "created": "2017-11-04T20:56:13.215Z"
@@ -305,7 +305,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/16",
     "created": "2017-11-04T21:12:45.235Z"
@@ -324,7 +324,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/17",
     "created": "2017-11-04T22:21:24.481Z"
@@ -343,7 +343,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/18",
     "created": "2017-11-04T22:25:29.008Z"
@@ -362,7 +362,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/19",
     "created": "2017-11-04T22:28:13.756Z"
@@ -381,7 +381,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/20",
     "created": "2017-11-04T22:34:53.659Z"
@@ -400,7 +400,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/21.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/21",
     "created": "2017-11-04T22:39:48.055Z"
@@ -419,7 +419,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/22.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/22", "https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/22",
     "created": "2017-11-04T22:41:07.171Z"
@@ -438,7 +438,7 @@
       "name": "Immortality Field Resort",
       "url": "https://rickandmortyapi.com/api/location/7"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/23.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/25", "https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/23",
     "created": "2017-11-05T08:43:05.095Z"
@@ -457,7 +457,7 @@
       "name": "Signus 5 Expanse",
       "url": "https://rickandmortyapi.com/api/location/22"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/24.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/24",
     "created": "2017-11-05T08:48:30.776Z"
@@ -476,7 +476,7 @@
       "name": "Post-Apocalyptic Earth",
       "url": "https://rickandmortyapi.com/api/location/8"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/25.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/25",
     "created": "2017-11-05T08:54:29.343Z"
@@ -495,7 +495,7 @@
       "name": "Purge Planet",
       "url": "https://rickandmortyapi.com/api/location/9"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/26.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/20"],
     "url": "https://rickandmortyapi.com/api/character/26",
     "created": "2017-11-05T08:56:46.165Z"
@@ -514,7 +514,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/27.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/27",
     "created": "2017-11-05T08:59:07.457Z"
@@ -533,7 +533,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/28.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/28",
     "created": "2017-11-05T09:02:16.595Z"
@@ -552,7 +552,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/29.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/29",
     "created": "2017-11-05T09:06:19.644Z"
@@ -571,7 +571,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/30.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/30",
     "created": "2017-11-05T09:13:16.483Z"
@@ -590,7 +590,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/31.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/31",
     "created": "2017-11-05T09:15:11.286Z"
@@ -609,7 +609,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/32.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/32",
     "created": "2017-11-05T09:18:04.184Z"
@@ -628,7 +628,7 @@
       "name": "Venzenulon 7",
       "url": "https://rickandmortyapi.com/api/location/10"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/33.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/33",
     "created": "2017-11-05T09:21:55.595Z"
@@ -647,7 +647,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/34.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/34",
     "created": "2017-11-05T09:24:04.748Z"
@@ -666,7 +666,7 @@
       "name": "Bepis 9",
       "url": "https://rickandmortyapi.com/api/location/11"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/35.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/35",
     "created": "2017-11-05T09:27:38.491Z"
@@ -685,7 +685,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/36.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/14"],
     "url": "https://rickandmortyapi.com/api/character/36",
     "created": "2017-11-05T09:31:08.952Z"
@@ -704,7 +704,7 @@
       "name": "Earth (C-500A)",
       "url": "https://rickandmortyapi.com/api/location/23"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/37.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/37",
     "created": "2017-11-05T09:38:22.960Z"
@@ -723,7 +723,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/38.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/2", "https://rickandmortyapi.com/api/episode/3", "https://rickandmortyapi.com/api/episode/4", "https://rickandmortyapi.com/api/episode/5", "https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/38",
     "created": "2017-11-05T09:48:44.230Z"
@@ -742,7 +742,7 @@
       "name": "Earth (Evil Rick's Target Dimension)",
       "url": "https://rickandmortyapi.com/api/location/34"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/39.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/39",
     "created": "2017-11-05T09:52:31.777Z"
@@ -761,7 +761,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/40.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/40",
     "created": "2017-11-05T10:02:26.701Z"
@@ -780,7 +780,7 @@
       "name": "Fantasy World",
       "url": "https://rickandmortyapi.com/api/location/48"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/41.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5"],
     "url": "https://rickandmortyapi.com/api/character/41",
     "created": "2017-11-05T10:13:45.960Z"
@@ -799,7 +799,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/42.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/42",
     "created": "2017-11-05T10:15:53.349Z"
@@ -818,7 +818,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/43.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/43",
     "created": "2017-11-05T10:17:04.997Z"
@@ -837,7 +837,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/44.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/44",
     "created": "2017-11-05T10:18:11.062Z"
@@ -856,7 +856,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/45.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/45",
     "created": "2017-11-05T10:22:27.446Z"
@@ -875,7 +875,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/46.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2"],
     "url": "https://rickandmortyapi.com/api/character/46",
     "created": "2017-11-05T10:24:38.089Z"
@@ -894,7 +894,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/47.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/22", "https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/47",
     "created": "2017-11-05T11:13:36.018Z"
@@ -913,7 +913,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/48.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22", "https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/48",
     "created": "2017-11-05T11:15:26.044Z"
@@ -932,7 +932,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/49.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/49",
     "created": "2017-11-05T11:18:26.702Z"
@@ -951,7 +951,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/50.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/14"],
     "url": "https://rickandmortyapi.com/api/character/50",
     "created": "2017-11-05T11:21:43.756Z"
@@ -970,7 +970,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/51.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/51",
     "created": "2017-11-05T11:24:49.688Z"
@@ -989,7 +989,7 @@
       "name": "Post-Apocalyptic Earth",
       "url": "https://rickandmortyapi.com/api/location/8"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/52.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/52",
     "created": "2017-11-05T11:26:42.084Z"
@@ -1008,7 +1008,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/53.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/53",
     "created": "2017-11-05T11:28:38.627Z"
@@ -1027,7 +1027,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/54.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/54",
     "created": "2017-11-05T11:31:26.348Z"
@@ -1046,7 +1046,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/55.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/55",
     "created": "2017-11-05T11:32:53.847Z"
@@ -1065,7 +1065,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/56.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/56",
     "created": "2017-11-05T11:34:16.447Z"
@@ -1084,7 +1084,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/57.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/57",
     "created": "2017-11-05T11:38:29.459Z"
@@ -1103,7 +1103,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/58.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/58",
     "created": "2017-11-05T11:40:02.554Z"
@@ -1122,7 +1122,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/59.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/7"],
     "url": "https://rickandmortyapi.com/api/character/59",
     "created": "2017-11-05T11:41:38.964Z"
@@ -1141,7 +1141,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/60.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/60",
     "created": "2017-11-05T11:52:45.852Z"
@@ -1160,7 +1160,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/61.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/61",
     "created": "2017-11-05T11:53:44.737Z"
@@ -1179,7 +1179,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/62.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1"],
     "url": "https://rickandmortyapi.com/api/character/62",
     "created": "2017-11-05T12:06:23.217Z"
@@ -1198,7 +1198,7 @@
       "name": "Mr. Goldenfold's dream",
       "url": "https://rickandmortyapi.com/api/location/18"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/63.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2"],
     "url": "https://rickandmortyapi.com/api/character/63",
     "created": "2017-11-05T12:22:17.848Z"
@@ -1217,7 +1217,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/64.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/12"],
     "url": "https://rickandmortyapi.com/api/character/64",
     "created": "2017-11-05T12:25:03.541Z"
@@ -1236,7 +1236,7 @@
       "name": "Rick's Battery Microverse",
       "url": "https://rickandmortyapi.com/api/location/24"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/65.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/65",
     "created": "2017-11-30T11:02:41.935Z"
@@ -1255,7 +1255,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/66.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/66",
     "created": "2017-11-30T11:10:10.491Z"
@@ -1274,7 +1274,7 @@
       "name": "The Menagerie",
       "url": "https://rickandmortyapi.com/api/location/25"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/67.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/67",
     "created": "2017-11-30T11:13:46.785Z"
@@ -1293,7 +1293,7 @@
       "name": "Post-Apocalyptic Earth",
       "url": "https://rickandmortyapi.com/api/location/8"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/68.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/68",
     "created": "2017-11-30T11:17:32.733Z"
@@ -1312,7 +1312,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/69.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/69",
     "created": "2017-11-30T11:28:06.461Z"
@@ -1331,7 +1331,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/70.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/24"],
     "url": "https://rickandmortyapi.com/api/character/70",
     "created": "2017-11-30T11:31:41.926Z"
@@ -1350,7 +1350,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/71.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/71",
     "created": "2017-11-30T11:35:50.183Z"
@@ -1369,7 +1369,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/72.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/72",
     "created": "2017-11-30T11:41:11.542Z"
@@ -1388,7 +1388,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/73.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/73",
     "created": "2017-11-30T11:43:04.217Z"
@@ -1407,7 +1407,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/74.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/74",
     "created": "2017-11-30T11:48:18.950Z"
@@ -1426,7 +1426,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/75.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/75",
     "created": "2017-11-30T12:12:57.553Z"
@@ -1445,7 +1445,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/76.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/76",
     "created": "2017-11-30T14:11:52.882Z"
@@ -1464,7 +1464,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/77.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/77",
     "created": "2017-11-30T14:13:17.371Z"
@@ -1483,7 +1483,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/78.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/78",
     "created": "2017-11-30T14:15:18.347Z"
@@ -1502,7 +1502,7 @@
       "name": "Hideout Planet",
       "url": "https://rickandmortyapi.com/api/location/27"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/79.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/79",
     "created": "2017-11-30T14:18:16.899Z"
@@ -1521,7 +1521,7 @@
       "name": "Mr. Goldenfold's dream",
       "url": "https://rickandmortyapi.com/api/location/18"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/80.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2"],
     "url": "https://rickandmortyapi.com/api/character/80",
     "created": "2017-11-30T14:20:35.772Z"
@@ -1540,7 +1540,7 @@
       "name": "Worldender's lair",
       "url": "https://rickandmortyapi.com/api/location/4"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/81.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/81",
     "created": "2017-11-30T14:23:41.053Z"
@@ -1559,7 +1559,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/82.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/82",
     "created": "2017-11-30T14:28:54.596Z"
@@ -1578,7 +1578,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/83.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/83",
     "created": "2017-11-30T20:02:29.204Z"
@@ -1597,7 +1597,7 @@
       "name": "Hideout Planet",
       "url": "https://rickandmortyapi.com/api/location/27"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/84.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/84",
     "created": "2017-11-30T20:41:48.080Z"
@@ -1616,7 +1616,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/85.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/85",
     "created": "2017-11-30T20:49:52.133Z"
@@ -1635,7 +1635,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/86.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/22", "https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/86",
     "created": "2017-11-30T20:53:10.382Z"
@@ -1654,7 +1654,7 @@
       "name": "Zigerion's Base",
       "url": "https://rickandmortyapi.com/api/location/46"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/87.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/4"],
     "url": "https://rickandmortyapi.com/api/character/87",
     "created": "2017-11-30T21:08:32.534Z"
@@ -1673,7 +1673,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/88.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/9", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/88",
     "created": "2017-11-30T21:16:35.633Z"
@@ -1692,7 +1692,7 @@
       "name": "Giant's Town",
       "url": "https://rickandmortyapi.com/api/location/14"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/89.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5"],
     "url": "https://rickandmortyapi.com/api/character/89",
     "created": "2017-12-01T10:32:08.340Z"
@@ -1711,7 +1711,7 @@
       "name": "Unity's Planet",
       "url": "https://rickandmortyapi.com/api/location/28"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/90.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/14"],
     "url": "https://rickandmortyapi.com/api/character/90",
     "created": "2017-12-01T10:54:34.736Z"
@@ -1730,7 +1730,7 @@
       "name": "Earth (C-500A)",
       "url": "https://rickandmortyapi.com/api/location/23"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/91.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/91",
     "created": "2017-12-01T11:12:25.105Z"
@@ -1749,7 +1749,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/92.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/6"],
     "url": "https://rickandmortyapi.com/api/character/92",
     "created": "2017-12-01T11:20:51.247Z"
@@ -1768,7 +1768,7 @@
       "name": "Dorian 5",
       "url": "https://rickandmortyapi.com/api/location/29"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/93.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/93",
     "created": "2017-12-01T11:36:16.467Z"
@@ -1787,7 +1787,7 @@
       "name": "Earth (Unknown dimension)",
       "url": "https://rickandmortyapi.com/api/location/30"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/94.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/94",
     "created": "2017-12-01T11:49:43.929Z"
@@ -1806,7 +1806,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/95.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/95",
     "created": "2017-12-01T11:54:36.670Z"
@@ -1825,7 +1825,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/96.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/96",
     "created": "2017-12-01T11:59:04.796Z"
@@ -1844,7 +1844,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/97.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/97",
     "created": "2017-12-01T12:00:27.028Z"
@@ -1863,7 +1863,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/98.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/98",
     "created": "2017-12-01T12:01:43.742Z"
@@ -1882,7 +1882,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/99.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/99",
     "created": "2017-12-01T12:02:00.935Z"
@@ -1901,7 +1901,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/100.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/100",
     "created": "2017-12-01T12:02:21.611Z"
@@ -1920,7 +1920,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/101.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/101",
     "created": "2017-12-01T12:03:31.433Z"
@@ -1939,7 +1939,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/102.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/102",
     "created": "2017-12-01T12:21:21.357Z"
@@ -1958,7 +1958,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/103.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/103",
     "created": "2017-12-01T12:29:27.984Z"
@@ -1977,7 +1977,7 @@
       "name": "Dorian 5",
       "url": "https://rickandmortyapi.com/api/location/29"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/104.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/104",
     "created": "2017-12-26T12:34:36.758Z"
@@ -1996,7 +1996,7 @@
       "name": "St. Gloopy Noops Hospital",
       "url": "https://rickandmortyapi.com/api/location/16"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/105.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/105",
     "created": "2017-12-26T12:39:22.855Z"
@@ -2015,7 +2015,7 @@
       "name": "Roy: A Life Well Lived",
       "url": "https://rickandmortyapi.com/api/location/32"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/106.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/106",
     "created": "2017-12-26T12:46:48.805Z"
@@ -2034,7 +2034,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/107.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/24"],
     "url": "https://rickandmortyapi.com/api/character/107",
     "created": "2017-12-26T12:55:58.449Z"
@@ -2053,7 +2053,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/108.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/108",
     "created": "2017-12-26T13:14:12.157Z"
@@ -2072,7 +2072,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/109.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/109",
     "created": "2017-12-26T13:17:40.686Z"
@@ -2091,7 +2091,7 @@
       "name": "Post-Apocalyptic Earth",
       "url": "https://rickandmortyapi.com/api/location/8"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/110.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/110",
     "created": "2017-12-26T13:37:27.635Z"
@@ -2110,7 +2110,7 @@
       "name": "Post-Apocalyptic Earth",
       "url": "https://rickandmortyapi.com/api/location/8"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/111.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/111",
     "created": "2017-12-26T13:38:47.115Z"
@@ -2129,7 +2129,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/112.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/112",
     "created": "2017-12-26T13:40:06.005Z"
@@ -2148,7 +2148,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/113.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/113",
     "created": "2017-12-26T13:43:29.296Z"
@@ -2167,7 +2167,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/114.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/114",
     "created": "2017-12-26T16:01:13.904Z"
@@ -2186,7 +2186,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/115.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/115",
     "created": "2017-12-26T16:01:50.939Z"
@@ -2205,7 +2205,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/116.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5"],
     "url": "https://rickandmortyapi.com/api/character/116",
     "created": "2017-12-26T16:10:47.781Z"
@@ -2224,7 +2224,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/117.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5"],
     "url": "https://rickandmortyapi.com/api/character/117",
     "created": "2017-12-26T16:11:15.395Z"
@@ -2243,7 +2243,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/118.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/118",
     "created": "2017-12-26T16:13:41.103Z"
@@ -2262,7 +2262,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/119.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/119",
     "created": "2017-12-26T16:17:16.472Z"
@@ -2281,7 +2281,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/120.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5"],
     "url": "https://rickandmortyapi.com/api/character/120",
     "created": "2017-12-26T16:24:02.059Z"
@@ -2300,7 +2300,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/121.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/121",
     "created": "2017-12-26T16:41:58.391Z"
@@ -2319,7 +2319,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/122.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/122",
     "created": "2017-12-26T17:19:40.474Z"
@@ -2338,7 +2338,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/123.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/123",
     "created": "2017-12-26T17:22:40.315Z"
@@ -2357,7 +2357,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/124.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/124",
     "created": "2017-12-26T17:31:29.113Z"
@@ -2376,7 +2376,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/125.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/125",
     "created": "2017-12-26T17:43:58.410Z"
@@ -2395,7 +2395,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/126.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/126",
     "created": "2017-12-26T18:45:42.593Z"
@@ -2414,7 +2414,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/127.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1"],
     "url": "https://rickandmortyapi.com/api/character/127",
     "created": "2017-12-26T19:22:48.474Z"
@@ -2433,7 +2433,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/128.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/128",
     "created": "2017-12-26T19:24:56.679Z"
@@ -2452,7 +2452,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/129.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/129",
     "created": "2017-12-26T19:30:02.242Z"
@@ -2471,7 +2471,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/130.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/130",
     "created": "2017-12-26T19:49:41.160Z"
@@ -2490,7 +2490,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/131.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/131",
     "created": "2017-12-26T19:54:43.476Z"
@@ -2509,7 +2509,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/132.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/132",
     "created": "2017-12-26T20:02:38.033Z"
@@ -2528,7 +2528,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/133.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/133",
     "created": "2017-12-26T20:30:45.943Z"
@@ -2547,7 +2547,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/134.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/134",
     "created": "2017-12-26T20:36:54.577Z"
@@ -2566,7 +2566,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/135.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/135",
     "created": "2017-12-26T20:51:43.614Z"
@@ -2585,7 +2585,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/136.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/136",
     "created": "2017-12-27T17:59:59.058Z"
@@ -2604,7 +2604,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/137.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/137",
     "created": "2017-12-27T18:14:57.885Z"
@@ -2623,7 +2623,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/138.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/138",
     "created": "2017-12-27T18:22:18.387Z"
@@ -2642,7 +2642,7 @@
       "name": "Purge Planet",
       "url": "https://rickandmortyapi.com/api/location/9"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/139.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/20"],
     "url": "https://rickandmortyapi.com/api/character/139",
     "created": "2017-12-27T18:41:03.124Z"
@@ -2661,7 +2661,7 @@
       "name": "Post-Apocalyptic Earth",
       "url": "https://rickandmortyapi.com/api/location/8"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/140.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/140",
     "created": "2017-12-27T18:47:44.566Z"
@@ -2680,7 +2680,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/141.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/141",
     "created": "2017-12-27T19:14:14.545Z"
@@ -2699,7 +2699,7 @@
       "name": "Resort Planet",
       "url": "https://rickandmortyapi.com/api/location/37"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/142.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/142",
     "created": "2017-12-27T20:16:32.187Z"
@@ -2718,7 +2718,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/143.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/143",
     "created": "2017-12-27T20:37:26.134Z"
@@ -2737,7 +2737,7 @@
       "name": "Interdimensional Customs",
       "url": "https://rickandmortyapi.com/api/location/38"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/144.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1"],
     "url": "https://rickandmortyapi.com/api/character/144",
     "created": "2017-12-29T10:37:48.319Z"
@@ -2756,7 +2756,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/145.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/145",
     "created": "2017-12-29T11:03:43.118Z"
@@ -2775,7 +2775,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/146.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/146",
     "created": "2017-12-29T11:28:29.380Z"
@@ -2794,7 +2794,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/147.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/147",
     "created": "2017-12-29T11:38:29.578Z"
@@ -2813,7 +2813,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/148.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/148",
     "created": "2017-12-29T11:40:25.135Z"
@@ -2832,7 +2832,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/149.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/149",
     "created": "2017-12-29T11:44:00.169Z"
@@ -2851,7 +2851,7 @@
       "name": "Galactic Federation Prison",
       "url": "https://rickandmortyapi.com/api/location/39"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/150.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/150",
     "created": "2017-12-29T12:02:33.550Z"
@@ -2870,7 +2870,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/151.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/7"],
     "url": "https://rickandmortyapi.com/api/character/151",
     "created": "2017-12-29T12:31:50.388Z"
@@ -2889,7 +2889,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/152.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/152",
     "created": "2017-12-29T15:20:16.842Z"
@@ -2908,7 +2908,7 @@
       "name": "Hamster in Butt World",
       "url": "https://rickandmortyapi.com/api/location/41"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/153.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/153",
     "created": "2017-12-29T15:27:54.281Z"
@@ -2927,7 +2927,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/154.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/154",
     "created": "2017-12-29T15:32:05.287Z"
@@ -2946,7 +2946,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/155.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6"],
     "url": "https://rickandmortyapi.com/api/character/155",
     "created": "2017-12-29T15:41:18.773Z"
@@ -2965,7 +2965,7 @@
       "name": "Post-Apocalyptic Earth",
       "url": "https://rickandmortyapi.com/api/location/8"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/156.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/156",
     "created": "2017-12-29T15:44:40.083Z"
@@ -2984,7 +2984,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/157.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/157",
     "created": "2017-12-29T15:47:57.352Z"
@@ -3003,7 +3003,7 @@
       "name": "Interdimensional Customs",
       "url": "https://rickandmortyapi.com/api/location/38"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/158.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1"],
     "url": "https://rickandmortyapi.com/api/character/158",
     "created": "2017-12-29T15:53:48.952Z"
@@ -3022,7 +3022,7 @@
       "name": "Earth (Giant Telepathic Spiders Dimension)",
       "url": "https://rickandmortyapi.com/api/location/42"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/159.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/159",
     "created": "2017-12-29T16:03:28.792Z"
@@ -3041,7 +3041,7 @@
       "name": "Earth (Giant Telepathic Spiders Dimension)",
       "url": "https://rickandmortyapi.com/api/location/42"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/160.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/160",
     "created": "2017-12-29T16:07:04.040Z"
@@ -3060,7 +3060,7 @@
       "name": "Alphabetrium",
       "url": "https://rickandmortyapi.com/api/location/43"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/161.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/161",
     "created": "2017-12-29T16:10:40.290Z"
@@ -3079,7 +3079,7 @@
       "name": "Alphabetrium",
       "url": "https://rickandmortyapi.com/api/location/43"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/162.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/162",
     "created": "2017-12-29T16:42:59.207Z"
@@ -3098,7 +3098,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/163.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/163",
     "created": "2017-12-29T16:46:41.345Z"
@@ -3117,7 +3117,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/164.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/164",
     "created": "2017-12-29T17:03:08.645Z"
@@ -3136,7 +3136,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/165.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/165",
     "created": "2017-12-29T17:05:15.514Z"
@@ -3155,7 +3155,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/166.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/166",
     "created": "2017-12-29T17:06:28.325Z"
@@ -3174,7 +3174,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/167.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/24"],
     "url": "https://rickandmortyapi.com/api/character/167",
     "created": "2017-12-29T17:07:59.024Z"
@@ -3193,7 +3193,7 @@
       "name": "Gazorpazorp",
       "url": "https://rickandmortyapi.com/api/location/40"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/168.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/7"],
     "url": "https://rickandmortyapi.com/api/character/168",
     "created": "2017-12-29T17:14:03.430Z"
@@ -3212,7 +3212,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/169.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3", "https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/169",
     "created": "2017-12-29T17:20:52.037Z"
@@ -3231,7 +3231,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/170.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/170",
     "created": "2017-12-29T17:22:17.707Z"
@@ -3250,7 +3250,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/171.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/24"],
     "url": "https://rickandmortyapi.com/api/character/171",
     "created": "2017-12-29T17:25:38.138Z"
@@ -3269,7 +3269,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/172.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/172",
     "created": "2017-12-29T17:30:20.654Z"
@@ -3288,7 +3288,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/173.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/173",
     "created": "2017-12-29T17:33:23.972Z"
@@ -3307,7 +3307,7 @@
       "name": "Jerryboree",
       "url": "https://rickandmortyapi.com/api/location/44"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/174.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/174",
     "created": "2017-12-29T17:50:19.991Z"
@@ -3326,7 +3326,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/175.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/2", "https://rickandmortyapi.com/api/episode/3", "https://rickandmortyapi.com/api/episode/4", "https://rickandmortyapi.com/api/episode/5", "https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/175",
     "created": "2017-12-29T18:07:17.610Z"
@@ -3345,7 +3345,7 @@
       "name": "Earth (C-500A)",
       "url": "https://rickandmortyapi.com/api/location/23"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/176.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/176",
     "created": "2017-12-29T18:25:11.930Z"
@@ -3364,7 +3364,7 @@
       "name": "Earth (Evil Rick's Target Dimension)",
       "url": "https://rickandmortyapi.com/api/location/34"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/177.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/177",
     "created": "2017-12-29T18:28:19.424Z"
@@ -3383,7 +3383,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/178.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/178",
     "created": "2017-12-29T18:29:31.279Z"
@@ -3402,7 +3402,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/179.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/4", "https://rickandmortyapi.com/api/episode/6"],
     "url": "https://rickandmortyapi.com/api/character/179",
     "created": "2017-12-29T18:34:37.806Z"
@@ -3421,7 +3421,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/180.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/17", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/26", "https://rickandmortyapi.com/api/episode/27", "https://rickandmortyapi.com/api/episode/28", "https://rickandmortyapi.com/api/episode/29", "https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/180",
     "created": "2017-12-29T18:36:27.225Z"
@@ -3440,7 +3440,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/181.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/4", "https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/17", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/25", "https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/181",
     "created": "2017-12-29T18:47:23.345Z"
@@ -3459,7 +3459,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/182.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/182",
     "created": "2017-12-29T18:49:48.953Z"
@@ -3478,7 +3478,7 @@
       "name": "Earth (C-500A)",
       "url": "https://rickandmortyapi.com/api/location/23"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/183.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/183",
     "created": "2017-12-29T18:51:29.693Z"
@@ -3497,7 +3497,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/184.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/184",
     "created": "2017-12-29T18:54:04.572Z"
@@ -3516,7 +3516,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/185.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/185",
     "created": "2017-12-29T18:56:15.622Z"
@@ -3535,7 +3535,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/186.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/186",
     "created": "2017-12-29T18:58:34.530Z"
@@ -3554,7 +3554,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/187.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/187",
     "created": "2017-12-29T18:59:47.440Z"
@@ -3573,7 +3573,7 @@
       "name": "Unity's Planet",
       "url": "https://rickandmortyapi.com/api/location/28"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/188.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/14"],
     "url": "https://rickandmortyapi.com/api/character/188",
     "created": "2017-12-29T19:10:16.171Z"
@@ -3592,7 +3592,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/189.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/24"],
     "url": "https://rickandmortyapi.com/api/character/189",
     "created": "2017-12-29T19:13:57.070Z"
@@ -3611,7 +3611,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/190.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/190",
     "created": "2017-12-29T19:26:06.900Z"
@@ -3630,7 +3630,7 @@
       "name": "Zigerion's Base",
       "url": "https://rickandmortyapi.com/api/location/46"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/191.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/4"],
     "url": "https://rickandmortyapi.com/api/character/191",
     "created": "2017-12-29T19:40:07.816Z"
@@ -3649,7 +3649,7 @@
       "name": "Pluto",
       "url": "https://rickandmortyapi.com/api/location/47"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/192.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/9"],
     "url": "https://rickandmortyapi.com/api/character/192",
     "created": "2017-12-29T19:49:29.297Z"
@@ -3668,7 +3668,7 @@
       "name": "Fantasy World",
       "url": "https://rickandmortyapi.com/api/location/48"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/193.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5"],
     "url": "https://rickandmortyapi.com/api/character/193",
     "created": "2017-12-29T19:58:44.743Z"
@@ -3687,7 +3687,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/194.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/194",
     "created": "2017-12-30T12:13:53.878Z"
@@ -3706,7 +3706,7 @@
       "name": "Earth (C-500A)",
       "url": "https://rickandmortyapi.com/api/location/23"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/195.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/195",
     "created": "2017-12-30T12:19:16.042Z"
@@ -3725,7 +3725,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/196.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/196",
     "created": "2017-12-30T12:28:52.954Z"
@@ -3744,7 +3744,7 @@
       "name": "Kyle's Teenyverse",
       "url": "https://rickandmortyapi.com/api/location/50"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/197.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/197",
     "created": "2017-12-30T12:39:09.025Z"
@@ -3763,7 +3763,7 @@
       "name": "Dorian 5",
       "url": "https://rickandmortyapi.com/api/location/29"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/198.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/198",
     "created": "2017-12-30T12:43:37.571Z"
@@ -3782,7 +3782,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/199.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/199",
     "created": "2017-12-30T12:48:44.677Z"
@@ -3801,7 +3801,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/200.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/200",
     "created": "2017-12-30T12:49:52.971Z"
@@ -3820,7 +3820,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/201.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/201",
     "created": "2017-12-30T12:51:27.835Z"
@@ -3839,7 +3839,7 @@
       "name": "Purge Planet",
       "url": "https://rickandmortyapi.com/api/location/9"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/202.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/20"],
     "url": "https://rickandmortyapi.com/api/character/202",
     "created": "2017-12-30T12:53:11.937Z"
@@ -3858,7 +3858,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/203.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/203",
     "created": "2017-12-30T12:54:31.725Z"
@@ -3877,7 +3877,7 @@
       "name": "Immortality Field Resort",
       "url": "https://rickandmortyapi.com/api/location/7"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/204.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/204",
     "created": "2017-12-30T12:59:58.460Z"
@@ -3896,7 +3896,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/205.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/205",
     "created": "2017-12-30T13:03:12.366Z"
@@ -3915,7 +3915,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/206.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/206",
     "created": "2017-12-30T13:06:09.094Z"
@@ -3934,7 +3934,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/207.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/207",
     "created": "2017-12-30T13:54:28.627Z"
@@ -3953,7 +3953,7 @@
       "name": "Worldender's lair",
       "url": "https://rickandmortyapi.com/api/location/4"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/208.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/208",
     "created": "2017-12-30T13:58:41.417Z"
@@ -3972,7 +3972,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/209.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/209",
     "created": "2017-12-30T14:00:06.755Z"
@@ -3991,7 +3991,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/210.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11"],
     "url": "https://rickandmortyapi.com/api/character/210",
     "created": "2017-12-30T14:01:23.319Z"
@@ -4010,7 +4010,7 @@
       "name": "Gazorpazorp",
       "url": "https://rickandmortyapi.com/api/location/40"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/211.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/7"],
     "url": "https://rickandmortyapi.com/api/character/211",
     "created": "2017-12-30T14:16:00.484Z"
@@ -4029,7 +4029,7 @@
       "name": "Alphabetrium",
       "url": "https://rickandmortyapi.com/api/location/43"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/212.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/212",
     "created": "2017-12-30T14:19:10.419Z"
@@ -4048,7 +4048,7 @@
       "name": "Alphabetrium",
       "url": "https://rickandmortyapi.com/api/location/43"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/213.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/213",
     "created": "2017-12-30T14:21:16.121Z"
@@ -4067,7 +4067,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/214.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/214",
     "created": "2017-12-30T14:24:57.993Z"
@@ -4086,7 +4086,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/215.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/215",
     "created": "2017-12-30T14:27:55.489Z"
@@ -4105,7 +4105,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/216.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/216",
     "created": "2017-12-30T14:30:06.479Z"
@@ -4124,7 +4124,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/217.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/217",
     "created": "2017-12-30T14:32:17.158Z"
@@ -4143,7 +4143,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/218.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/218",
     "created": "2017-12-30T14:33:16.920Z"
@@ -4162,7 +4162,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/219.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/219",
     "created": "2017-12-30T14:33:49.392Z"
@@ -4181,7 +4181,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/220.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/220",
     "created": "2017-12-30T14:35:30.736Z"
@@ -4200,7 +4200,7 @@
       "name": "Mr. Goldenfold's dream",
       "url": "https://rickandmortyapi.com/api/location/18"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/221.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2"],
     "url": "https://rickandmortyapi.com/api/character/221",
     "created": "2017-12-30T14:38:04.718Z"
@@ -4219,7 +4219,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/222.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/222",
     "created": "2017-12-30T14:44:05.245Z"
@@ -4238,7 +4238,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/223.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/223",
     "created": "2017-12-30T14:44:51.373Z"
@@ -4257,7 +4257,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/224.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/224",
     "created": "2017-12-30T15:49:28.666Z"
@@ -4276,7 +4276,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/225.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/225",
     "created": "2017-12-30T15:59:31.558Z"
@@ -4295,7 +4295,7 @@
       "name": "Worldender's lair",
       "url": "https://rickandmortyapi.com/api/location/4"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/226.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/226",
     "created": "2017-12-30T16:04:56.879Z"
@@ -4314,7 +4314,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/227.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/227",
     "created": "2017-12-30T16:08:38.157Z"
@@ -4333,7 +4333,7 @@
       "name": "Post-Apocalyptic Earth",
       "url": "https://rickandmortyapi.com/api/location/8"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/228.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/228",
     "created": "2017-12-30T16:10:03.881Z"
@@ -4352,7 +4352,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/229.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/229",
     "created": "2017-12-30T16:12:33.382Z"
@@ -4371,7 +4371,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/230.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/7"],
     "url": "https://rickandmortyapi.com/api/character/230",
     "created": "2017-12-30T16:20:51.391Z"
@@ -4390,7 +4390,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/231.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/231",
     "created": "2017-12-30T16:23:45.894Z"
@@ -4409,7 +4409,7 @@
       "name": "Earth (Evil Rick's Target Dimension)",
       "url": "https://rickandmortyapi.com/api/location/34"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/232.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/232",
     "created": "2017-12-30T16:29:27.863Z"
@@ -4428,7 +4428,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/233.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/233",
     "created": "2017-12-30T16:33:49.577Z"
@@ -4447,7 +4447,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/234.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6"],
     "url": "https://rickandmortyapi.com/api/character/234",
     "created": "2017-12-30T16:35:01.223Z"
@@ -4466,7 +4466,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/235.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/235",
     "created": "2017-12-30T16:37:07.150Z"
@@ -4485,7 +4485,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/236.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/236",
     "created": "2017-12-30T17:28:28.409Z"
@@ -4504,7 +4504,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/237.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/12"],
     "url": "https://rickandmortyapi.com/api/character/237",
     "created": "2017-12-30T17:30:31.757Z"
@@ -4523,7 +4523,7 @@
       "name": "Fantasy World",
       "url": "https://rickandmortyapi.com/api/location/48"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/238.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5"],
     "url": "https://rickandmortyapi.com/api/character/238",
     "created": "2017-12-30T17:36:12.853Z"
@@ -4542,7 +4542,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/239.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/2", "https://rickandmortyapi.com/api/episode/4", "https://rickandmortyapi.com/api/episode/6"],
     "url": "https://rickandmortyapi.com/api/character/239",
     "created": "2017-12-30T17:42:11.894Z"
@@ -4561,7 +4561,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/240.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/9", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/17", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/22", "https://rickandmortyapi.com/api/episode/24", "https://rickandmortyapi.com/api/episode/27", "https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/240",
     "created": "2017-12-30T17:42:56.349Z"
@@ -4580,7 +4580,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/241.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/4", "https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/241",
     "created": "2017-12-30T17:46:19.052Z"
@@ -4599,7 +4599,7 @@
       "name": "Blips and Chitz",
       "url": "https://rickandmortyapi.com/api/location/67"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/242.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5", "https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/242",
     "created": "2017-12-30T17:52:12.243Z"
@@ -4618,7 +4618,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/243.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/9"],
     "url": "https://rickandmortyapi.com/api/character/243",
     "created": "2017-12-30T17:54:06.996Z"
@@ -4637,7 +4637,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/244.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/29", "https://rickandmortyapi.com/api/episode/30", "https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/244",
     "created": "2017-12-30T18:03:48.054Z"
@@ -4656,7 +4656,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/245.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/245",
     "created": "2017-12-30T18:05:59.999Z"
@@ -4675,7 +4675,7 @@
       "name": "Mr. Goldenfold's dream",
       "url": "https://rickandmortyapi.com/api/location/18"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/246.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2", "https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/246",
     "created": "2017-12-30T18:09:39.304Z"
@@ -4694,7 +4694,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/247.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/247",
     "created": "2017-12-30T18:10:48.293Z"
@@ -4713,7 +4713,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/248.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/248",
     "created": "2017-12-30T18:12:38.369Z"
@@ -4732,7 +4732,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/249.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/14", "https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/249",
     "created": "2017-12-30T18:18:10.965Z"
@@ -4751,7 +4751,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/250.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/250",
     "created": "2017-12-30T18:24:49.372Z"
@@ -4770,7 +4770,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/251.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/9", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/25", "https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/251",
     "created": "2017-12-31T12:46:54.095Z"
@@ -4789,7 +4789,7 @@
       "name": "Vindicator's Base",
       "url": "https://rickandmortyapi.com/api/location/54"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/252.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/252",
     "created": "2017-12-31T12:57:37.849Z"
@@ -4808,7 +4808,7 @@
       "name": "Alphabetrium",
       "url": "https://rickandmortyapi.com/api/location/43"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/253.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/253",
     "created": "2017-12-31T13:04:01.585Z"
@@ -4827,7 +4827,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/254.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/254",
     "created": "2017-12-31T13:06:35.982Z"
@@ -4846,7 +4846,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/255.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/255",
     "created": "2017-12-31T13:19:29.825Z"
@@ -4865,7 +4865,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/256.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/256",
     "created": "2017-12-31T13:23:08.567Z"
@@ -4884,7 +4884,7 @@
       "name": "Jerryboree",
       "url": "https://rickandmortyapi.com/api/location/44"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/257.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/257",
     "created": "2017-12-31T13:23:47.704Z"
@@ -4903,7 +4903,7 @@
       "name": "Pawn Shop Planet",
       "url": "https://rickandmortyapi.com/api/location/55"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/258.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/7"],
     "url": "https://rickandmortyapi.com/api/character/258",
     "created": "2017-12-31T13:30:33.611Z"
@@ -4922,7 +4922,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/259.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/259",
     "created": "2017-12-31T13:33:48.488Z"
@@ -4941,7 +4941,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/260.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/260",
     "created": "2017-12-31T13:34:58.839Z"
@@ -4960,7 +4960,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/261.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/261",
     "created": "2017-12-31T13:38:53.640Z"
@@ -4979,7 +4979,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/262.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "algo": [],
     "url": "https://rickandmortyapi.com/api/character/262",
@@ -4999,7 +4999,7 @@
       "name": "St. Gloopy Noops Hospital",
       "url": "https://rickandmortyapi.com/api/location/16"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/263.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/263",
     "created": "2017-12-31T13:43:30.513Z"
@@ -5018,7 +5018,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/264.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/264",
     "created": "2017-12-31T13:44:43.176Z"
@@ -5037,7 +5037,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/265.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/24"],
     "url": "https://rickandmortyapi.com/api/character/265",
     "created": "2017-12-31T13:47:10.617Z"
@@ -5056,7 +5056,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/266.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/266",
     "created": "2017-12-31T13:48:58.850Z"
@@ -5075,7 +5075,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/267.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/267",
     "created": "2017-12-31T13:50:57.337Z"
@@ -5094,7 +5094,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/268.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/268",
     "created": "2017-12-31T13:53:25.411Z"
@@ -5113,7 +5113,7 @@
       "name": "Mega Gargantuan Kingdom",
       "url": "https://rickandmortyapi.com/api/location/56"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/269.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/269",
     "created": "2017-12-31T14:01:44.995Z"
@@ -5132,7 +5132,7 @@
       "name": "Zigerion's Base",
       "url": "https://rickandmortyapi.com/api/location/46"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/270.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/4"],
     "url": "https://rickandmortyapi.com/api/character/270",
     "created": "2017-12-31T14:05:24.406Z"
@@ -5151,7 +5151,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/271.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/5", "https://rickandmortyapi.com/api/episode/6"],
     "url": "https://rickandmortyapi.com/api/character/271",
     "created": "2017-12-31T14:08:43.602Z"
@@ -5170,7 +5170,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/272.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/9", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/24", "https://rickandmortyapi.com/api/episode/27", "https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/272",
     "created": "2017-12-31T14:09:09.071Z"
@@ -5189,7 +5189,7 @@
       "name": "Purge Planet",
       "url": "https://rickandmortyapi.com/api/location/9"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/273.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/20"],
     "url": "https://rickandmortyapi.com/api/character/273",
     "created": "2017-12-31T14:13:54.909Z"
@@ -5208,7 +5208,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/274.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/274",
     "created": "2017-12-31T14:15:28.051Z"
@@ -5227,7 +5227,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/275.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/275",
     "created": "2017-12-31T14:16:45.776Z"
@@ -5246,7 +5246,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/24"],
     "url": "https://rickandmortyapi.com/api/character/276",
     "created": "2017-12-31T14:17:21.782Z"
@@ -5265,7 +5265,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/277.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/277",
     "created": "2017-12-31T14:18:30.570Z"
@@ -5284,7 +5284,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/278.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/278",
     "created": "2017-12-31T14:19:36.487Z"
@@ -5303,7 +5303,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/279.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/279",
     "created": "2017-12-31T14:20:31.936Z"
@@ -5322,7 +5322,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/280.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/280",
     "created": "2017-12-31T14:22:46.285Z"
@@ -5341,7 +5341,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/281.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/281",
     "created": "2017-12-31T14:23:53.056Z"
@@ -5360,7 +5360,7 @@
       "name": "Gear World",
       "url": "https://rickandmortyapi.com/api/location/57"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/282.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/282",
     "created": "2017-12-31T19:21:17.351Z"
@@ -5379,7 +5379,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/283.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/283",
     "created": "2017-12-31T19:23:53.188Z"
@@ -5398,7 +5398,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/284.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/284",
     "created": "2017-12-31T19:25:18.205Z"
@@ -5417,7 +5417,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/285.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/285",
     "created": "2017-12-31T19:45:46.470Z"
@@ -5436,7 +5436,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/286.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/286",
     "created": "2017-12-31T19:49:55.181Z"
@@ -5455,7 +5455,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/287.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/287",
     "created": "2017-12-31T19:51:33.244Z"
@@ -5474,7 +5474,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/288.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/288",
     "created": "2017-12-31T19:55:25.101Z"
@@ -5493,7 +5493,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/289.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/289",
     "created": "2017-12-31T19:57:36.546Z"
@@ -5512,7 +5512,7 @@
       "name": "Earth (Evil Rick's Target Dimension)",
       "url": "https://rickandmortyapi.com/api/location/34"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/290.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/290",
     "created": "2017-12-31T20:15:25.716Z"
@@ -5531,7 +5531,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/291.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/291",
     "created": "2017-12-31T20:16:52.337Z"
@@ -5550,7 +5550,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/292.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/292",
     "created": "2017-12-31T20:20:40.484Z"
@@ -5569,7 +5569,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/293.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/6"],
     "url": "https://rickandmortyapi.com/api/character/293",
     "created": "2017-12-31T20:22:29.032Z"
@@ -5588,7 +5588,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/294.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/294",
     "created": "2017-12-31T20:24:30.396Z"
@@ -5607,7 +5607,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/295.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/295",
     "created": "2017-12-31T20:25:28.554Z"
@@ -5626,7 +5626,7 @@
       "name": "Resort Planet",
       "url": "https://rickandmortyapi.com/api/location/37"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/296.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/296",
     "created": "2017-12-31T20:32:33.361Z"
@@ -5645,7 +5645,7 @@
       "name": "Resort Planet",
       "url": "https://rickandmortyapi.com/api/location/37"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/297.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/297",
     "created": "2017-12-31T20:34:58.394Z"
@@ -5664,7 +5664,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/298.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/298",
     "created": "2017-12-31T20:37:30.747Z"
@@ -5683,7 +5683,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/299.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/299",
     "created": "2017-12-31T20:38:17.990Z"
@@ -5702,7 +5702,7 @@
       "name": "Anatomy Park",
       "url": "https://rickandmortyapi.com/api/location/5"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/300.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/300",
     "created": "2017-12-31T20:39:35.047Z"
@@ -5721,7 +5721,7 @@
       "name": "Unity's Planet",
       "url": "https://rickandmortyapi.com/api/location/28"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/301.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/14"],
     "url": "https://rickandmortyapi.com/api/character/301",
     "created": "2018-01-05T14:02:20.902Z"
@@ -5740,7 +5740,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/302.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/302",
     "created": "2018-01-05T14:03:21.824Z"
@@ -5759,7 +5759,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/303.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5"],
     "url": "https://rickandmortyapi.com/api/character/303",
     "created": "2018-01-05T14:09:03.150Z"
@@ -5778,7 +5778,7 @@
       "name": "Mr. Goldenfold's dream",
       "url": "https://rickandmortyapi.com/api/location/18"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/304.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2"],
     "url": "https://rickandmortyapi.com/api/character/304",
     "created": "2018-01-05T14:11:17.550Z"
@@ -5797,7 +5797,7 @@
       "name": "Mr. Goldenfold's dream",
       "url": "https://rickandmortyapi.com/api/location/18"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/305.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2"],
     "url": "https://rickandmortyapi.com/api/character/305",
     "created": "2018-01-05T14:11:53.287Z"
@@ -5816,7 +5816,7 @@
       "name": "Mr. Goldenfold's dream",
       "url": "https://rickandmortyapi.com/api/location/18"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/306.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2"],
     "url": "https://rickandmortyapi.com/api/character/306",
     "created": "2018-01-05T14:13:01.564Z"
@@ -5835,7 +5835,7 @@
       "name": "Pluto",
       "url": "https://rickandmortyapi.com/api/location/47"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/307.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/9"],
     "url": "https://rickandmortyapi.com/api/character/307",
     "created": "2018-01-05T14:20:41.693Z"
@@ -5854,7 +5854,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/308.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/308",
     "created": "2018-01-05T14:22:47.706Z"
@@ -5873,7 +5873,7 @@
       "name": "Signus 5 Expanse",
       "url": "https://rickandmortyapi.com/api/location/22"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/309.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/309",
     "created": "2018-01-05T14:26:50.679Z"
@@ -5892,7 +5892,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/310.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/310",
     "created": "2018-01-05T14:29:21.347Z"
@@ -5911,7 +5911,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/311.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/311",
     "created": "2018-01-05T14:44:01.276Z"
@@ -5930,7 +5930,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/312.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/312",
     "created": "2018-01-05T14:45:39.235Z"
@@ -5949,7 +5949,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/313.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/12"],
     "url": "https://rickandmortyapi.com/api/character/313",
     "created": "2018-01-05T14:52:31.489Z"
@@ -5968,7 +5968,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/314.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/314",
     "created": "2018-01-05T14:53:23.739Z"
@@ -5987,7 +5987,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/315.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/315",
     "created": "2018-01-05T14:54:37.641Z"
@@ -6006,7 +6006,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/316.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/316",
     "created": "2018-01-05T14:55:42.034Z"
@@ -6025,7 +6025,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/317.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/317",
     "created": "2018-01-05T14:56:15.428Z"
@@ -6044,7 +6044,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/318.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/318",
     "created": "2018-01-05T14:56:45.502Z"
@@ -6063,7 +6063,7 @@
       "name": "Resort Planet",
       "url": "https://rickandmortyapi.com/api/location/37"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/319.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/319",
     "created": "2018-01-05T14:59:34.798Z"
@@ -6082,7 +6082,7 @@
       "name": "Immortality Field Resort",
       "url": "https://rickandmortyapi.com/api/location/7"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/320.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/320",
     "created": "2018-01-05T15:02:28.103Z"
@@ -6101,7 +6101,7 @@
       "name": "St. Gloopy Noops Hospital",
       "url": "https://rickandmortyapi.com/api/location/16"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/321.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/321",
     "created": "2018-01-05T15:07:50.789Z"
@@ -6120,7 +6120,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/322.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/322",
     "created": "2018-01-05T15:12:03.933Z"
@@ -6139,7 +6139,7 @@
       "name": "Post-Apocalyptic Earth",
       "url": "https://rickandmortyapi.com/api/location/8"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/323.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/323",
     "created": "2018-01-05T15:13:46.862Z"
@@ -6158,7 +6158,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/324.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/324",
     "created": "2018-01-05T15:17:26.876Z"
@@ -6177,7 +6177,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/325.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/325",
     "created": "2018-01-10T16:06:48.366Z"
@@ -6196,7 +6196,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/326.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5", "https://rickandmortyapi.com/api/episode/11"],
     "url": "https://rickandmortyapi.com/api/character/326",
     "created": "2018-01-10T16:11:09.964Z"
@@ -6215,7 +6215,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/327.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11"],
     "url": "https://rickandmortyapi.com/api/character/327",
     "created": "2018-01-10T16:13:26.380Z"
@@ -6234,7 +6234,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/328.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/328",
     "created": "2018-01-10T16:14:16.331Z"
@@ -6253,7 +6253,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/329.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2", "https://rickandmortyapi.com/api/episode/7", "https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/15", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/24", "https://rickandmortyapi.com/api/episode/29", "https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/329",
     "created": "2018-01-10T16:24:49.586Z"
@@ -6272,7 +6272,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/330.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/330",
     "created": "2018-01-10T16:26:27.705Z"
@@ -6291,7 +6291,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/331.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/331",
     "created": "2018-01-10T16:29:25.344Z"
@@ -6310,7 +6310,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/332.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/332",
     "created": "2018-01-10T16:31:10.465Z"
@@ -6329,7 +6329,7 @@
       "name": "Fantasy World",
       "url": "https://rickandmortyapi.com/api/location/48"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/333.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/333",
     "created": "2018-01-10T16:34:19.420Z"
@@ -6348,7 +6348,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/334.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/334",
     "created": "2018-01-10T16:36:06.982Z"
@@ -6367,7 +6367,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/335.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/335",
     "created": "2018-01-10T16:39:34.837Z"
@@ -6386,7 +6386,7 @@
       "name": "Unity's Planet",
       "url": "https://rickandmortyapi.com/api/location/28"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/336.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/14"],
     "url": "https://rickandmortyapi.com/api/character/336",
     "created": "2018-01-10T16:44:51.702Z"
@@ -6405,7 +6405,7 @@
       "name": "Zigerion's Base",
       "url": "https://rickandmortyapi.com/api/location/46"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/337.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/4"],
     "url": "https://rickandmortyapi.com/api/character/337",
     "created": "2018-01-10T16:50:57.710Z"
@@ -6424,7 +6424,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/338.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/2", "https://rickandmortyapi.com/api/episode/3", "https://rickandmortyapi.com/api/episode/4", "https://rickandmortyapi.com/api/episode/5", "https://rickandmortyapi.com/api/episode/6", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/338",
     "created": "2018-01-10T16:55:03.390Z"
@@ -6443,7 +6443,7 @@
       "name": "Earth (Evil Rick's Target Dimension)",
       "url": "https://rickandmortyapi.com/api/location/34"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/339.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/339",
     "created": "2018-01-10T16:56:28.489Z"
@@ -6462,7 +6462,7 @@
       "name": "Worldender's lair",
       "url": "https://rickandmortyapi.com/api/location/4"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/340.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/340",
     "created": "2018-01-10T17:02:58.042Z"
@@ -6481,7 +6481,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/341.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/20"],
     "url": "https://rickandmortyapi.com/api/character/341",
     "created": "2018-01-10T17:07:09.052Z"
@@ -6500,7 +6500,7 @@
       "name": "Post-Apocalyptic Earth",
       "url": "https://rickandmortyapi.com/api/location/8"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/342.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/23"],
     "url": "https://rickandmortyapi.com/api/character/342",
     "created": "2018-01-10T17:23:26.944Z"
@@ -6519,7 +6519,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/343.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5", "https://rickandmortyapi.com/api/episode/6"],
     "url": "https://rickandmortyapi.com/api/character/343",
     "created": "2018-01-10T17:27:04.773Z"
@@ -6538,7 +6538,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/344.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/344",
     "created": "2018-01-10T17:31:54.889Z"
@@ -6557,7 +6557,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/345.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/345",
     "created": "2018-01-10T17:33:23.437Z"
@@ -6576,7 +6576,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/346.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/346",
     "created": "2018-01-10T17:37:51.767Z"
@@ -6595,7 +6595,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/347.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/347",
     "created": "2018-01-10T17:43:37.411Z"
@@ -6614,7 +6614,7 @@
       "name": "Zeep Xanflorp's Miniverse",
       "url": "https://rickandmortyapi.com/api/location/49"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/348.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/348",
     "created": "2018-01-10T17:47:59.043Z"
@@ -6633,7 +6633,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/349.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/349",
     "created": "2018-01-10T17:49:09.995Z"
@@ -6652,7 +6652,7 @@
       "name": "Froopyland",
       "url": "https://rickandmortyapi.com/api/location/63"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/350.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/350",
     "created": "2018-01-10T17:50:33.471Z"
@@ -6671,7 +6671,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/351.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/351",
     "created": "2018-01-10T17:57:31.022Z"
@@ -6690,7 +6690,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/352.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/352",
     "created": "2018-01-10T17:58:51.840Z"
@@ -6709,7 +6709,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/353.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/353",
     "created": "2018-01-10T18:00:35.848Z"
@@ -6728,7 +6728,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/354.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/354",
     "created": "2018-01-10T18:02:03.402Z"
@@ -6747,7 +6747,7 @@
       "name": "Unity's Planet",
       "url": "https://rickandmortyapi.com/api/location/28"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/355.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/14"],
     "url": "https://rickandmortyapi.com/api/character/355",
     "created": "2018-01-10T18:05:46.294Z"
@@ -6766,7 +6766,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/356.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/3"],
     "url": "https://rickandmortyapi.com/api/character/356",
     "created": "2018-01-10T18:07:03.215Z"
@@ -6785,7 +6785,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/357.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/357",
     "created": "2018-01-10T18:07:45.541Z"
@@ -6804,7 +6804,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/358.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/18", "https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/358",
     "created": "2018-01-10T18:09:34.482Z"
@@ -6823,7 +6823,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/359.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/359",
     "created": "2018-01-10T18:14:50.992Z"
@@ -6842,7 +6842,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/360.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/360",
     "created": "2018-01-10T18:18:05.422Z"
@@ -6861,7 +6861,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/361.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/361",
     "created": "2018-01-10T18:20:41.703Z"
@@ -6880,7 +6880,7 @@
       "name": "Worldender's lair",
       "url": "https://rickandmortyapi.com/api/location/4"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/362.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/21", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/362",
     "created": "2018-01-10T18:52:08.927Z"
@@ -6899,7 +6899,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/363.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/363",
     "created": "2018-01-10T18:54:36.578Z"
@@ -6918,7 +6918,7 @@
       "name": "Kyle's Teenyverse",
       "url": "https://rickandmortyapi.com/api/location/50"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/364.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/364",
     "created": "2018-01-10T18:57:50.033Z"
@@ -6937,7 +6937,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/365.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26", "https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/365",
     "created": "2018-01-10T18:59:31.842Z"
@@ -6956,7 +6956,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/366.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/366",
     "created": "2018-01-10T19:03:13.558Z"
@@ -6975,7 +6975,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/367.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/367",
     "created": "2018-01-10T19:05:34.004Z"
@@ -6994,7 +6994,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/368.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/368",
     "created": "2018-01-10T19:14:35.885Z"
@@ -7013,7 +7013,7 @@
       "name": "Resort Planet",
       "url": "https://rickandmortyapi.com/api/location/37"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/369.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/369",
     "created": "2018-01-10T19:17:00.093Z"
@@ -7032,7 +7032,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/370.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/370",
     "created": "2018-01-10T19:17:57.976Z"
@@ -7051,7 +7051,7 @@
       "name": "Plopstar",
       "url": "https://rickandmortyapi.com/api/location/66"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/371.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/371",
     "created": "2018-01-10T19:18:44.560Z"
@@ -7070,7 +7070,7 @@
       "name": "Unity's Planet",
       "url": "https://rickandmortyapi.com/api/location/28"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/372.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/14"],
     "url": "https://rickandmortyapi.com/api/character/372",
     "created": "2018-01-10T19:20:50.211Z"
@@ -7089,7 +7089,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/373.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/373",
     "created": "2018-01-10T19:22:04.075Z"
@@ -7108,7 +7108,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/374.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/374",
     "created": "2018-01-10T19:23:45.478Z"
@@ -7127,7 +7127,7 @@
       "name": "Worldender's lair",
       "url": "https://rickandmortyapi.com/api/location/4"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/375.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/375",
     "created": "2018-01-10T19:26:00.957Z"
@@ -7146,7 +7146,7 @@
       "name": "Gazorpazorp",
       "url": "https://rickandmortyapi.com/api/location/40"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/376.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/7"],
     "url": "https://rickandmortyapi.com/api/character/376",
     "created": "2018-01-10T19:27:06.246Z"
@@ -7165,7 +7165,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/377.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/377",
     "created": "2018-01-10T19:29:08.116Z"
@@ -7184,7 +7184,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/378.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/378",
     "created": "2018-01-10T19:33:30.804Z"
@@ -7203,7 +7203,7 @@
       "name": "Planet Squanch",
       "url": "https://rickandmortyapi.com/api/location/35"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/379.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/379",
     "created": "2018-01-10T19:37:41.375Z"
@@ -7222,7 +7222,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/380.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/380",
     "created": "2018-01-10T19:44:22.262Z"
@@ -7241,7 +7241,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/381.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/381",
     "created": "2018-01-10T19:46:00.622Z"
@@ -7260,7 +7260,7 @@
       "name": "Worldender's lair",
       "url": "https://rickandmortyapi.com/api/location/4"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/382.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/382",
     "created": "2018-01-10T19:47:55.859Z"
@@ -7279,7 +7279,7 @@
       "name": "St. Gloopy Noops Hospital",
       "url": "https://rickandmortyapi.com/api/location/16"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/383.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/383",
     "created": "2018-01-10T19:48:59.952Z"
@@ -7298,7 +7298,7 @@
       "name": "St. Gloopy Noops Hospital",
       "url": "https://rickandmortyapi.com/api/location/16"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/384.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/384",
     "created": "2018-01-10T19:50:19.351Z"
@@ -7317,7 +7317,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/385.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/385",
     "created": "2018-01-10T19:51:18.996Z"
@@ -7336,7 +7336,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/386.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13", "https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/386",
     "created": "2018-01-10T19:52:40.898Z"
@@ -7355,7 +7355,7 @@
       "name": "Nuptia 4",
       "url": "https://rickandmortyapi.com/api/location/13"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/387.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/387",
     "created": "2018-01-10T19:54:17.951Z"
@@ -7374,7 +7374,7 @@
       "name": "Rick's Battery Microverse",
       "url": "https://rickandmortyapi.com/api/location/24"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/388.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/17"],
     "url": "https://rickandmortyapi.com/api/character/388",
     "created": "2018-01-10T19:56:57.790Z"
@@ -7393,7 +7393,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/389.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/389",
     "created": "2018-01-10T19:57:41.191Z"
@@ -7412,7 +7412,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/390.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/390",
     "created": "2018-01-10T20:00:05.681Z"
@@ -7431,7 +7431,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/391.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/15"],
     "url": "https://rickandmortyapi.com/api/character/391",
     "created": "2018-01-14T13:34:50.096Z"
@@ -7450,7 +7450,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/392.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/392",
     "created": "2018-01-14T14:48:05.977Z"
@@ -7469,7 +7469,7 @@
       "name": "Roy: A Life Well Lived",
       "url": "https://rickandmortyapi.com/api/location/32"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/393.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/393",
     "created": "2018-01-20T19:15:27.239Z"
@@ -7488,7 +7488,7 @@
       "name": "Earth (C-137)",
       "url": "https://rickandmortyapi.com/api/location/1"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/394.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/6"],
     "url": "https://rickandmortyapi.com/api/character/394",
     "created": "2018-01-20T19:48:42.201Z"
@@ -7507,7 +7507,7 @@
       "name": "Worldender's lair",
       "url": "https://rickandmortyapi.com/api/location/4"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/395.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/395",
     "created": "2018-04-15T16:46:31.715Z"
@@ -7526,7 +7526,7 @@
       "name": "Mr. Goldenfold's dream",
       "url": "https://rickandmortyapi.com/api/location/18"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/396.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2"],
     "url": "https://rickandmortyapi.com/api/character/396",
     "created": "2018-04-15T17:10:07.639Z"
@@ -7545,7 +7545,7 @@
       "name": "Snuffles' Dream",
       "url": "https://rickandmortyapi.com/api/location/70"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/397.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2"],
     "url": "https://rickandmortyapi.com/api/character/397",
     "created": "2018-04-15T17:15:28.777Z"
@@ -7564,7 +7564,7 @@
       "name": "Snuffles' Dream",
       "url": "https://rickandmortyapi.com/api/location/70"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/398.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2"],
     "url": "https://rickandmortyapi.com/api/character/398",
     "created": "2018-04-15T17:23:04.169Z"
@@ -7583,7 +7583,7 @@
       "name": "Giant's Town",
       "url": "https://rickandmortyapi.com/api/location/14"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/399.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5"],
     "url": "https://rickandmortyapi.com/api/character/399",
     "created": "2018-04-15T17:34:02.076Z"
@@ -7602,7 +7602,7 @@
       "name": "Giant's Town",
       "url": "https://rickandmortyapi.com/api/location/14"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/400.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/5"],
     "url": "https://rickandmortyapi.com/api/character/400",
     "created": "2018-04-15T17:36:11.295Z"
@@ -7621,7 +7621,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/401.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/7"],
     "url": "https://rickandmortyapi.com/api/character/401",
     "created": "2018-04-15T17:43:56.832Z"
@@ -7640,7 +7640,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/402.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/402",
     "created": "2018-04-15T17:45:38.589Z"
@@ -7659,7 +7659,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/403.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/403",
     "created": "2018-04-15T17:48:50.629Z"
@@ -7678,7 +7678,7 @@
       "name": "Earth (Phone Dimension)",
       "url": "https://rickandmortyapi.com/api/location/72"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/404.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/404",
     "created": "2018-04-15T18:01:09.637Z"
@@ -7697,7 +7697,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/405.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/2", "https://rickandmortyapi.com/api/episode/8", "https://rickandmortyapi.com/api/episode/10", "https://rickandmortyapi.com/api/episode/11"],
     "url": "https://rickandmortyapi.com/api/character/405",
     "created": "2018-04-15T20:31:46.065Z"
@@ -7716,7 +7716,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/406.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/406",
     "created": "2018-04-15T20:45:04.863Z"
@@ -7735,7 +7735,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/407.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/407",
     "created": "2018-04-15T20:50:10.475Z"
@@ -7754,7 +7754,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/408.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/408",
     "created": "2018-04-15T20:51:47.778Z"
@@ -7773,7 +7773,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/409.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/409",
     "created": "2018-04-15T21:04:09.405Z"
@@ -7792,7 +7792,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/410.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/410",
     "created": "2018-04-15T21:06:18.686Z"
@@ -7811,7 +7811,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/411.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/411",
     "created": "2018-04-15T21:10:27.986Z"
@@ -7830,7 +7830,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/412.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/412",
     "created": "2018-04-15T21:14:09.223Z"
@@ -7849,7 +7849,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/413.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/413",
     "created": "2018-04-15T21:21:32.623Z"
@@ -7868,7 +7868,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/414.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/414",
     "created": "2018-04-15T21:33:59.719Z"
@@ -7887,7 +7887,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/415.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/415",
     "created": "2018-04-15T21:34:21.911Z"
@@ -7906,7 +7906,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/416.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/416",
     "created": "2018-04-15T21:39:22.608Z"
@@ -7925,7 +7925,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/417.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/417",
     "created": "2018-04-15T21:40:39.871Z"
@@ -7944,7 +7944,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/418.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/8"],
     "url": "https://rickandmortyapi.com/api/character/418",
     "created": "2018-04-15T21:43:43.867Z"
@@ -7963,7 +7963,7 @@
       "name": "Pluto",
       "url": "https://rickandmortyapi.com/api/location/47"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/419.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/9"],
     "url": "https://rickandmortyapi.com/api/character/419",
     "created": "2018-04-15T21:48:45.783Z"
@@ -7982,7 +7982,7 @@
       "name": "Pluto",
       "url": "https://rickandmortyapi.com/api/location/47"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/420.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/9"],
     "url": "https://rickandmortyapi.com/api/character/420",
     "created": "2018-04-15T21:49:04.730Z"
@@ -8001,7 +8001,7 @@
       "name": "Pluto",
       "url": "https://rickandmortyapi.com/api/location/47"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/421.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/9"],
     "url": "https://rickandmortyapi.com/api/character/421",
     "created": "2018-04-15T21:51:50.534Z"
@@ -8020,7 +8020,7 @@
       "name": "Pluto",
       "url": "https://rickandmortyapi.com/api/location/47"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/422.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/9"],
     "url": "https://rickandmortyapi.com/api/character/422",
     "created": "2018-04-15T21:52:14.642Z"
@@ -8039,7 +8039,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/423.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11"],
     "url": "https://rickandmortyapi.com/api/character/423",
     "created": "2018-04-16T21:08:47.956Z"
@@ -8058,7 +8058,7 @@
       "name": "Earth (Pizza Dimension)",
       "url": "https://rickandmortyapi.com/api/location/71"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/424.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/424",
     "created": "2018-04-16T21:45:55.310Z"
@@ -8077,7 +8077,7 @@
       "name": "Earth (Pizza Dimension)",
       "url": "https://rickandmortyapi.com/api/location/71"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/425.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/425",
     "created": "2018-04-16T21:46:18.362Z"
@@ -8096,7 +8096,7 @@
       "name": "Greasy Grandma World",
       "url": "https://rickandmortyapi.com/api/location/73"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/426.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/426",
     "created": "2018-04-16T21:51:21.379Z"
@@ -8115,7 +8115,7 @@
       "name": "Earth (Phone Dimension)",
       "url": "https://rickandmortyapi.com/api/location/72"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/427.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/427",
     "created": "2018-04-16T21:54:05.375Z"
@@ -8134,7 +8134,7 @@
       "name": "Earth (Phone Dimension)",
       "url": "https://rickandmortyapi.com/api/location/72"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/428.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/428",
     "created": "2018-04-16T21:54:48.372Z"
@@ -8153,7 +8153,7 @@
       "name": "Earth (Chair Dimension)",
       "url": "https://rickandmortyapi.com/api/location/74"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/429.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/429",
     "created": "2018-04-16T21:59:25.798Z"
@@ -8172,7 +8172,7 @@
       "name": "Earth (Chair Dimension)",
       "url": "https://rickandmortyapi.com/api/location/74"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/430.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/430",
     "created": "2018-04-16T21:59:48.220Z"
@@ -8191,7 +8191,7 @@
       "name": "Earth (Chair Dimension)",
       "url": "https://rickandmortyapi.com/api/location/74"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/431.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/431",
     "created": "2018-04-16T22:01:17.927Z"
@@ -8210,7 +8210,7 @@
       "name": "Earth (Chair Dimension)",
       "url": "https://rickandmortyapi.com/api/location/74"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/432.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/432",
     "created": "2018-04-16T22:02:26.106Z"
@@ -8229,7 +8229,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/433.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/433",
     "created": "2018-04-16T22:05:05.745Z"
@@ -8248,7 +8248,7 @@
       "name": "unknown",
       "url": ""
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/434.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/10"],
     "url": "https://rickandmortyapi.com/api/character/434",
     "created": "2018-04-16T22:16:17.789Z"
@@ -8267,7 +8267,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/435.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/1", "https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/25"],
     "url": "https://rickandmortyapi.com/api/character/435",
     "created": "2018-04-16T22:21:57.962Z"
@@ -8286,7 +8286,7 @@
       "name": "Testicle Monster Dimension",
       "url": "https://rickandmortyapi.com/api/location/21"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/436.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/11", "https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/436",
     "created": "2018-04-16T22:33:01.337Z"
@@ -8305,7 +8305,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/437.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/12"],
     "url": "https://rickandmortyapi.com/api/character/437",
     "created": "2018-05-01T11:51:10.604Z"
@@ -8324,7 +8324,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/438.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/12"],
     "url": "https://rickandmortyapi.com/api/character/438",
     "created": "2018-05-01T11:57:16.266Z"
@@ -8343,7 +8343,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/439.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/12"],
     "url": "https://rickandmortyapi.com/api/character/439",
     "created": "2018-05-01T11:58:43.275Z"
@@ -8362,7 +8362,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/440.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/12"],
     "url": "https://rickandmortyapi.com/api/character/440",
     "created": "2018-05-01T11:59:15.544Z"
@@ -8381,7 +8381,7 @@
       "name": "Jerryboree",
       "url": "https://rickandmortyapi.com/api/location/44"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/441.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/441",
     "created": "2018-05-01T12:09:22.636Z"
@@ -8400,7 +8400,7 @@
       "name": "Jerryboree",
       "url": "https://rickandmortyapi.com/api/location/44"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/442.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/442",
     "created": "2018-05-01T12:10:35.123Z"
@@ -8419,7 +8419,7 @@
       "name": "Jerryboree",
       "url": "https://rickandmortyapi.com/api/location/44"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/443.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/443",
     "created": "2018-05-01T12:23:37.165Z"
@@ -8438,7 +8438,7 @@
       "name": "Jerryboree",
       "url": "https://rickandmortyapi.com/api/location/44"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/444.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/444",
     "created": "2018-05-01T12:27:08.632Z"
@@ -8457,7 +8457,7 @@
       "name": "Jerryboree",
       "url": "https://rickandmortyapi.com/api/location/44"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/445.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/445",
     "created": "2018-05-01T13:09:57.921Z"
@@ -8476,7 +8476,7 @@
       "name": "Jerryboree",
       "url": "https://rickandmortyapi.com/api/location/44"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/446.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/446",
     "created": "2018-05-01T13:11:26.665Z"
@@ -8495,7 +8495,7 @@
       "name": "Gear World",
       "url": "https://rickandmortyapi.com/api/location/57"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/447.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/447",
     "created": "2018-05-01T13:34:56.141Z"
@@ -8514,7 +8514,7 @@
       "name": "Gear World",
       "url": "https://rickandmortyapi.com/api/location/57"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/448.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/448",
     "created": "2018-05-01T13:38:21.237Z"
@@ -8533,7 +8533,7 @@
       "name": "Roy: A Life Well Lived",
       "url": "https://rickandmortyapi.com/api/location/32"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/449.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/449",
     "created": "2018-05-01T13:55:27.886Z"
@@ -8552,7 +8552,7 @@
       "name": "Roy: A Life Well Lived",
       "url": "https://rickandmortyapi.com/api/location/32"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/450.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/450",
     "created": "2018-05-01T13:57:55.888Z"
@@ -8571,7 +8571,7 @@
       "name": "Roy: A Life Well Lived",
       "url": "https://rickandmortyapi.com/api/location/32"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/451.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/13"],
     "url": "https://rickandmortyapi.com/api/character/451",
     "created": "2018-05-01T13:59:18.964Z"
@@ -8590,7 +8590,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/452.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16"],
     "url": "https://rickandmortyapi.com/api/character/452",
     "created": "2018-05-01T14:20:10.187Z"
@@ -8609,7 +8609,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/453.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/18"],
     "url": "https://rickandmortyapi.com/api/character/453",
     "created": "2018-05-01T15:20:15.582Z"
@@ -8628,7 +8628,7 @@
       "name": "St. Gloopy Noops Hospital",
       "url": "https://rickandmortyapi.com/api/location/16"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/454.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/16", "https://rickandmortyapi.com/api/episode/19", "https://rickandmortyapi.com/api/episode/21"],
     "url": "https://rickandmortyapi.com/api/character/454",
     "created": "2018-05-01T15:30:21.493Z"
@@ -8647,7 +8647,7 @@
       "name": "St. Gloopy Noops Hospital",
       "url": "https://rickandmortyapi.com/api/location/16"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/455.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/455",
     "created": "2018-05-01T15:34:19.679Z"
@@ -8666,7 +8666,7 @@
       "name": "St. Gloopy Noops Hospital",
       "url": "https://rickandmortyapi.com/api/location/16"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/456.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/456",
     "created": "2018-05-01T15:42:07.919Z"
@@ -8685,7 +8685,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/457.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/457",
     "created": "2018-05-01T16:08:23.458Z"
@@ -8704,7 +8704,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/458.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/458",
     "created": "2018-05-01T16:11:17.925Z"
@@ -8723,7 +8723,7 @@
       "name": "Interdimensional Cable",
       "url": "https://rickandmortyapi.com/api/location/6"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/459.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/459",
     "created": "2018-05-01T16:53:23.462Z"
@@ -8742,7 +8742,7 @@
       "name": "St. Gloopy Noops Hospital",
       "url": "https://rickandmortyapi.com/api/location/16"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/460.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/19"],
     "url": "https://rickandmortyapi.com/api/character/460",
     "created": "2018-05-01T17:03:39.846Z"
@@ -8761,7 +8761,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/461.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/461",
     "created": "2018-05-22T16:06:28.494Z"
@@ -8780,7 +8780,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/462.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/462",
     "created": "2018-05-22T16:16:02.653Z"
@@ -8799,7 +8799,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/463.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/463",
     "created": "2018-05-22T16:21:44.379Z"
@@ -8818,7 +8818,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/464.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/464",
     "created": "2018-05-22T16:21:58.176Z"
@@ -8837,7 +8837,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/465.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/465",
     "created": "2018-05-22T16:22:12.309Z"
@@ -8856,7 +8856,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/466.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/22"],
     "url": "https://rickandmortyapi.com/api/character/466",
     "created": "2018-05-22T16:23:24.470Z"
@@ -8875,7 +8875,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/467.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/467",
     "created": "2018-05-22T16:46:18.038Z"
@@ -8894,7 +8894,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/468.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/468",
     "created": "2018-05-22T16:46:37.603Z"
@@ -8913,7 +8913,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/469.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/26"],
     "url": "https://rickandmortyapi.com/api/character/469",
     "created": "2018-05-22T16:46:50.518Z"
@@ -8932,7 +8932,7 @@
       "name": "Alien Day Spa",
       "url": "https://rickandmortyapi.com/api/location/76"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/470.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/470",
     "created": "2018-05-22T17:01:59.602Z"
@@ -8951,7 +8951,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/471.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/27"],
     "url": "https://rickandmortyapi.com/api/character/471",
     "created": "2018-05-22T17:07:21.833Z"
@@ -8970,7 +8970,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/472.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/472",
     "created": "2018-05-22T17:11:53.084Z"
@@ -8989,7 +8989,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/473.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/473",
     "created": "2018-05-22T17:14:41.628Z"
@@ -9008,7 +9008,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/474.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/474",
     "created": "2018-05-22T17:17:10.102Z"
@@ -9027,7 +9027,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/475.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/475",
     "created": "2018-05-22T17:17:49.270Z"
@@ -9046,7 +9046,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/476.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/476",
     "created": "2018-05-22T17:18:46.129Z"
@@ -9065,7 +9065,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/477.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/477",
     "created": "2018-05-22T17:19:36.127Z"
@@ -9084,7 +9084,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/478.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/478",
     "created": "2018-05-22T17:22:18.417Z"
@@ -9103,7 +9103,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/479.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/479",
     "created": "2018-05-22T17:23:18.546Z"
@@ -9122,7 +9122,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/480.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/480",
     "created": "2018-05-22T17:24:38.571Z"
@@ -9141,7 +9141,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/481.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/481",
     "created": "2018-05-22T17:29:50.642Z"
@@ -9160,7 +9160,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/482.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/482",
     "created": "2018-05-22T17:32:32.561Z"
@@ -9179,7 +9179,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/483.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/483",
     "created": "2018-05-22T17:33:33.815Z"
@@ -9198,7 +9198,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/484.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/484",
     "created": "2018-05-22T17:35:26.250Z"
@@ -9217,7 +9217,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/485.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/485",
     "created": "2018-05-22T17:36:56.925Z"
@@ -9236,7 +9236,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/486.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/486",
     "created": "2018-05-22T17:37:37.764Z"
@@ -9255,7 +9255,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/487.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/487",
     "created": "2018-05-22T17:38:28.593Z"
@@ -9274,7 +9274,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/488.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/488",
     "created": "2018-05-22T17:39:06.439Z"
@@ -9293,7 +9293,7 @@
       "name": "Citadel of Ricks",
       "url": "https://rickandmortyapi.com/api/location/3"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/489.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/28"],
     "url": "https://rickandmortyapi.com/api/character/489",
     "created": "2018-05-22T17:39:37.604Z"
@@ -9312,7 +9312,7 @@
       "name": "The Menagerie",
       "url": "https://rickandmortyapi.com/api/location/25"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/490.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/490",
     "created": "2018-05-22T17:43:52.543Z"
@@ -9331,7 +9331,7 @@
       "name": "The Menagerie",
       "url": "https://rickandmortyapi.com/api/location/25"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/491.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/29"],
     "url": "https://rickandmortyapi.com/api/character/491",
     "created": "2018-05-22T17:44:32.071Z"
@@ -9350,7 +9350,7 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/492.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/30"],
     "url": "https://rickandmortyapi.com/api/character/492",
     "created": "2018-05-22T17:49:13.883Z"
@@ -9369,9 +9369,9 @@
       "name": "Earth (Replacement Dimension)",
       "url": "https://rickandmortyapi.com/api/location/20"
     },
-    "image": "https://rickandmortyapi.com/api/character/avatar/493.jpeg",
+    "image": "https://placekitten.com/300/300",
     "episode": ["https://rickandmortyapi.com/api/episode/31"],
     "url": "https://rickandmortyapi.com/api/character/493",
     "created": "2018-05-22T17:51:07.373Z"
   }]
-}
+};

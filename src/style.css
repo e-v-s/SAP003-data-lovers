@@ -4,14 +4,6 @@ body{
     height: 100%;    
 }
 
-.topBanner{
-    background-size: cover;
-    height: 300px;
-    width: 60%;
-    margin: 0 auto;
-    display: block;
-}
-
 .background-main{
     background-color: antiquewhite;
     height: 100%;
@@ -20,7 +12,50 @@ body{
     display: block;
 }
 
-/*section{
+/* --------------------HEADER ---------------------*/
+.topBanner{
+    background-size: cover;
+    height: 300px;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*---------------------MAIN------------------------*/
+
+.input-char, .btn-char-send {
+    display: block;
+}
+
+.list-char{
+    display: inline;
+    float: right;
+    padding: 20 20 20 0;
+}
+
+.image-char{
+    display: inline;
+    padding: 20 0 20 20;
+}
+
+.image-plus-list-char{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: helvetica;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 5px double grey;
+    width:600px;
+    height:350px;
+    background-color: white;
+    color: #262624;
+}
+
+.character {
+    display: block;
+}
+
+
+/*.character{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: helvetica;
     margin: auto;

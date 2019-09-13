@@ -12,12 +12,28 @@
     </header>
     <div id="root"></div>
     <div class="background-image"></div>
-    <main class="background-main"><section id="resultado"></section></main>
+    <main class="background-main">
+      <section>
+          <input id="char-name" class="input-char" type="text" placeholder="Nome do personagem" required/>
+          <button type="submit" id="btn-char" class="btn-char-send">Pesquisar</button> 
+        <div class="image-plus-list-char">
+          <div id="image" class="image-char"></div>
+          <li class="list-char">
+            <ul id="name"></ul>
+            <ul id="species"></ul>
+            <ul><p id="origin"></p></ul>
+           </li>
+        </div>
+      </section>
+      <section class="character">
+         <div id="resultado"></div>
+      </section>
+    </main>
     <!-- <script src="data/injuries/injuries.js"></script> -->
     <!-- <script src="data/lol/lol.js"></script> -->
     <!-- <script src="data/patient/patient.js"></script> -->
     <!-- <script src="data/pokemon/pokemon.js"></script> -->
-    <script src="data/rickandmorty/rickandmorty.js"></script>
+    <script src="data/rickandmorty/rickandmorty_placeholder.js"></script>
     <!-- <script src="data/steam/steam.js"></script> -->
     <!-- <script src="data/worldbank/worldbank.js"></script> -->
     <script src="data.js"></script>
