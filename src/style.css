@@ -1,25 +1,26 @@
 /* -----------------BASIC STYLE------------------*/
 
 body{
-    background-image: url(images.jpg);
-    background-size: cover;
     height: 100%;
     width: 100%;
-    list-style: none;    
-}
-
-.background-main{
-    background-color: antiquewhite;
-    width: 60%;
-    margin: 0 auto;
-    display: block;
+    list-style: none;
+    font-family: helvetica;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* --------------------HEADER ---------------------*/
 
+.page-header {
+    
+    width: 100%;
+}
+
 .top-banner{
     background-size: cover;
-    height: 300px;
+    height: 100%;
     margin: 0 auto;
     display: block;
     width: 60%;
@@ -29,6 +30,7 @@ body{
     width: 60%;
     margin: 0 auto;
     display: flex;
+    background-color: #CB006F;
 }
 
 .nav-bar, .nav-bar-items {
@@ -42,9 +44,24 @@ body{
 
 .nav-bar-item>a {
     text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-bar-item>a:hover {
+    color: #09CB00;
 }
 
 /*---------------------MAIN------------------------*/
+
+.background-main{
+    background-color: antiquewhite;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+}
 
 /*------------------MAIN SEARCH--------------------*/
 
@@ -74,46 +91,51 @@ body{
 
 .character {
     width: 100%;
+    /*overflow: scroll;
+    overflow-y: scroll;*/
+    height: 450px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
 }
 
 .all-char {
-    display: inline;
-    float: left;
+    flex-direction: row;
+    min-width: 250px;
     border: 1px solid #9424DF;
     height: 400px;
-    width: 250px;
     margin-left: 10px;
     margin-top: 20px;
     border-radius: 15px;
     background: #680FC6;
     box-shadow: 3px 3px 3px black;
+    position: relative;
 }
 
 .all-image {
     display: block;
-    /*border-radius: 200px;*/
     width: 150px;
     height: 150px;
     margin: 0 auto;
     border-radius: 90px;
-    position: relative;
-    margin-top: 30px;
-    box-shadow: 3px  3px 3px black;
+    
+    /*margin-top: 30px;*/
+    box-shadow: 3px 3px 3px black;
+    z-index: 0;
 }
 
 .all-name {
     width: 250px;
     text-align: left;
-    /*margin-right: 25px;*/
-    position: absolute;
+    position: sticky;
     padding-left: 10px;
-    padding-top: 10px;
-    z-index: 1;
     word-wrap: break-all;
     color: #31C60F;
     font-family: 'Chewy', cursive;
     text-shadow: 3px 3px 3px black;
     font-size: 30px;
+    position: absolute;
+    z-index: 1;
 }
 
 .all-status, .all-gender, .all-species, .all-type,
