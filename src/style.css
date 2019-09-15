@@ -1,0 +1,98 @@
+/* -----------------BASIC STYLE------------------*/
+
+body{
+    background-image: url(images.jpg);
+    background-size: cover;
+    height: 100%;    
+}
+
+.background-main{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* --------------------HEADER ---------------------*/
+
+.topBanner{
+    background-size: cover;
+    height: 300px;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*---------------------MAIN------------------------*/
+
+.input-char, .btn-char-send {
+    display: block;
+}
+
+.image-plus-list-char {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: helvetica;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 5px double grey;
+    width:600px;
+    height:350px;
+    background-color: white;
+    color: #262624;
+}
+
+.image-char {
+    display: inline;
+    padding: 20 0 20 20;
+}
+
+.list-char {
+    display: inline;
+    float: right;
+    padding: 20 20 20 0;
+}
+
+.character {
+    width: 900px;
+}
+
+.all-char {
+    display: inline;
+    float: left;
+    border: 1px solid #9424DF;
+    height: 400px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: #DDD6E2;
+}
+
+.all-image {
+    padding-left: 50px;
+}
+
+.all-name {
+    text-align: center;
+}
+
+.all-gender, .all-status,
+.all-species, .all-type,
+.all-origin, .all-location{
+    margin: 10px 0 0 20px;
+}
+
+
+/*.character{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: helvetica;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px double grey;
+    width:300px;
+    height:260px;
+    text-align:center;
+    background-color: white;
+    color: #262624;
+  }*/
