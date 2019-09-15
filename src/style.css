@@ -3,12 +3,13 @@
 body{
     background-image: url(images.jpg);
     background-size: cover;
-    height: 100%;    
+    height: 100%;
+    width: 100%;
+    list-style: none;    
 }
 
 .background-main{
     background-color: antiquewhite;
-    height: 100%;
     width: 60%;
     margin: 0 auto;
     display: block;
@@ -16,45 +17,63 @@ body{
 
 /* --------------------HEADER ---------------------*/
 
-.topBanner{
+.top-banner{
     background-size: cover;
     height: 300px;
-    width: 60%;
     margin: 0 auto;
     display: block;
+    width: 60%;
+}
+
+.nav-bar-items {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav-bar, .nav-bar-items {
+    justify-content: space-around;
+}
+
+.nav-bar-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar-item>a {
+    text-decoration: none;
 }
 
 /*---------------------MAIN------------------------*/
+
+/*------------------MAIN SEARCH--------------------*/
 
 .input-char, .btn-char-send {
     display: block;
 }
 
 .image-plus-list-char {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-family: helvetica;
-    margin: 0 auto;
-    border-radius: 10px;
-    border: 5px double grey;
-    width:600px;
-    height:350px;
-    background-color: white;
-    color: #262624;
+    width: 100%;
 }
 
 .image-char {
-    display: inline;
+    display: inline-block;
     padding: 20 0 20 20;
+    text-align: center;
+    margin: 50px 0 50px 80px;
 }
 
 .list-char {
-    display: inline;
+    display: inline-block;
+    /*text-align: center;*/
     float: right;
-    padding: 20 20 20 0;
+    margin: 50px 80PX 50px 0;
 }
 
+/*-------------------MAIN ALL CHAR---------------------*/
+
 .character {
-    width: 900px;
+    width: 100%;
 }
 
 .all-char {

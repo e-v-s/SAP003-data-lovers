@@ -37,7 +37,7 @@ const showAllChar = (array) => {
 	for(let i of array) {
 		imageAllChar += `<div class="all-char">
 		<p class="all-name">${i.name}</p>
-		<img class="all-image" src="${i.image}" width="150" height="150"/>
+		<img class="all-image" src="${i.image}" width="150" height="150/>
 		<p class="all-gender"> Gender:${i.gender}</p>
 		<p class="all-status"> Status:${i.status}</p>
 		<p class="all-species"> Species: ${i.species}</p>
