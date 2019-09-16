@@ -50,10 +50,16 @@ const showAllChar = (array) => {
 	return imageAllChar;
 };
 
+const filterFunction = (valueOption) => {
+	
+
+	document.getElementById("test-here").innerHTML = valueOption.options[valueOption.selectedIndex].value;
+}
 
 window.data = {
 	searchForCharacter: searchForCharacter,
-	showAllChar: showAllChar
+	showAllChar: showAllChar,
+	filterFunction: filterFunction
 };
 
 

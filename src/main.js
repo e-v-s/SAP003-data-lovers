@@ -1,10 +1,15 @@
+document.getElementById("btn-char").addEventListener("click", function() {
+		example();
+		cleanInputBox();
+});
+
 let array = RICKANDMORTY.results;
 
 //Function for the search input
 const example = () => {		
 
 	const inputChar = document.getElementById("char-name").value;
-	let characterFound = window.data.searchForCharacter(inputChar, array);
+	window.data.searchForCharacter(inputChar, array);
 
 	document.getElementById("image").innerHTML = `<img src="${image}"/>`;
 	document.getElementById("name").innerHTML = name;
@@ -28,27 +33,43 @@ const cleanInputBox = () => {
 	document.getElementById("char-name").value = "";
 }
 
+//function to filter characters
+// const filterFunction = (array) => {
 
-const filterFunction = (array) => {
+// 	for (let i of array) {
+// 		// let results = array.filter
 
-	for (let i of array) {
-		let results = array.filter
+// 		console.log(i.species);
+// 	}	
+// }
 
-		console.log(i.species);
-	}	
+// filterFunction(array);
+
+//function to create options inside select tag
+const select = () => {
+	
+	const value = ["Selecione uma opção","gender", "species", "origin", "status", "type", "location"];
+	
+	for (let i of value) {
+		document.getElementById("select-by-properties").innerHTML += `<option value="${i}">${i}</option>`; 
+	}
+
+	document.getElementById("select-by-properties").addEventListener("change", filterFunction);
 }
 
-filterFunction(array);
+const valueOption = document.getElementById("select-by-properties");
 
-document.getElementById("btn-char").addEventListener("click", function() {
-		example();
-		cleanInputBox();
-	});
+//function to test select() function. This must 
+// const fun = () => {
+	
+// 	document.getElementById("test-here").innerHTML = "opa";
+// }
 
 window.onload = function() {
 	example();
 	showEverybody();
 	cleanInputBox();
+	select();
 }
 
 
