@@ -13,8 +13,7 @@ body{
 
 /* --------------------HEADER ---------------------*/
 
-.page-header {
-    
+.page-header {    
     width: 100%;
 }
 
@@ -118,10 +117,7 @@ body{
     height: 150px;
     margin: 0 auto;
     border-radius: 90px;
-    
-    /*margin-top: 30px;*/
     box-shadow: 3px 3px 3px black;
-    z-index: 0;
 }
 
 .all-name {
@@ -135,7 +131,6 @@ body{
     text-shadow: 3px 3px 3px black;
     font-size: 30px;
     position: absolute;
-    z-index: 1;
 }
 
 .all-status, .all-gender, .all-species, .all-type,

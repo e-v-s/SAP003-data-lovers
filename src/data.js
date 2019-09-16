@@ -11,6 +11,7 @@ let gender = "";
 let status = "";
 let type = "";
 let living = "";
+let answer = "";
 
 const searchForCharacter = (inputChar, array) => {
 
