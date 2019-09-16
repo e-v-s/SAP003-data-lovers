@@ -2,19 +2,64 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <title>Rick and Morty</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+    
+    <header class="page-header">
+      <img class="top-banner" src="rick-morty-chars-natalt.png"></img>
+      <nav class="nav-bar">
+        <li class="nav-bar-items">
+          <ul class="nav-bar-item"><a href="index.html">home</a></ul>
+          <ul class="nav-bar-item"><a href="#">sobre</a></ul>
+          <ul class="nav-bar-item"><a href="contato">contato</a></ul>
+        </li>
+      </nav>
+    </header>
+
     <div id="root"></div>
+    <div class="background-image"></div>
+
+    <main class="background-main">      
+      <section>
+        <p>Procure aqui o personagem :)</p>
+        <input id="char-name" class="input-char" type="text" placeholder="Nome do personagem" required value=""/>
+        <button type="submit" id="btn-char" class="btn-char-send"><i class="fa fa-search"></i></button>
+
+        <div class="image-plus-list-char">
+          <div id="image" class="image-char"></div>
+          <li class="list-char">
+            <ul id="name" class="list-char-item"></ul>
+            <ul id="species" class="list-char-item"></ul>
+            <ul><p id="origin" class="list-char-item"></p></ul>
+            <ul><p id="gender" class="list-char-item"></p></ul>
+            <ul><p id="status" class="list-char-item"></p></ul>
+            <ul><p id="type" class="list-char-item"></p></ul>
+            <ul><p id="living" class="list-char-item"></p></ul>
+          </li>
+        </div>
+      </section>
+
+      <input type="text" id="filter-search-by-name" placeholder="Procure seu personagem aqui">
+      <section id="show-images-of-all-char" class="character">
+      </section>
+
+    </main>
+
+    <footer></footer>
     <!-- <script src="data/injuries/injuries.js"></script> -->
     <!-- <script src="data/lol/lol.js"></script> -->
     <!-- <script src="data/patient/patient.js"></script> -->
     <!-- <script src="data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="data/rickandmorty/rickandmorty.js"></script> -->
+    <script src="data/rickandmorty/rickandmorty_placeholder.js"></script>
     <!-- <script src="data/steam/steam.js"></script> -->
     <!-- <script src="data/worldbank/worldbank.js"></script> -->
     <script src="data.js"></script>
     <script src="main.js"></script>
+    </div>
   </body>
 </html>
