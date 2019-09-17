@@ -8,7 +8,7 @@ const searchForCharacter = (inputChar, array, searchType) => {
 	for (let i of array) {
 		switch (searchType) {
 			case "n":
-			if (i.name.toLowerCase() === inputChar.toLowerCase()) {
+			if (i.name.toLowerCase().includes(inputChar.toLowerCase())) {
 				arrayResult.push(i);
 			} break;
 			case "g":

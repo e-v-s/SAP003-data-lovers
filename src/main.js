@@ -26,7 +26,7 @@ const searchCharacter = () => {
 const showEverybody = () => {
 	let showAllChar = window.data.showAllChar(array);
 
-	document.getElementById("show-images-of-all-char").innerHTML += imageAllChar;
+	document.getElementById("show-images-of-all-char").innerHTML = imageAllChar;
 }
 
 //function to clean input box
