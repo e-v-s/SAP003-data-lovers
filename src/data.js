@@ -7,29 +7,28 @@ const searchForCharacter = (inputChar, array, searchType) => {
 
 	for (let i of array) {
 		switch (searchType) {
-			case "n":
+			case "name":
 			if (i.name.toLowerCase().includes(inputChar.toLowerCase())) {
 				arrayResult.push(i);
 			} break;
-			case "g":
-				if(i.gender.toLowerCase() === inputChar.toLowerCase() ) {
+			case "gender":
+				if(i.gender.toLowerCase() === inputChar.toLowerCase()) {
 				arrayResult.push(i);
 			} break;
-			case "s":
+			case "status":
 			if (i.species.toLowerCase() === inputChar.toLowerCase()) {
 				arrayResult.push(i);
 			} break;
-			case "st":
+			case "status":
 			if (i.status.toLowerCase() === inputChar.toLowerCase()) {
 				arrayResult.push(i);
 			} break;
 		}
 	};
 
-
 	//creating new select option for gender
 
-
+	//show all char with the definitions chosen above
 	let character = "";
 
 	for(let i of arrayResult) {

@@ -3,13 +3,15 @@ document.getElementById("btn-char").addEventListener("click", function() {
 		cleanInputBox();
 });
 
+
+
 let array = RICKANDMORTY.results;
 
 //these create options on select tag
-const nameSelect = `<option value="n">${(Object.keys(array[0]))[1]}</option>`;
-const genderSelect = `<option value="g">${(Object.keys(array[0]))[5]}</option>`;
-const speciesSelect = `<option value="s">${(Object.keys(array[0]))[3]}</option>`;
-const statusSelect = `<option value="st">${(Object.keys(array[0]))[2]}</option>`;
+const nameSelect = `<option value="name">${(Object.keys(array[0]))[1]}</option>`;
+const genderSelect = `<option value="gender">${(Object.keys(array[0]))[5]}</option>`;
+const speciesSelect = `<option value="species">${(Object.keys(array[0]))[3]}</option>`;
+const statusSelect = `<option value="status">${(Object.keys(array[0]))[2]}</option>`;
 
 document.getElementById("search-type").innerHTML = nameSelect + genderSelect + speciesSelect + statusSelect;
 
@@ -20,6 +22,21 @@ const searchCharacter = () => {
 	const searchType = document.getElementById("search-type").value;
 
 	document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(inputChar, array, searchType);	
+};
+
+//dropdown menu
+const openDropdown = () => {
+	document.getElementById("search-dropdown").innerHTML = "";
+
+	const selectValue = document.getElementById("search-type").value;
+
+	const arrayMap = array.map(item => item[selectValue]);
+
+	let newArray = arrayMap.filter((item, index) => arrayMap.indexOf(item) === index);
+
+	// document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(newArray, selectValue);	
+
+	document.getElementById("search-dropdown").innerHTML += `${newArray.map(item => `<option value="${item}">${item}</option>`)}`;	
 };
 
 //function to show all characters at homepage
@@ -38,7 +55,8 @@ window.onload = function() {
 	searchCharacter();
 	showEverybody();
 	cleanInputBox();
+	openDropdown();
 }
 
-
+document.getElementById("search-type").addEventListener("change", openDropdown);
 
