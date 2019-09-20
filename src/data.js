@@ -31,7 +31,6 @@ const searchForCharacter = (inputChar, array) => {
 			arrayResult.push(i);
 		}
 	}
-
 	//show all char with the definitions chosen above
 	let character = "";
 
@@ -51,56 +50,58 @@ const searchForCharacter = (inputChar, array) => {
 };
 
 //search by radio button after selected option in select tag
-const searchByRadioButton = (buttonValue, array) =>  {
+const searchByRadioButton = (buttonValue, array, searchType) =>  {
 
-	let statusResult = array.filter(i => i.status === buttonValue);
-	let genderResult = array.filter(i => i.gender === buttonValue);
+	let statusResult = "";
+	let genderResult = "";
 	let speciesResult = array.filter(i => i.species === buttonValue);
 
 	let type = [];
-
-	console.log(statusResult);
-
-	// for (let i of statusResult) {
-	// 	type +=`<div class="all-char">
-	// 	<p class="all-name" id="char-name-search">${i.name}</p>
-	// 	<p><img class="all-image" src="${i.image}"/></p>
-	// 	<p class="all-gender"> Gender: ${i.gender}</p>
-	// 	<p class="all-status"> Status: ${i.status}</p>
-	// 	<p class="all-species"> Species: ${i.species}</p>
-	// 	<p class="all-type"> Type: ${i.type}</p>
-	// 	<p class="all-origin"> Origin: ${i.origin.name}</p>
-	// 	<p class="all-location"> Location: ${i.location.name} </p>
-	// 	</div>`;
-	// }
-	for (let i of genderResult) {
-		type +=`<div class="all-char">
-		<p class="all-name" id="char-name-search">${i.name}</p>
-		<p><img class="all-image" src="${i.image}"/></p>
-		<p class="all-gender"> Gender: ${i.gender}</p>
-		<p class="all-status"> Status: ${i.status}</p>
-		<p class="all-species"> Species: ${i.species}</p>
-		<p class="all-type"> Type: ${i.type}</p>
-		<p class="all-origin"> Origin: ${i.origin.name}</p>
-		<p class="all-location"> Location: ${i.location.name} </p>
-		</div>`;
-	}
-	//for (let i of speciesResult) {
-	// 	type +=`<div class="all-char">
-	// 	<p class="all-name" id="char-name-search">${i.name}</p>
-	// 	<p><img class="all-image" src="${i.image}"/></p>
-	// 	<p class="all-gender"> Gender: ${i.gender}</p>
-	// 	<p class="all-status"> Status: ${i.status}</p>
-	// 	<p class="all-species"> Species: ${i.species}</p>
-	// 	<p class="all-type"> Type: ${i.type}</p>
-	// 	<p class="all-origin"> Origin: ${i.origin.name}</p>
-	// 	<p class="all-location"> Location: ${i.location.name} </p>
-	// 	</div>`;
-	// }
-
-
+	
+		if (searchType === "status") {
+			statusResult = array.filter(i => i.status === buttonValue);
+			for (let i of statusResult) {
+				type +=`<div class="all-char">
+				<p class="all-name" id="char-name-search">${i.name}</p>
+				<p><img class="all-image" src="${i.image}"/></p>
+				<p class="all-gender"> Gender: ${i.gender}</p>
+				<p class="all-status"> Status: ${i.status}</p>
+				<p class="all-species"> Species: ${i.species}</p>
+				<p class="all-type"> Type: ${i.type}</p>
+				<p class="all-origin"> Origin: ${i.origin.name}</p>
+				<p class="all-location"> Location: ${i.location.name} </p>
+				</div>`;
+			}
+		} else if (searchType === "gender") {
+			genderResult = array.filter(i => i.gender === buttonValue);
+			for (let i of genderResult) {
+				type +=`<div class="all-char">
+				<p class="all-name" id="char-name-search">${i.name}</p>
+				<p><img class="all-image" src="${i.image}"/></p>
+				<p class="all-gender"> Gender: ${i.gender}</p>
+				<p class="all-status"> Status: ${i.status}</p>
+				<p class="all-species"> Species: ${i.species}</p>
+				<p class="all-type"> Type: ${i.type}</p>
+				<p class="all-origin"> Origin: ${i.origin.name}</p>
+				<p class="all-location"> Location: ${i.location.name} </p>
+				</div>`;
+			}
+		} else if (searchType === "species") {
+			speciesResult = array.filter(i => i.species === buttonValue);
+			for (let i of speciesResult) {
+				type +=`<div class="all-char">
+				<p class="all-name" id="char-name-search">${i.name}</p>
+				<p><img class="all-image" src="${i.image}"/></p>
+				<p class="all-gender"> Gender: ${i.gender}</p>
+				<p class="all-status"> Status: ${i.status}</p>
+				<p class="all-species"> Species: ${i.species}</p>
+				<p class="all-type"> Type: ${i.type}</p>
+				<p class="all-origin"> Origin: ${i.origin.name}</p>
+				<p class="all-location"> Location: ${i.location.name} </p>
+				</div>`;
+			}
+		}
 	return type;
-
 };
 
 //function to get every data of every character

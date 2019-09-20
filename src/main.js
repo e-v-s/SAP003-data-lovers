@@ -39,9 +39,11 @@ const openRadioButton = () => {
 const submit = () => {
 	event.preventDefault();
 
+	const searchType = document.getElementById("search-type").value;
+
 	buttonValue = document.querySelector(".checkbox:checked").value;
 
-	document.getElementById("show-images-of-all-char").innerHTML = window.data.searchByRadioButton(buttonValue, array);
+	document.getElementById("show-images-of-all-char").innerHTML = window.data.searchByRadioButton(buttonValue, array, searchType);
 
 	document.getElementById("form-search").reset();
 }
