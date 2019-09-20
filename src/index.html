@@ -15,6 +15,7 @@
       <nav class="nav-bar">
         <li class="nav-bar-items">
           <ul class="nav-bar-item"><a href="index.html">home</a></ul>
+          <ul class="nav-bar-item"><a href="#">dashboard</a></ul>
           <ul class="nav-bar-item"><a href="#">sobre</a></ul>
           <ul class="nav-bar-item"><a href="contato">contato</a></ul>
         </li>
@@ -27,11 +28,20 @@
     <main class="background-main">      
       <section>
         <p>Procure aqui o personagem :)</p>
-        <select name="" id="search-type">
-        </select>
-        <select id="search-dropdown"></select>
         <input id="char-value" class="input-char" type="text" placeholder="Nome do personagem" required value=""/>
         <button type="submit" id="btn-char" class="btn-char-send"><i class="fa fa-search"></i></button>
+
+        
+        
+
+
+        <form id="form-search">
+          <select name="" id="search-type">
+          </select>
+          <span id="print-here"></span>
+          <button type="submit" method="get" id="btn-search-type"><i class="fa fa-search"></i></button>
+        </form>
+
 
         <div class="image-plus-list-char">
           <div id="image" class="image-char"></div>
