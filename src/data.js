@@ -73,19 +73,19 @@ const searchByRadioButton = (buttonValue, array) =>  {
 	// 	<p class="all-location"> Location: ${i.location.name} </p>
 	// 	</div>`;
 	// }
-	// for (let i of genderResult) {
-	// 	type +=`<div class="all-char">
-	// 	<p class="all-name" id="char-name-search">${i.name}</p>
-	// 	<p><img class="all-image" src="${i.image}"/></p>
-	// 	<p class="all-gender"> Gender: ${i.gender}</p>
-	// 	<p class="all-status"> Status: ${i.status}</p>
-	// 	<p class="all-species"> Species: ${i.species}</p>
-	// 	<p class="all-type"> Type: ${i.type}</p>
-	// 	<p class="all-origin"> Origin: ${i.origin.name}</p>
-	// 	<p class="all-location"> Location: ${i.location.name} </p>
-	// 	</div>`;
-	// }
-	// for (let i of speciesResult) {
+	for (let i of genderResult) {
+		type +=`<div class="all-char">
+		<p class="all-name" id="char-name-search">${i.name}</p>
+		<p><img class="all-image" src="${i.image}"/></p>
+		<p class="all-gender"> Gender: ${i.gender}</p>
+		<p class="all-status"> Status: ${i.status}</p>
+		<p class="all-species"> Species: ${i.species}</p>
+		<p class="all-type"> Type: ${i.type}</p>
+		<p class="all-origin"> Origin: ${i.origin.name}</p>
+		<p class="all-location"> Location: ${i.location.name} </p>
+		</div>`;
+	}
+	//for (let i of speciesResult) {
 	// 	type +=`<div class="all-char">
 	// 	<p class="all-name" id="char-name-search">${i.name}</p>
 	// 	<p><img class="all-image" src="${i.image}"/></p>

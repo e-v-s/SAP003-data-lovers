@@ -42,7 +42,10 @@ const submit = () => {
 	buttonValue = document.querySelector(".checkbox:checked").value;
 
 	document.getElementById("show-images-of-all-char").innerHTML = window.data.searchByRadioButton(buttonValue, array);
+
+	document.getElementById("form-search").reset();
 }
+
 
 //function to show all characters at homepage
 const showEverybody = () => {
