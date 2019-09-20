@@ -1,37 +1,18 @@
-// const searchForCharacter = (inputChar, array, searchType) => {
-
-// 	let arrayResult = [];
-
-// 	for (let i of array) {
-// 		switch (searchType) {
-// 			case "name":
-// 			if (i.name.toLowerCase().includes(inputChar.toLowerCase())) {
-// 				arrayResult.push(i);
-// 			} break;
-// 			case "gender":
-// 				if(i.gender.toLowerCase() === inputChar.toLowerCase()) {
-// 				arrayResult.push(i);
-// 			} break;
-// 			case "status":
-// 			if (i.species.toLowerCase() === inputChar.toLowerCase()) {
-// 				arrayResult.push(i);
-// 			} break;
-// 			case "status":
-// 			if (i.status.toLowerCase() === inputChar.toLowerCase()) {
-// 				arrayResult.push(i);
-// 			} break;
-// 		}
-// 	};
+//search character by name
+//inputChar is the user's input
+//array is the object.results, which contains every character
 const searchForCharacter = (inputChar, array) => {
 	
 	let arrayResult = []
 
+	//includes every character inside arrayResults which includes the input from the user
 	for (let i of array) {
 		if (i.name.toLowerCase().includes(inputChar.toLowerCase())) {
 			arrayResult.push(i);
 		}
 	}
-	//show all char with the definitions chosen above
+
+	//show all char pushed to the arrayResult in cards
 	let character = "";
 
 	for(let i of arrayResult) {
@@ -54,12 +35,15 @@ const searchByRadioButton = (buttonValue, array, searchType) =>  {
 
 	let statusResult = "";
 	let genderResult = "";
-	let speciesResult = array.filter(i => i.species === buttonValue);
+	let speciesResult = "";
 
 	let type = [];
 	
+		//first check the searchType chosen by the user in the select tag
 		if (searchType === "status") {
+			//then the result is filtered comparing the values inside the searchType with the buttonValue chosen by the user
 			statusResult = array.filter(i => i.status === buttonValue);
+			//just a for running through the result array to print the cards with the characers
 			for (let i of statusResult) {
 				type +=`<div class="all-char">
 				<p class="all-name" id="char-name-search">${i.name}</p>
@@ -124,6 +108,7 @@ const showAllChar = (array) => {
 	return imageAllChar;
 };
 
+//Dashboard functions
 
 window.data = {
 	searchForCharacter: searchForCharacter,
