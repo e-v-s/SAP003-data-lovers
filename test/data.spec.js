@@ -25,7 +25,7 @@ describe("searchByRadioButton", () => {
   });
 
   it("returns `searchByRadioButton`", () => {
-    expect(data.searchByRadioButton("Human", [{"name": "Rick Sanchez", "status": "Alive", "species": "Human", "type": "", "gender": "Male", "origin": {"name": "Earth (C-137)"}, "location": {"name": "Earth (Replacement Dimension)"}, "image": "https://placekitten.com/300/300"}, {"name": "Duck With Muscles", "status": "Dead", "species": "Parasite", "type": "Alien", "gender": "Male", "origin": {"name": "unknown"}, "location": {"name": "Earth (Replacement Dimension)"}, "image": "https://placekitten.com/300/300"}], "species")).toEqual(`<div class="all-char">
+    expect(data.searchByRadioButton("Human", [{"name": "Rick Sanchez", "status": "Alive", "species": "Human", "type": "", "gender": "Male", "origin": {"name": "Earth (C-137)"}, "location": {"name": "Earth (Replacement Dimension)"}, "image": "https://placekitten.com/300/300"}, {"name": "Duck With Muscles", "status": "Dead", "species": "Parasite", "type": "Alien", "gender": "Male", "origin": {"name": "unknown"}, "location": {"name": "Earth (Replacement Dimension)"}, "image": "https://placekitten.com/300/300"}, {"name": "Tuberculosis", "status": "Dead", "species": "Disease", "type": "", "gender": "unknown", "origin": {"name": "Anatomy Park"}, "location": {"name": "Anatomy Park"}, "image": "https://placekitten.com/300/300"}], "species")).toEqual(`<div class="all-char">
 				<p class="all-name" id="char-name-search">Rick Sanchez</p>
 				<p><img class="all-image" src="https://placekitten.com/300/300"/></p>
 				<p class="all-gender"> Gender: Male</p>
@@ -38,4 +38,21 @@ describe("searchByRadioButton", () => {
   });
 });
 
+describe("showAllChar", () => {
+  it("is a function", () => {
+    expect(typeof data.showAllChar).toBe("function");
+  });
 
+  it("returns `showAllChar`", () => {
+    expect(data.showAllChar([{"name": "Rick Sanchez", "status": "Alive", "species": "Human", "type": "", "gender": "Male", "origin": {"name": "Earth (C-137)"}, "location": {"name": "Earth (Replacement Dimension)"}, "image": "https://placekitten.com/300/300"}])).toEqual(`<div class="all-char">
+		<p class="all-name" id="char-name-search">Rick Sanchez</p>
+		<p><img class="all-image" src="https://placekitten.com/300/300"/></p>
+		<p class="all-gender"> Gender: Male</p>
+		<p class="all-status"> Status: Alive</p>
+		<p class="all-species"> Species: Human</p>
+		<p class="all-type"> Type: </p>
+		<p class="all-origin"> Origin: Earth (C-137)</p>
+		<p class="all-location"> Location: Earth (Replacement Dimension) </p>
+		</div>`);
+  });
+});
