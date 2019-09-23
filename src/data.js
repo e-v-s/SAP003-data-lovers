@@ -105,7 +105,65 @@ const showAllChar = (array) => {
 };
 
 //Dashboard functions
-//comejahdukasd
+
+//Gender counter
+const charCountGender = () => {
+
+	const size = array.length;
+
+	const arrayGender = array.map(item => item.gender);
+
+	const female = (arrayGender.filter(i => i === "Female")).length;
+	const male = (arrayGender.filter(i => i === "Male")).length;
+	const genderless = (arrayGender.filter(i => i === "Genderless")).length;
+	const genderUnknown = (arrayGender.filter(i => i === "unknown")).length;
+
+	//female percentage
+	const femPerc = Math.round((female/size)*100);
+	const malePerc = Math.round((male/size)*100);
+	const gendUnkPerc = Math.round((genderUnknown/size)*100);
+	const genssPerc = Math.round((genderless/size)*100);
+
+	console.log(`Female: ${femPerc}%, Male: ${malePerc}%, unknown:
+		 ${gendUnkPerc}%, Genderless: ${genssPerc}%`);
+
+};
+
+//Status counter
+const charCountStatus = () => {
+	
+	const arrayStatus = array.map(item => item.status);
+
+	const arrayAlive = (arrayStatus.filter(i => i === "Alive")).length;
+	const arrayDead = (arrayStatus.filter(i => i === "Dead")).length;
+	const statusUnknown = (arrayStatus.filter(i => i === "unknown")).length;
+};
+
+//Species counter
+const charCountSpecies = () => {
+
+	const arraySpecies = array.map(item => item.species);
+
+	const size = array.length;
+
+	const human = (arraySpecies.filter( i => i === "Human")).length;
+	const alien = (arraySpecies.filter(i => i === "Alien")).length;
+	const humanoid = (arraySpecies.filter(i => i === "Humanoid")).length;
+	const speciesUnknown = (arraySpecies.filter(i => i === "unknown")).length;
+	const poopybutthole = (arraySpecies.filter(i => i === "Poopybutthole")).length;
+	const mytholog = (arraySpecies.filter(i => i === "Mytholog")).length;
+	const animal = (arraySpecies.filter(i => i === "Animal")).length;
+	const vampire = (arraySpecies.filter(i => i === "Vampire")).length;
+	const robot = (arraySpecies.filter(i => i === "Robot")).length;
+	const cronenberg = (arraySpecies.filter(i => i === "Cronenberg")).length;
+	const disease = (arraySpecies.filter(i => i === "Disease")).length;
+	const parasite = (arraySpecies.filter(i => i === "Parasite")).length;
+
+	// const test = array.filter( i => (i.species === "Human") && (i.gender === "Male"));
+
+	// console.log(Math.round((test.length/human)*100));
+
+};
 
 window.data = {
   searchForCharacter: searchForCharacter,

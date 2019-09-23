@@ -61,12 +61,11 @@ const cleanInputBox = () => {
   document.getElementById("char-value").value = "";
 };
 
+//function to call the counter
+
 window.onload = function() {
-  searchCharacter();
   showEverybody();
-  cleanInputBox();
   openRadioButton();
-  submit();
 };
 
 document.getElementById("search-type").addEventListener("change", openRadioButton);
