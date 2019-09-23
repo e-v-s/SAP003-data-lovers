@@ -2,7 +2,7 @@
 //inputChar is the user's input
 //array is the object.results, which contains every character
 const searchForCharacter = (inputChar, array) => {
-	
+
 	let arrayResult = []
 
 	//includes every character inside arrayResults which includes the input from the user
@@ -15,7 +15,7 @@ const searchForCharacter = (inputChar, array) => {
 	//show all char pushed to the arrayResult in cards
 	let character = "";
 
-	for(let i of arrayResult) {
+	for (let i of arrayResult) {
 		character += `<div class="all-char">
 		<p class="all-name" id="char-name-search">${i.name}</p>
 		<p><img class="all-image" src="${i.image}"/></p>
@@ -31,17 +31,17 @@ const searchForCharacter = (inputChar, array) => {
 };
 
 //search by radio button after selected option in select tag
-const searchByRadioButton = (buttonValue, array, searchType) =>  {
+const searchByRadioButton = (buttonValue, array, searchType) => {
 
 	let type = [];
-	
-		//first check the searchType chosen by the user in the select tag
-		if (searchType === "status") {
-			//then the result is filtered comparing the values inside the searchType with the buttonValue chosen by the user
-			let statusResult = array.filter(i => i.status === buttonValue);
-			//just a for running through the result array to print the cards with the characers
-			for (let i of statusResult) {
-				type +=`<div class="all-char">
+
+	//first check the searchType chosen by the user in the select tag
+	if (searchType === "status") {
+		//then the result is filtered comparing the values inside the searchType with the buttonValue chosen by the user
+		let statusResult = array.filter(i => i.status === buttonValue);
+		//just a for running through the result array to print the cards with the characers
+		for (let i of statusResult) {
+			type += `<div class="all-char">
 				<p class="all-name" id="char-name-search">${i.name}</p>
 				<p><img class="all-image" src="${i.image}"/></p>
 				<p class="all-gender"> Gender: ${i.gender}</p>
@@ -51,36 +51,36 @@ const searchByRadioButton = (buttonValue, array, searchType) =>  {
 				<p class="all-origin"> Origin: ${i.origin.name}</p>
 				<p class="all-location"> Location: ${i.location.name} </p>
 				</div>`;
-			}
-		} else if (searchType === "gender") {
-			let genderResult = array.filter(i => i.gender === buttonValue);
-			for (let i of genderResult) {
-				type +=`<div class="all-char">
-				<p class="all-name" id="char-name-search">${i.name}</p>
-				<p><img class="all-image" src="${i.image}"/></p>
-				<p class="all-gender"> Gender: ${i.gender}</p>
-				<p class="all-status"> Status: ${i.status}</p>
-				<p class="all-species"> Species: ${i.species}</p>
-				<p class="all-type"> Type: ${i.type}</p>
-				<p class="all-origin"> Origin: ${i.origin.name}</p>
-				<p class="all-location"> Location: ${i.location.name} </p>
-				</div>`;
-			}
-		} else if (searchType === "species") {
-			let speciesResult = array.filter(i => i.species === buttonValue);
-			for (let i of speciesResult) {
-				type +=`<div class="all-char">
-				<p class="all-name" id="char-name-search">${i.name}</p>
-				<p><img class="all-image" src="${i.image}"/></p>
-				<p class="all-gender"> Gender: ${i.gender}</p>
-				<p class="all-status"> Status: ${i.status}</p>
-				<p class="all-species"> Species: ${i.species}</p>
-				<p class="all-type"> Type: ${i.type}</p>
-				<p class="all-origin"> Origin: ${i.origin.name}</p>
-				<p class="all-location"> Location: ${i.location.name} </p>
-				</div>`;
-			}
 		}
+	} else if (searchType === "gender") {
+		let genderResult = array.filter(i => i.gender === buttonValue);
+		for (let i of genderResult) {
+			type += `<div class="all-char">
+				<p class="all-name" id="char-name-search">${i.name}</p>
+				<p><img class="all-image" src="${i.image}"/></p>
+				<p class="all-gender"> Gender: ${i.gender}</p>
+				<p class="all-status"> Status: ${i.status}</p>
+				<p class="all-species"> Species: ${i.species}</p>
+				<p class="all-type"> Type: ${i.type}</p>
+				<p class="all-origin"> Origin: ${i.origin.name}</p>
+				<p class="all-location"> Location: ${i.location.name} </p>
+				</div>`;
+		}
+	} else if (searchType === "species") {
+		let speciesResult = array.filter(i => i.species === buttonValue);
+		for (let i of speciesResult) {
+			type += `<div class="all-char">
+				<p class="all-name" id="char-name-search">${i.name}</p>
+				<p><img class="all-image" src="${i.image}"/></p>
+				<p class="all-gender"> Gender: ${i.gender}</p>
+				<p class="all-status"> Status: ${i.status}</p>
+				<p class="all-species"> Species: ${i.species}</p>
+				<p class="all-type"> Type: ${i.type}</p>
+				<p class="all-origin"> Origin: ${i.origin.name}</p>
+				<p class="all-location"> Location: ${i.location.name} </p>
+				</div>`;
+		}
+	}
 	return type;
 };
 
@@ -89,7 +89,7 @@ let imageAllChar = "";
 
 const showAllChar = (array) => {
 
-	for(let i of array) {
+	for (let i of array) {
 		imageAllChar += `<div class="all-char">
 		<p class="all-name" id="char-name-search">${i.name}</p>
 		<p><img class="all-image" src="${i.image}"/></p>
@@ -105,10 +105,30 @@ const showAllChar = (array) => {
 };
 
 //Dashboard functions
-//comejahdukasd
+const charCountGender = () => {
+	//total de personagens por gênero
+	const total = array.length;
+	const arrayValue = array.map(item => item.gender);
+
+	let arrayFemale = (arrayValue.filter( item => item === "Female")).length;
+	let arrayMale = (arrayValue.filter( item => item === "Male")).length;
+	let arrayUnknown = (arrayValue.filter( item => item === "unknown")).length;
+	let arrayGender = (arrayValue.filter( item => item === "Genderless")).length;
+
+	let percentFemale = Math.round((arrayFemale/total)*100);
+	let percentMale = Math.round((arrayMale/total)*100);
+	let percentUnknown = Math.round((arrayUnknown/total)*100);
+	let percentGender = Math.round((arrayGender/total)*100));
+};
+
+const charCountSpecies = () => {
+
+	const 
+}
 
 window.data = {
 	searchForCharacter: searchForCharacter,
 	showAllChar: showAllChar,
-	searchByRadioButton: searchByRadioButton
+	searchByRadioButton: searchByRadioButton,
+	charCount: charCount
 }; 
