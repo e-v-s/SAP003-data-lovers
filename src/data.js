@@ -105,7 +105,8 @@ const showAllChar = (array) => {
 };
 
 //Dashboard functions
-//comejahdukasd
+
+
 
 window.data = {
   searchForCharacter: searchForCharacter,
