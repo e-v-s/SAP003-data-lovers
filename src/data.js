@@ -107,6 +107,8 @@ const showAllChar = (array) => {
 //Dashboard functions
 
 //Gender counter
+//let femPerc, malePerc,gendUnkPerc, genssPerc;
+
 const charCountGender = () => {
 
 	const size = array.length;
@@ -119,24 +121,26 @@ const charCountGender = () => {
 	const genderUnknown = (arrayGender.filter(i => i === "unknown")).length;
 
 	//female percentage
-	const femPerc = Math.round((female/size)*100);
-	const malePerc = Math.round((male/size)*100);
-	const gendUnkPerc = Math.round((genderUnknown/size)*100);
-	const genssPerc = Math.round((genderless/size)*100);
+	femPerc = Math.round((female/size)*100);
+	malePerc = Math.round((male/size)*100);
+	gendUnkPerc = Math.round((genderUnknown/size)*100);
+	genssPerc = Math.round((genderless/size)*100);
 
-	console.log(`Female: ${femPerc}%, Male: ${malePerc}%, unknown:
-		 ${gendUnkPerc}%, Genderless: ${genssPerc}%`);
-
+	return femPerc, malePerc,gendUnkPerc, genssPerc;
 };
 
 //Status counter
 const charCountStatus = () => {
+
+	const size = array.length;
 	
 	const arrayStatus = array.map(item => item.status);
 
 	const arrayAlive = (arrayStatus.filter(i => i === "Alive")).length;
 	const arrayDead = (arrayStatus.filter(i => i === "Dead")).length;
 	const statusUnknown = (arrayStatus.filter(i => i === "unknown")).length;
+
+	// console.log(size);
 };
 
 //Species counter
@@ -168,5 +172,7 @@ const charCountSpecies = () => {
 window.data = {
   searchForCharacter: searchForCharacter,
   showAllChar: showAllChar,
-  searchByRadioButton: searchByRadioButton
+  searchByRadioButton: searchByRadioButton,
+  charCountGender: charCountGender,
 }; 
+

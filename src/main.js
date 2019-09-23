@@ -63,6 +63,36 @@ const cleanInputBox = () => {
 
 //function to call the counter
 
+
+
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  
+  window.data.charCountGender();
+
+  const data = google.visualization.arrayToDataTable([
+  ['Char by gender', 'Gender'],
+  ['Female', femPerc],
+  ['Male', malePerc],
+  ['unknown', gendUnkPerc],
+  ['Genderless', genssPerc],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'Characters By Gender', 'width':400, 'height':300};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+  chart.draw(data, options);
+}
+
+
+
+
 window.onload = function() {
   showEverybody();
   openRadioButton();
