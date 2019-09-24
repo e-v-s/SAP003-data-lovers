@@ -19,7 +19,6 @@ const searchCharacter = () => {
 
   document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(inputChar, array);	
 };
-
 //function which creates radio buttons with the options related to the values inside each select tag (gender, status and species)
 const openRadioButton = () => {
   document.getElementById("print-here").innerHTML = "";
