@@ -1,10 +1,5 @@
-document.getElementById("btn-char").addEventListener("click", function() {
-  searchCharacter();
-  cleanInputBox();
-});
-
 //array created using the object.results
-let array = RICKANDMORTY.results;
+let array = RICKANDMORTY.results; 
 
 //these create options on select tag using the keys gender, species and status from the objects inside array
 const genderSelect = `<option value="gender">${(Object.keys(array[0]))[5]}</option>`;

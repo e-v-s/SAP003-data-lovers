@@ -128,15 +128,14 @@ const charCountGender = () => {
 const charCountStatus = () => {
 
 	const size = array.length;
-	
+  
 	const arrayStatus = array.map(item => item.status);
-
+	
 	const alive = Number(((((arrayStatus.filter(i => i === "Alive")).length)/size)*100).toFixed(1));
 	const dead = Number((((arrayStatus.filter(i => i === "Dead")).length)/size).toFixed(1));
 	const statusUnknown = Number(((((arrayStatus.filter(i => i === "unknown")).length)/size)*100).toFixed(1));
 
 	return {alive, dead, statusUnknown};
-};
 
 //Species counter
 const charCountSpecies = () => {
