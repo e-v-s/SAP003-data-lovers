@@ -11,7 +11,7 @@
   <body>
     
     <header class="page-header">
-      <img class="top-banner" src="rick-morty-chars-natalt.png"></img>
+      <img class="top-banner" src="rick-morty-banner.png">
       <nav class="nav-bar">
         <li class="nav-bar-items">
           <ul class="nav-bar-item"><a href="index.html">home</a></ul>
@@ -27,13 +27,13 @@
 
     <main class="background-main">      
       <section>
-        <div>
+        <div class="box-search-by-name">
           <p>Procure aqui o personagem :)</p>
           <input id="char-value" class="input-char" type="text" placeholder="Nome do personagem" required value=""/>
           <button type="submit" id="btn-char" class="btn-char-send"><i class="fa fa-search"></i></button>
         </div>
         
-        <div>
+        <div class="box-search-by-type">
           <select name="" id="search-type">
           </select>
           <form id="form-search">      
@@ -43,7 +43,7 @@
         </div>
 
         <div class="image-plus-list-char">
-          <div id="image" class="image-char"></div>
+         <!--  <div id="image" class="image-char"></div> -->
           <li class="list-char">
             <ul id="name" class="list-char-item"></ul>
             <ul id="species" class="list-char-item"></ul>
@@ -58,19 +58,27 @@
       
       <section id="show-images-of-all-char" class="character">
       </section>
+      
+      <section class="dashboard">
+        <h2 class="dashboard-title">Dashboard Rick and Morty</h2>
+        <div id="piechart-gender"></div>
+        <div id="piechart-status"></div>
+        <div id="piechart-species"></div>
+      </section>
 
     </main>
 
-    <footer></footer>
+    <footer class="page-footer"></footer>
     <!-- <script src="data/injuries/injuries.js"></script> -->
     <!-- <script src="data/lol/lol.js"></script> -->
     <!-- <script src="data/patient/patient.js"></script> -->
     <!-- <script src="data/pokemon/pokemon.js"></script> -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="data/rickandmorty/rickandmorty_placeholder.js"></script>
     <!-- <script src="data/steam/steam.js"></script> -->
     <!-- <script src="data/worldbank/worldbank.js"></script> -->
     <script src="data.js"></script>
     <script src="main.js"></script>
-    </div>
+   
   </body>
 </html>
