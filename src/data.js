@@ -107,47 +107,35 @@ const showAllChar = (array) => {
 //Dashboard functions
 
 //Gender counter
+//let femPerc, malePerc,gendUnkPerc, genssPerc;
+
 const charCountGender = () => {
 
 	const size = array.length;
 
 	const arrayGender = array.map(item => item.gender);
 
-	const female = (arrayGender.filter(i => i === "Female")).length;
+	const female = Number(((((arrayGender.filter(i => i === "Female")).length)/size)*100).toFixed(1));
 	const male = (arrayGender.filter(i => i === "Male")).length;
-	const genderless = (arrayGender.filter(i => i === "Genderless")).length;
-	const genderUnknown = (arrayGender.filter(i => i === "unknown")).length;
+	const genderless = Number(((((arrayGender.filter(i => i === "Genderless")).length)/size)*100).toFixed(1));
+	const genderUnknown = Number((((arrayGender.filter(i => i === "unknown")).length)/size).toFixed(1));
 
-	//female percentage
-	const femPerc = Math.round((female/size)*100);
-	const malePerc = Math.round((male/size)*100);
-	const gendUnkPerc = Math.round((genderUnknown/size)*100);
-	const genssPerc = Math.round((genderless/size)*100);
-
-	console.log(`Female: ${femPerc}%, Male: ${malePerc}%, unknown:
-		 ${gendUnkPerc}%, Genderless: ${genssPerc}%`);
-	
+	//percentage
+	return {female, male, genderUnknown, genderless};
 };
 
 //Status counter
 const charCountStatus = () => {
 
+	const size = array.length;
+  
 	const arrayStatus = array.map(item => item.status);
 	
-	const size = array.length;
+	const alive = Number(((((arrayStatus.filter(i => i === "Alive")).length)/size)*100).toFixed(1));
+	const dead = Number((((arrayStatus.filter(i => i === "Dead")).length)/size).toFixed(1));
+	const statusUnknown = Number(((((arrayStatus.filter(i => i === "unknown")).length)/size)*100).toFixed(1));
 
-	const arrayAlive = (arrayStatus.filter(i => i === "Alive")).length;
-	const arrayDead = (arrayStatus.filter(i => i === "Dead")).length;
-	const statusUnknown = (arrayStatus.filter(i => i === "unknown")).length;
-
-	//percentage 
-	const alivePerc = Math.round((arrayAlive/size)*100);
-	const deadPerc = Math.round((arrayDead/size)*100);
-	const unknownPerc = Math.round((statusUnknown/size)*100);
-
-	console.log(`Alive: ${alivePerc}%, Dead: ${deadPerc}%, Unknown: ${unknownPerc}%`);	
-
-};
+	return {alive, dead, statusUnknown};
 
 //Species counter
 const charCountSpecies = () => {
@@ -156,42 +144,141 @@ const charCountSpecies = () => {
 
 	const size = array.length;
 
-	const human = (arraySpecies.filter( i => i === "Human")).length;
-	const alien = (arraySpecies.filter(i => i === "Alien")).length;
-	const humanoid = (arraySpecies.filter(i => i === "Humanoid")).length;
-	const speciesUnknown = (arraySpecies.filter(i => i === "unknown")).length;
-	const poopybutthole = (arraySpecies.filter(i => i === "Poopybutthole")).length;
-	const mytholog = (arraySpecies.filter(i => i === "Mytholog")).length;
-	const animal = (arraySpecies.filter(i => i === "Animal")).length;
-	const vampire = (arraySpecies.filter(i => i === "Vampire")).length;
-	const robot = (arraySpecies.filter(i => i === "Robot")).length;
-	const cronenberg = (arraySpecies.filter(i => i === "Cronenberg")).length;
-	const disease = (arraySpecies.filter(i => i === "Disease")).length;
-	const parasite = (arraySpecies.filter(i => i === "Parasite")).length;
+	const human = Number(((((arraySpecies.filter( i => i === "Human")).length)/size)*100).toFixed(1));
+	const alien = Number(((((arraySpecies.filter(i => i === "Alien")).length)/size)*100).toFixed(1));
+	const humanoid = Number(((((arraySpecies.filter(i => i === "Humanoid")).length)/size)*100).toFixed(1));
+	const speciesUnknown = Number(((((arraySpecies.filter(i => i === "unknown")).length)/size)*100).toFixed(1));
+	const poopybutthole = Number(((((arraySpecies.filter(i => i === "Poopybutthole")).length)/size)*100).toFixed(1));
+	const mytholog = Number(((((arraySpecies.filter(i => i === "Mytholog")).length)/size)*100).toFixed(1));
+	const animal = Number(((((arraySpecies.filter(i => i === "Animal")).length)/size)*100).toFixed(1));
+	const vampire = Number(((((arraySpecies.filter(i => i === "Vampire")).length)/size)*100).toFixed(1));
+	const robot = Number(((((arraySpecies.filter(i => i === "Robot")).length)/size)*100).toFixed(1));
+	const cronenberg = Number(((((arraySpecies.filter(i => i === "Cronenberg")).length)/size)*100).toFixed(1));
+	const disease = Number(((((arraySpecies.filter(i => i === "Disease")).length)/size)*100).toFixed(1));
+	const parasite = Number(((((arraySpecies.filter(i => i === "Parasite")).length)/size)*100).toFixed(1));
 
-	const humanPerc = Math.round((human/size)*100);
-	const alienPerc = Math.round((alien/size)*100);
-	const humanoidPerc = Math.round((humanoid/size)*100);
-	const speciesUnknownPerc = Math.round((speciesUnknown/size)*100);
-	const poopybuttholePerc = Math.round((poopybutthole/size)*100);
-	const mythologPerc = Math.round((mytholog/size)*100);
-	const animalPerc = Math.round((animal/size)*100);
-	const vampirePerc = Math.round((vampire/size)*100);
-	const robotPerc = Math.round((robot/size)*100);
-	const cronenbergPerc = Math.round((cronenberg/size)*100);
-	const diseasePerc = Math.round((disease/size)*100);
-	const parasitePerc = Math.round((parasite/size)*100);
+	return {human, alien, humanoid, speciesUnknown, poopybutthole, mytholog, animal, vampire, robot, cronenberg, disease, parasite};
+};
 
-	console.log(`Human: ${humanPerc}%, Alien: ${alienPerc}%, Humanoid: ${humanoidPerc}%, SpeciesUnknown: ${speciesUnknownPerc}%, Poopybutthole: ${poopybuttholePerc}%, Mytholog: ${mythologPerc}%, Animal: ${animalPerc}%, Vampire: ${vampirePerc}%, Robot: ${robotPerc}%, Cronenberg: ${cronenbergPerc}, Disease: ${diseasePerc}, Parasite:${parasitePerc}`);	
+const charCountSpeciesByGender = () => {
+	
+	//HUMAN
+	const arraySpeciesHuman = array.filter(i => i.species === "Human");
+	const sizeHuman = arraySpeciesHuman.length;
 
-	// const test = array.filter( i => (i.species === "Human") && (i.gender === "Male"));
+	const humanFemale = Number(((((arraySpeciesHuman.filter(i => i.gender === "Female")).length)/sizeHuman)*100).toFixed(1));
+	const humanMale = Number(((((arraySpeciesHuman.filter(i => i.gender === "Male")).length)/sizeHuman)*100).toFixed(1));
+	const humanUnknown = Number(((((arraySpeciesHuman.filter(i => i.gender === "unknown")).length)/sizeHuman)*100).toFixed(1));
+	const humanGenderless = Number(((((arraySpeciesHuman.filter(i => i.gender === "Genderless")).length)/sizeHuman)*100).toFixed(1));
 
-	// console.log(Math.round((test.length/human)*100));
+	//ALIEN
+	const arraySpeciesAlien = array.filter(i => i.species === "Alien");
+	const sizeAlien = arraySpeciesAlien.length;
 
+	const alienFemale = Number(((((arraySpeciesAlien.filter(i => i.gender === "Female")).length)/sizeAlien)*100).toFixed(1));
+	const alienMale = Number(((((arraySpeciesAlien.filter(i => i.gender === "Male")).length)/sizeAlien)*100).toFixed(1));
+	const alienUnknown = Number(((((arraySpeciesAlien.filter(i => i.gender === "unknown")).length)/sizeAlien)*100).toFixed(1));
+	const alienGenderless = Number(((((arraySpeciesAlien.filter(i => i.gender === "Genderless")).length)/sizeAlien)*100).toFixed(1));
+
+	//HUMANOID
+	const arraySpeciesHumanoid = array.filter(i => i.species === "Humanoid");
+	const sizeHumanoid = arraySpeciesHumanoid.length;
+
+	const humanoidFemale = Number(((((arraySpeciesHumanoid.filter(i => i.gender === "Female")).length)/sizeHumanoid)*100).toFixed(1));
+	const humanoidMale = Number(((((arraySpeciesHumanoid.filter(i => i.gender === "Male")).length)/sizeHumanoid)*100).toFixed(1));
+	const humanoidUnknown = Number(((((arraySpeciesHumanoid.filter(i => i.gender === "unknown")).length)/sizeHumanoid)*100).toFixed(1));
+	const humanoidGenderless = Number(((((arraySpeciesHumanoid.filter(i => i.gender === "Genderless")).length)/sizeHumanoid)*100).toFixed(1));
+
+	//SPECIES UNKNOWN
+	const arraySpeciesUnknown = array.filter(i => i.species === "unknown");
+	const sizeSpeciesUnknown = arraySpeciesUnknown.length;
+
+	const speciesUnknownFemale = Number(((((arraySpeciesUnknown.filter(i => i.gender === "Female")).length)/sizeSpeciesUnknown)*100).toFixed(1));
+	const speciesUnknownMale = Number(((((arraySpeciesUnknown.filter(i => i.gender === "Male")).length)/sizeSpeciesUnknown)*100).toFixed(1));
+	const speciesUnknownUnknown = Number(((((arraySpeciesUnknown.filter(i => i.gender === "unknown")).length)/sizeSpeciesUnknown)*100).toFixed(1));
+	const speciesUnknownGenderless = Number(((((arraySpeciesUnknown.filter(i => i.gender === "Genderless")).length)/sizeSpeciesUnknown)*100).toFixed(1));
+
+	//POOPYBUTTHOLE
+	const arrayPoopybutthole = array.filter(i => i.species === "Poopybutthole");
+	const sizePoopybutthole = arrayPoopybutthole.length;
+
+	const poopybuttholeFemale = Number(((((arrayPoopybutthole.filter(i => i.gender === "Female")).length)/sizePoopybutthole)*100).toFixed(1));
+	const poopybuttholeMale = Number(((((arrayPoopybutthole.filter(i => i.gender === "Male")).length)/sizePoopybutthole)*100).toFixed(1));
+	const poopybuttholeUnknown = Number(((((arrayPoopybutthole.filter(i => i.gender === "unknown")).length)/sizePoopybutthole)*100).toFixed(1));
+	const poopybuttholeGenderless = Number(((((arrayPoopybutthole.filter(i => i.gender === "Genderless")).length)/sizePoopybutthole)*100).toFixed(1));
+
+	//MYTHLOG
+	const arrayMytholog = array.filter(i => i.species === "Mytholog");
+	const sizeMytholog = arrayMytholog.length;
+
+	const mythologFemale = Number(((((arrayMytholog.filter(i => i.gender === "Female")).length)/sizeMytholog)*100).toFixed(1));
+	const mythologMale = Number(((((arrayMytholog.filter(i => i.gender === "Male")).length)/sizeMytholog)*100).toFixed(1));
+	const mythologUnknown = Number(((((arrayMytholog.filter(i => i.gender === "unknown")).length)/sizeMytholog)*100).toFixed(1));
+	const mythologGenderless = Number(((((arrayMytholog.filter(i => i.gender === "Genderless")).length)/sizeMytholog)*100).toFixed(1));
+
+	//ANIMAL
+	const arrayAnimal = array.filter(i => i.species === "Animal");
+	const sizeAnimal = arrayAnimal.length;
+
+	const animalFemale = Number(((((arrayAnimal.filter(i => i.gender === "Female")).length)/sizeAnimal)*100).toFixed(1));
+	const animalMale = Number(((((arrayAnimal.filter(i => i.gender === "Male")).length)/sizeAnimal)*100).toFixed(1));
+	const animalUnknown = Number(((((arrayAnimal.filter(i => i.gender === "unknown")).length)/sizeAnimal)*100).toFixed(1));
+	const animalGenderless = Number(((((arrayAnimal.filter(i => i.gender === "Genderless")).length)/sizeAnimal)*100).toFixed(1));
+
+	//VAMPIRE
+	const arrayVampire = array.filter(i => i.species === "Vampire");
+	const sizeVampire = arrayVampire.length;
+
+	const vampireFemale = Number(((((arrayVampire.filter(i => i.gender === "Female")).length)/sizeVampire)*100).toFixed(1));
+	const vampireMale = Number(((((arrayVampire.filter(i => i.gender === "Male")).length)/sizeVampire)*100).toFixed(1));
+	const vampireUnknown = Number(((((arrayVampire.filter(i => i.gender === "unknown")).length)/sizeVampire)*100).toFixed(1));
+	const vampireGenderless = Number(((((arrayVampire.filter(i => i.gender === "Genderless")).length)/sizeVampire)*100).toFixed(1));
+
+	//ROBOT
+	const arrayRobot = array.filter(i => i.species === "Robot");
+	const sizeRobot = arrayRobot.length;
+
+	const robotFemale = Number(((((arrayRobot.filter(i => i.gender === "Female")).length)/sizeRobot)*100).toFixed(1));
+	const robotMale = Number(((((arrayRobot.filter(i => i.gender === "Male")).length)/sizeRobot)*100).toFixed(1));
+	const robotUnknown = Number(((((arrayRobot.filter(i => i.gender === "unknown")).length)/sizeRobot)*100).toFixed(1));
+	const robotGenderless = Number(((((arrayRobot.filter(i => i.gender === "Genderless")).length)/sizeRobot)*100).toFixed(1));
+
+	//CRONENBERG
+	const arrayCronenberg = array.filter(i => i.species === "Cronenberg");
+	const sizeCronenberg = arrayCronenberg.length;
+
+	const cronenbergFemale = Number(((((arrayCronenberg.filter(i => i.gender === "Female")).length)/sizeCronenberg)*100).toFixed(1));
+	const cronenbergMale = Number(((((arrayCronenberg.filter(i => i.gender === "Male")).length)/sizeCronenberg)*100).toFixed(1));
+	const cronenbergUnknown = Number(((((arrayCronenberg.filter(i => i.gender === "unknown")).length)/sizeCronenberg)*100).toFixed(1));
+	const cronenbergGenderless = Number(((((arrayCronenberg.filter(i => i.gender === "Genderless")).length)/sizeCronenberg)*100).toFixed(1));
+
+	//DISEASE
+	const arrayDisease = array.filter(i => i.species === "Disease");
+	const sizeDisease = arrayDisease.length;
+
+	const diseaseFemale = Number(((((arrayDisease.filter(i => i.gender === "Female")).length)/sizeDisease)*100).toFixed(1));
+	const diseaseMale = Number(((((arrayDisease.filter(i => i.gender === "Male")).length)/sizeDisease)*100).toFixed(1));
+	const diseaseUnknown = Number(((((arrayDisease.filter(i => i.gender === "unknown")).length)/sizeDisease)*100).toFixed(1));
+	const diseaseGenderless = Number(((((arrayDisease.filter(i => i.gender === "Genderless")).length)/sizeDisease)*100).toFixed(1));
+
+	//PARASITE
+	const arrayParasite = array.filter(i => i.species === "Parasite");
+	const sizeParasite = arrayParasite.length;
+
+	const parasiteFemale = Number(((((arrayParasite.filter(i => i.gender === "Female")).length)/sizeParasite)*100).toFixed(1));
+	const parasiteMale = Number(((((arrayParasite.filter(i => i.gender === "Male")).length)/sizeParasite)*100).toFixed(1));
+	const parasiteUnknown = Number(((((arrayParasite.filter(i => i.gender === "unknown")).length)/sizeParasite)*100).toFixed(1));
+	const parasiteGenderless = Number(((((arrayParasite.filter(i => i.gender === "Genderless")).length)/sizeParasite)*100).toFixed(1));
+
+	return {}
 };
 
 window.data = {
   searchForCharacter: searchForCharacter,
   showAllChar: showAllChar,
-  searchByRadioButton: searchByRadioButton
+  searchByRadioButton: searchByRadioButton,
+  charCountGender: charCountGender,
+  charCountStatus: charCountStatus,
+  charCountSpecies: charCountSpecies
 }; 
+

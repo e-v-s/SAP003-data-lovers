@@ -25,7 +25,7 @@ const openRadioButton = () => {
 
   let newArray = arrayMap.filter((item, index) => arrayMap.indexOf(item) === index);
 
-  document.getElementById("print-here").innerHTML += `${newArray.map(item => `<input class="checkbox" name="radio" type="radio" value="${item}">${item}</input>`)}`;
+  document.getElementById("print-here").innerHTML += `${newArray.map(item => `<input class="checkbox" name="radio" type="radio" value="${item}">${item}</input>`).join(" ")}`;
 };
 
 //funtion which submit the values from the checkboxes created above to the searchRadioButton function
@@ -57,6 +57,89 @@ const cleanInputBox = () => {
 };
 
 //function to call the counter
+
+
+
+google.charts.load("current", {"packages":["corechart"]});
+// google.charts.setOnLoadCallback(drawChartGender);
+// google.charts.setOnLoadCallback(drawChartStatus);
+
+// Draw the chart and set the chart values
+function drawChartGender() {
+  
+  const y = window.data.charCountGender();
+
+  //pizza chart to show all genders
+  const dataGender = google.visualization.arrayToDataTable([
+  ["Char by gender", "Gender"],
+  ["Female", y.female],
+  ["Male", y.male],
+  ["Unknown", y.genderUnknown],
+  ["Genderless", y.genderless],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  const optionsGender = {"title":"Characters By Gender", "pieHole": 0.4,"width":400, "height":300};
+
+  // Display the chart inside the <div> element with id="piechart"
+  const chartGender = new google.visualization.PieChart(document.getElementById("piechart-gender"));
+
+  chartGender.draw(dataGender, optionsGender);
+};
+
+const drawChartStatus = () => {
+  //STATUS
+
+  const y = window.data.charCountStatus();
+
+  const dataStatus = google.visualization.arrayToDataTable([
+    ["Char by status", "Status"],
+    ["Alive", y.alive],
+    ["Dead", y.dead],
+    ["unknown", y.statusUnknown]
+    ]);
+
+  const optionsStatus = {"title": "Characters by Status", "width": 400, "height": 300};
+
+  const chartStatus = new google.visualization.PieChart(document.getElementById("piechart-status"));
+
+  chartStatus.draw(dataStatus, optionsStatus);
+};
+
+const drawChartSpecies = () => {
+
+  const y = window.data.charCountSpecies();
+
+  const dataSpecies = google.visualization.arrayToDataTable([
+    ["Char by Species", "Species"],
+    ["Human", y.human],
+    ["Alien", y.alien],
+    ["Humanoid", y.humanoid],
+    ["Species unknown", y.speciesUnknown],
+    ["Poopybutthole", y.poopybutthole],
+    ["Mytholog", y.mytholog],
+    ["Animal", y.animal],
+    ["Vampire", y.vampire],
+    ["Robot", y.robot],
+    ["Cronenberg", y.cronenberg],
+    ["Disease", y.disease],
+    ["Parasite", y.parasite]
+    ]);
+
+  const optionsSpecies = {"title": "Characters by Species", "width": 600, "height": 500};
+
+  const chartSpecies = new google.visualization.PieChart(document.getElementById("piechart-species"));
+
+  chartSpecies.draw(dataSpecies, optionsSpecies);
+};
+
+const drawChartSpeciesByGender = () => {
+
+};
+
+google.charts.setOnLoadCallback(drawChartGender);
+google.charts.setOnLoadCallback(drawChartStatus);
+google.charts.setOnLoadCallback(drawChartSpecies);
 
 window.onload = function() {
   showEverybody();
