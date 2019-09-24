@@ -55,13 +55,7 @@ const cleanInputBox = () => {
   document.getElementById("char-value").value = "";
 };
 
-//function to call the counter
-
-
-
 google.charts.load("current", {"packages":["corechart"]});
-// google.charts.setOnLoadCallback(drawChartGender);
-// google.charts.setOnLoadCallback(drawChartStatus);
 
 // Draw the chart and set the chart values
 function drawChartGender() {
