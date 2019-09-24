@@ -56,6 +56,8 @@ const cleanInputBox = () => {
   document.getElementById("char-value").value = "";
 };
 
+//function to call the counter
+
 window.onload = function() {
   showEverybody();
   openRadioButton();
@@ -63,7 +65,3 @@ window.onload = function() {
 
 document.getElementById("search-type").addEventListener("change", openRadioButton);
 document.getElementById("btn-search-type").addEventListener("click", submit);
-document.getElementById("btn-char").addEventListener("click", function() {
-  searchCharacter();
-  cleanInputBox();
-});

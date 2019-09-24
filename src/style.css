@@ -8,6 +8,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #000;
 }
 
 /* --------------------HEADER ---------------------*/
@@ -21,14 +22,14 @@ body{
     height: 100%;
     margin: 0 auto;
     display: block;
-    width: 60%;
+    width: 80%;
 }
 
 .nav-bar-items {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
-    background-color: #CB006F;
+    background-color: #DB2156;
 }
 
 .nav-bar, .nav-bar-items {
@@ -48,14 +49,14 @@ body{
 }
 
 .nav-bar-item>a:hover {
-    color: #09CB00;
+    color: #FFBC33;
 }
 
 /*---------------------MAIN------------------------*/
 
 .background-main{
-    background-color: antiquewhite;
-    width: 60%;
+    background-color: #8CA1FF;
+    width: 80%;
     margin: 0 auto;
     display: block;
     padding-top: 20px;
@@ -63,9 +64,22 @@ body{
 
 /*------------------MAIN SEARCH--------------------*/
 
-.input-char, .btn-char-send {
-    display: block;
+.box-search-by-name, .box-search-by-type {
+    display: inline;
+
 }
+
+.box-search-by-name {
+    float: left;
+}
+
+.box-search-by-type {
+    float: right;
+}
+
+/*.input-char, .btn-char-send {
+    display: block;
+}*/
 
 .image-plus-list-char {
     width: 100%;
@@ -100,12 +114,12 @@ body{
 .all-char {
     flex-direction: row;
     min-width: 250px;
-    border: 1px solid #9424DF;
+    border: 1px solid #663E2B;
     height: 400px;
     margin-left: 10px;
     margin-top: 20px;
     border-radius: 15px;
-    background: #680FC6;
+    background: #000;
     box-shadow: 3px 3px 3px black;
     position: relative;
 }
@@ -125,7 +139,7 @@ body{
     position: sticky;
     padding-left: 10px;
     word-wrap: break-all;
-    color: #31C60F;
+    color: #FFBC33;
     font-family: 'Chewy', cursive;
     text-shadow: 3px 3px 3px black;
     font-size: 30px;
@@ -138,6 +152,7 @@ body{
     margin: 0 auto;
     padding-top: 5px;
     padding-left: 20px;
+    color: #FAD6B4;
 }
 
 /*.character{
@@ -152,3 +167,9 @@ body{
     background-color: white;
     color: #262624;
   }*/
+
+  /*------------------PAGE FOOTER--------------------*/
+
+  .page-footer {
+    height: 60px;
+  }
