@@ -281,4 +281,3 @@ window.data = {
   charCountStatus: charCountStatus,
   charCountSpecies: charCountSpecies
 }; 
-

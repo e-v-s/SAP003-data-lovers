@@ -56,10 +56,6 @@ const cleanInputBox = () => {
   document.getElementById("char-value").value = "";
 };
 
-//function to call the counter
-
-
-
 google.charts.load("current", {"packages":["corechart"]});
 // google.charts.setOnLoadCallback(drawChartGender);
 // google.charts.setOnLoadCallback(drawChartStatus);
@@ -133,9 +129,9 @@ const drawChartSpecies = () => {
   chartSpecies.draw(dataSpecies, optionsSpecies);
 };
 
-const drawChartSpeciesByGender = () => {
+// const drawChartSpeciesByGender = () => {
 
-};
+// };
 
 google.charts.setOnLoadCallback(drawChartGender);
 google.charts.setOnLoadCallback(drawChartStatus);
