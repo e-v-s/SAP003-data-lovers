@@ -56,6 +56,7 @@ const cleanInputBox = () => {
 };
 
 google.charts.load("current", {"packages":["corechart"]});
+google.charts.load("current", {"packages":["bar"]});
 
 // Draw the chart and set the chart values
 function drawChartGender() {
@@ -128,11 +129,40 @@ const drawChartSpecies = () => {
 
 const drawChartSpeciesByGender = () => {
 
+  const y = window.data.charCountSpeciesByGender();
+
+  const data = google.visualization.arrayToDataTable([
+          ["Species", "Female", "Male", "Genderless", "Unknown"],
+          ["Human", y.humanFemale, y.humanMale, y.humanGenderless, y.humanUnknown],
+          ["Alien", y.alienFemale, y.alienMale, y.alienGenderless, y.alienUnknown],
+          ["Humanoid", y.humanoidFemale, y.humanoidMale, y.humanoidGenderless, y.humanoidUnknown],
+          ["Unknown", y.speciesUnknownFemale, y.speciesUnknownMale, y.speciesUnknownGenderless, y.speciesUnknownUnknown],
+          ["Poopybutthole", y.poopybuttholeFemale, y.poopybuttholeMale, y.poopybuttholeGenderless, y.poopybuttholeUnknown],
+          ["Mytholog", y.mythologFemale, y.mythologMale, y.mythologGenderless, y.mythologUnknown],
+          ["Animal", y.animalFemale, y.animalMale, y.animalGenderless, y.animalUnknown],
+          ["Vampire", y.vampireFemale, y.vampireMale, y.vampireGenderless, y.vampireUnknown],
+          ["Robot", y.robotFemale, y.robotMale, y.robotGenderless, y.robotUnknown],
+          ["Cronenberg", y.cronenbergFemale, y.cronenbergMale, y.cronenbergGenderless, y.cronenbergUnknown],
+          ["Disease", y.diseaseFemale, y.diseaseMale, y.diseaseGenderless, y.diseaseUnknown],
+          ["Parasite", y.parasiteFemale, y.parasiteMale, y.parasiteGenderless, y.parasiteUnknown]
+        ]);
+
+        const options = {
+          chart: {
+            title: "Species By Gender",
+            subtitle: "Species, Gender, and Profit: 2014-2017", "width": 700, "height":700
+          }
+        };
+
+        const chart = new google.charts.Bar(document.getElementById('column-chart-species-by-gender'));
+
+        chart.draw(data, options);
 };
 
 google.charts.setOnLoadCallback(drawChartGender);
 google.charts.setOnLoadCallback(drawChartStatus);
 google.charts.setOnLoadCallback(drawChartSpecies);
+google.charts.setOnLoadCallback(drawChartSpeciesByGender);
 
 window.onload = function() {
   showEverybody();

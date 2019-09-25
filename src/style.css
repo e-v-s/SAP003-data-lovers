@@ -1,7 +1,6 @@
 /* -----------------BASIC STYLE------------------*/
 
 body{
-    height: 100%;
     width: 100%;
     list-style: none;
     font-family: helvetica, sans-serif;
@@ -168,7 +167,31 @@ body{
     color: #262624;
   }*/
 
-  /*------------------PAGE FOOTER--------------------*/
+/*------------------MAIN DASHBOARD--------------------*/
+
+.dashboard {
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.dashboard-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.dashboard-gender {
+    border: 1px solid #fff;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.male {
+    background-color: blue; 
+}
+
+/*------------------PAGE FOOTER--------------------*/
 
   .page-footer {
     height: 60px;
