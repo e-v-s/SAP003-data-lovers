@@ -128,14 +128,15 @@ const charCountGender = () => {
 const charCountStatus = () => {
 
 	const size = array.length;
-  
+
 	const arrayStatus = array.map(item => item.status);
-	
+
 	const alive = Number(((((arrayStatus.filter(i => i === "Alive")).length)/size)*100).toFixed(1));
 	const dead = Number((((arrayStatus.filter(i => i === "Dead")).length)/size).toFixed(1));
 	const statusUnknown = Number(((((arrayStatus.filter(i => i === "unknown")).length)/size)*100).toFixed(1));
 
 	return {alive, dead, statusUnknown};
+};
 
 //Species counter
 const charCountSpecies = () => {
@@ -270,7 +271,7 @@ const charCountSpeciesByGender = () => {
 	const parasiteUnknown = Number(((((arrayParasite.filter(i => i.gender === "unknown")).length)/sizeParasite)*100).toFixed(1));
 	const parasiteGenderless = Number(((((arrayParasite.filter(i => i.gender === "Genderless")).length)/sizeParasite)*100).toFixed(1));
 
-	return {}
+	return {humanFemale, humanMale, humanGenderless, humanUnknown, alienFemale, alienMale, alienGenderless, alienUnknown,humanoidFemale, humanoidMale, humanoidGenderless, humanoidUnknown,speciesUnknownFemale, speciesUnknownMale, speciesUnknownGenderless, speciesUnknownUnknown, poopybuttholeFemale, poopybuttholeMale, poopybuttholeGenderless, poopybuttholeUnknown, mythologFemale, mythologMale, mythologGenderless, mythologUnknown, animalFemale, animalMale, animalGenderless, animalUnknown, vampireFemale, vampireMale, vampireGenderless, vampireUnknown, robotFemale, robotMale, robotGenderless, robotUnknown, cronenbergFemale, cronenbergMale, cronenbergGenderless, cronenbergUnknown, diseaseFemale, diseaseMale, diseaseGenderless, diseaseUnknown, parasiteFemale, parasiteMale, parasiteUnknown, parasiteGenderless}
 };
 
 window.data = {

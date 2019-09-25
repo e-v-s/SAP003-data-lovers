@@ -12,9 +12,8 @@ document.getElementById("search-type").innerHTML = genderSelect + speciesSelect 
 const searchCharacter = () => {
   const inputChar = document.getElementById("char-value").value;
 
-  document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(inputChar, array);	
+  document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(inputChar, array);  
 };
-
 //function which creates radio buttons with the options related to the values inside each select tag (gender, status and species)
 const openRadioButton = () => {
   document.getElementById("print-here").innerHTML = "";
@@ -57,8 +56,6 @@ const cleanInputBox = () => {
 };
 
 google.charts.load("current", {"packages":["corechart"]});
-// google.charts.setOnLoadCallback(drawChartGender);
-// google.charts.setOnLoadCallback(drawChartStatus);
 
 // Draw the chart and set the chart values
 function drawChartGender() {
@@ -95,7 +92,7 @@ const drawChartStatus = () => {
     ["unknown", y.statusUnknown]
     ]);
 
-  const optionsStatus = {"title": "Characters by Status", "width": 400, "height": 300};
+  const optionsStatus = {"title": "Characters by Status", "width": 400, "height": 300, "pieHole": 0.4};
 
   const chartStatus = new google.visualization.PieChart(document.getElementById("piechart-status"));
 
@@ -129,9 +126,9 @@ const drawChartSpecies = () => {
   chartSpecies.draw(dataSpecies, optionsSpecies);
 };
 
-// const drawChartSpeciesByGender = () => {
+const drawChartSpeciesByGender = () => {
 
-// };
+};
 
 google.charts.setOnLoadCallback(drawChartGender);
 google.charts.setOnLoadCallback(drawChartStatus);
