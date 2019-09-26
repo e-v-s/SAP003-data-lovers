@@ -8,6 +8,15 @@ const statusSelect = `<option value="status">${(Object.keys(array[0]))[2]}</opti
 
 document.getElementById("search-type").innerHTML = genderSelect + speciesSelect + statusSelect;
 
+const cssResponsive = () => {
+  var x = document.getElementById("nav-bar");
+  if (x.className === "nav-bar") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav-bar";
+  }
+}
+
 //Function used in searchForCharacter, used to search by name
 const searchCharacter = () => {
   const inputChar = document.getElementById("char-value").value;
@@ -132,19 +141,11 @@ const drawChartSpeciesByGender = () => {
   const y = window.data.charCountSpeciesByGender();
 
   const data = google.visualization.arrayToDataTable([
-          ["Species", "Female", "Male", "Genderless", "Unknown"],
-          ["Human", y.humanFemale, y.humanMale, y.humanGenderless, y.humanUnknown],
-          ["Alien", y.alienFemale, y.alienMale, y.alienGenderless, y.alienUnknown],
-          ["Humanoid", y.humanoidFemale, y.humanoidMale, y.humanoidGenderless, y.humanoidUnknown],
-          ["Unknown", y.speciesUnknownFemale, y.speciesUnknownMale, y.speciesUnknownGenderless, y.speciesUnknownUnknown],
-          ["Poopybutthole", y.poopybuttholeFemale, y.poopybuttholeMale, y.poopybuttholeGenderless, y.poopybuttholeUnknown],
-          ["Mytholog", y.mythologFemale, y.mythologMale, y.mythologGenderless, y.mythologUnknown],
-          ["Animal", y.animalFemale, y.animalMale, y.animalGenderless, y.animalUnknown],
-          ["Vampire", y.vampireFemale, y.vampireMale, y.vampireGenderless, y.vampireUnknown],
-          ["Robot", y.robotFemale, y.robotMale, y.robotGenderless, y.robotUnknown],
-          ["Cronenberg", y.cronenbergFemale, y.cronenbergMale, y.cronenbergGenderless, y.cronenbergUnknown],
-          ["Disease", y.diseaseFemale, y.diseaseMale, y.diseaseGenderless, y.diseaseUnknown],
-          ["Parasite", y.parasiteFemale, y.parasiteMale, y.parasiteGenderless, y.parasiteUnknown]
+          ["Gender", "Female", "Male", "Genderless", "Unknown", "Female", "Male", "Genderless", "Unknown", "Female", "Male", "Genderless", "Unknown"],
+          ["Female", y.humanFemale, y.alienFemale, y.humanoidFemale, y.speciesUnknownFemale, y.poopybuttholeFemale, y.mythologFemale, y.animalFemale, y.vampireFemale, y.robotFemale, y.cronenbergFemale, y.diseaseFemale, y.parasiteFemale],      
+          ["Male", y.humanMale, y.alienMale, y.humanoidMale, y.speciesUnknownMale, y.poopybuttholeMale, y.mythologMale, y.animalMale, y.vampireMale, y.robotMale, y.cronenbergMale, y.diseaseMale,  y.parasiteMale],           
+          ["Genderless", y.humanGenderless, y.humanoidGenderless, y.humanoidUnknown, y.alienGenderless, y.speciesUnknownGenderless, y.poopybuttholeGenderless, y.mythologGenderless, y.animalGenderless, y.vampireGenderless, y.robotGenderless, y.cronenbergGenderless, y.diseaseGenderless, y.parasiteGenderless],
+          ["Unknown", y.humanUnknown, y.alienUnknown, y.speciesUnknownUnknown, y.poopybuttholeUnknown, y.mythologUnknown, y.animalUnknown, y.vampireUnknown, y.robotUnknown, y.cronenbergUnknown, y.diseaseUnknown, y.parasiteUnknown],
         ]);
 
         const options = {
@@ -167,6 +168,7 @@ google.charts.setOnLoadCallback(drawChartSpeciesByGender);
 window.onload = function() {
   showEverybody();
   openRadioButton();
+  cssResponsive();
 };
 
 document.getElementById("search-type").addEventListener("change", openRadioButton);
