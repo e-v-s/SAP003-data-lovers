@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rick and Morty</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="stylesheet" href="style.css" />
@@ -12,13 +13,14 @@
     
     <header class="page-header">
       <img class="top-banner" src="rick-morty-banner.png">
-      <nav class="nav-bar">
+      <nav class="nav-bar" id="nav-bar">
         <li class="nav-bar-items">
-          <ul class="nav-bar-item"><a href="index.html">home</a></ul>
-          <ul class="nav-bar-item"><a href="#">dashboard</a></ul>
-          <ul class="nav-bar-item"><a href="#">sobre</a></ul>
-          <ul class="nav-bar-item"><a href="contato">contato</a></ul>
+          <ul class="nav-bar-item"><a href="#index.html">home</a></ul>
+          <ul class="nav-bar-item"><a href="#target-dashboard">dashboard</a></ul>
+          <ul class="nav-bar-item"><a href="#sobre">sobre</a></ul>
+          <ul class="nav-bar-item"><a href="#contato">contato</a></ul>
         </li>
+        <a><i id="click-responsive-navbar" class="fa fa-bars icon"></i></a>
       </nav>
     </header>
 
@@ -59,13 +61,47 @@
       <section id="show-images-of-all-char" class="character">
       </section>
       
-      <section class="dashboard">
-        <h2 class="dashboard-title">Dashboard Rick and Morty</h2>
-        <div id="piechart-gender"></div>
+      <section class="dashboard-section">
+        <h1 class="dashboard-title"><a name="target-dashboard">Dashboard Rick and Morty</a></h1>
+        <!-- GENDER -->
+        <div class="dashboard-gender char">
+          <p>493</p>
+          <h5>Total de Personagens</h5>
+        </div>
+        <div class="dashboard">
+          <div class="test char">
+            <div class="gender">
+              <p>73</p>
+              <h5>Feminino</h5>
+            </div>
+            <div class="gender">
+              <p>372</p>
+              <h5>Masculino</h5>
+            </div>
+            <div class="gender">
+              <p>6</p>
+              <h5>Agênero</h5>
+            </div>
+            <div class="gender">
+              <p>42</p>
+              <h5>Gênero Desconhecido</h5>
+            </div>
+          </div>
+        </div>
+        <div id="piechart-gender" class=""></div>
+        <!-- STATUS -->
+        <div class="dashboard-status alive">
+          <p>281</p>
+          <h5>Total de Personagens Vivos</h5>
+        </div>
         <div id="piechart-status"></div>
         <div id="piechart-species"></div>
+        <div id="column-chart-species-by-gender"></div>
+
       </section>
 
+    <a href="index.html" class="float-button"><i class="fa fa-arrow-up"></i></a>
+    
     </main>
 
     <footer class="page-footer"></footer>

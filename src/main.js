@@ -8,11 +8,20 @@ const statusSelect = `<option value="status">${(Object.keys(array[0]))[2]}</opti
 
 document.getElementById("search-type").innerHTML = genderSelect + speciesSelect + statusSelect;
 
+const cssResponsive = () => {
+  var x = document.getElementById("nav-bar");
+  if (x.className === "nav-bar") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav-bar";
+  }
+}
+
 //Function used in searchForCharacter, used to search by name
 const searchCharacter = () => {
   const inputChar = document.getElementById("char-value").value;
 
-  document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(inputChar, array);	
+  document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(inputChar, array);  
 };
 //function which creates radio buttons with the options related to the values inside each select tag (gender, status and species)
 const openRadioButton = () => {
@@ -92,7 +101,7 @@ const drawChartStatus = () => {
     ["unknown", y.statusUnknown]
     ]);
 
-  const optionsStatus = {"title": "Characters by Status", "width": 400, "height": 300};
+  const optionsStatus = {"title": "Characters by Status", "width": 400, "height": 300, "pieHole": 0.4};
 
   const chartStatus = new google.visualization.PieChart(document.getElementById("piechart-status"));
 
@@ -128,15 +137,37 @@ const drawChartSpecies = () => {
 
 const drawChartSpeciesByGender = () => {
 
+  const y = window.data.charCountSpeciesByGender();
+
+  const data = google.visualization.arrayToDataTable([
+          ["Gender", "Female", "Male", "Genderless", "Unknown", "Female", "Male", "Genderless", "Unknown", "Female", "Male", "Genderless", "Unknown"],
+          ["Female", y.humanFemale, y.alienFemale, y.humanoidFemale, y.speciesUnknownFemale, y.poopybuttholeFemale, y.mythologFemale, y.animalFemale, y.vampireFemale, y.robotFemale, y.cronenbergFemale, y.diseaseFemale, y.parasiteFemale],      
+          ["Male", y.humanMale, y.alienMale, y.humanoidMale, y.speciesUnknownMale, y.poopybuttholeMale, y.mythologMale, y.animalMale, y.vampireMale, y.robotMale, y.cronenbergMale, y.diseaseMale,  y.parasiteMale],           
+          ["Genderless", y.humanGenderless, y.humanoidGenderless, y.humanoidUnknown, y.alienGenderless, y.speciesUnknownGenderless, y.poopybuttholeGenderless, y.mythologGenderless, y.animalGenderless, y.vampireGenderless, y.robotGenderless, y.cronenbergGenderless, y.diseaseGenderless, y.parasiteGenderless],
+          ["Unknown", y.humanUnknown, y.alienUnknown, y.speciesUnknownUnknown, y.poopybuttholeUnknown, y.mythologUnknown, y.animalUnknown, y.vampireUnknown, y.robotUnknown, y.cronenbergUnknown, y.diseaseUnknown, y.parasiteUnknown],
+        ]);
+
+        const options = {
+          chart: {
+            title: "Species By Gender",
+            subtitle: "Species, Gender, and Profit: 2014-2017", "width": 700, "height":700
+          }
+        };
+
+        const chart = new google.charts.Bar(document.getElementById('column-chart-species-by-gender'));
+
+        chart.draw(data, options);
 };
 
 google.charts.setOnLoadCallback(drawChartGender);
 google.charts.setOnLoadCallback(drawChartStatus);
 google.charts.setOnLoadCallback(drawChartSpecies);
+google.charts.setOnLoadCallback(drawChartSpeciesByGender);
 
 window.onload = function() {
   showEverybody();
   openRadioButton();
+  cssResponsive();
 };
 
 document.getElementById("search-type").addEventListener("change", openRadioButton);
