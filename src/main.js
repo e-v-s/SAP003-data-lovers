@@ -65,7 +65,6 @@ const cleanInputBox = () => {
 };
 
 google.charts.load("current", {"packages":["corechart"]});
-google.charts.load("current", {"packages":["bar"]});
 
 // Draw the chart and set the chart values
 function drawChartGender() {
