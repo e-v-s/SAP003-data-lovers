@@ -2,47 +2,119 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rick and Morty</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     
-    <header>
-      <img class="topBanner" src="rick_and_morty_header.jpg"></img>
+    <header class="page-header">
+      <img class="top-banner" src="rick-morty-banner.png">
+      <nav class="nav-bar" id="nav-bar">
+        <li class="nav-bar-items">
+          <ul class="nav-bar-item"><a href="#index.html">home</a></ul>
+          <ul class="nav-bar-item"><a href="#target-dashboard">dashboard</a></ul>
+          <ul class="nav-bar-item"><a href="#sobre">sobre</a></ul>
+          <ul class="nav-bar-item"><a href="#contato">contato</a></ul>
+        </li>
+        <a><i id="click-responsive-navbar" class="fa fa-bars icon"></i></a>
+      </nav>
     </header>
+
     <div id="root"></div>
     <div class="background-image"></div>
-    <main class="background-main">
+
+    <main class="background-main">      
       <section>
-          
-          <input id="char-name" class="input-char" type="text" placeholder="Nome do personagem" required/>
-          <button type="submit" id="btn-char" class="btn-char-send">Pesquisar</button> 
-          <button type="reset" id="btn-clean">Limpar</button></br>
-          <input type="text" id="char-filter" placeholder="filtro" required/>
-          <button type="submit" id="btn-filter">Filtrar</button>
-          
+        <div class="box-search-by-name">
+          <p>Procure aqui o personagem :)</p>
+          <input id="char-value" class="input-char" type="text" placeholder="Nome do personagem" required value=""/>
+          <button type="submit" id="btn-char" class="btn-char-send"><i class="fa fa-search"></i></button>
+        </div>
+        
+        <div class="box-search-by-type">
+          <select name="" id="search-type">
+          </select>
+          <form id="form-search">      
+            <span id="print-here"></span>
+            <button type="submit" method="get" id="btn-search-type"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+
         <div class="image-plus-list-char">
-          <div id="image" class="image-char"></div>
+         <!--  <div id="image" class="image-char"></div> -->
           <li class="list-char">
-            <ul id="name"></ul>
-            <ul id="species"></ul>
-            <ul><p id="origin"></p></ul>
-           </li>
+            <ul id="name" class="list-char-item"></ul>
+            <ul id="species" class="list-char-item"></ul>
+            <ul><p id="origin" class="list-char-item"></p></ul>
+            <ul><p id="gender" class="list-char-item"></p></ul>
+            <ul><p id="status" class="list-char-item"></p></ul>
+            <ul><p id="type" class="list-char-item"></p></ul>
+            <ul><p id="living" class="list-char-item"></p></ul>
+          </li>
         </div>
       </section>
-      <section class="character">
-         <div id="resultado"></div>
+      
+      <section id="show-images-of-all-char" class="character">
       </section>
+      
+      <section class="dashboard-section">
+        <h1 class="dashboard-title"><a name="target-dashboard">Dashboard Rick and Morty</a></h1>
+        <!-- GENDER -->
+        <div class="dashboard-gender char">
+          <p>493</p>
+          <h5>Total de Personagens</h5>
+        </div>
+        <div class="dashboard">
+          <div class="test char">
+            <div class="gender">
+              <p>73</p>
+              <h5>Feminino</h5>
+            </div>
+            <div class="gender">
+              <p>372</p>
+              <h5>Masculino</h5>
+            </div>
+            <div class="gender">
+              <p>6</p>
+              <h5>Agênero</h5>
+            </div>
+            <div class="gender">
+              <p>42</p>
+              <h5>Gênero Desconhecido</h5>
+            </div>
+          </div>
+        </div>
+        <div id="piechart-gender" class=""></div>
+        <!-- STATUS -->
+        <div class="dashboard-status alive">
+          <p>281</p>
+          <h5>Total de Personagens Vivos</h5>
+        </div>
+        <div id="piechart-status"></div>
+        <div id="piechart-species"></div>
+        <div id="column-chart-species-by-gender"></div>
+
+      </section>
+
+    <a href="index.html" class="float-button"><i class="fa fa-arrow-up"></i></a>
+    
     </main>
+
+    <footer class="page-footer"></footer>
     <!-- <script src="data/injuries/injuries.js"></script> -->
     <!-- <script src="data/lol/lol.js"></script> -->
     <!-- <script src="data/patient/patient.js"></script> -->
     <!-- <script src="data/pokemon/pokemon.js"></script> -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="data/rickandmorty/rickandmorty_placeholder.js"></script>
     <!-- <script src="data/steam/steam.js"></script> -->
     <!-- <script src="data/worldbank/worldbank.js"></script> -->
     <script src="data.js"></script>
     <script src="main.js"></script>
-    </div>
+   
   </body>
 </html>
