@@ -1,5 +1,5 @@
 //array created using the object.results
-let array = RICKANDMORTY.results; 
+const array = RICKANDMORTY.results; 
 
 //these create options on select tag using the keys gender, species and status from the objects inside array
 const genderSelect = `<option value="gender">${(Object.keys(array[0]))[5]}</option>`;
@@ -8,19 +8,14 @@ const statusSelect = `<option value="status">${(Object.keys(array[0]))[2]}</opti
 
 document.getElementById("search-type").innerHTML = genderSelect + speciesSelect + statusSelect;
 
-const cssResponsive = () => {
-  var x = document.getElementById("nav-bar");
-  if (x.className === "nav-bar") {
-    x.className += " responsive";
-  } else {
-    x.className = "nav-bar";
-  }
-}
-
+document.getElementById("btn-char").addEventListener("click", function() {
+  searchCharacter();
+  cleanInputBox();
+});
 //Function used in searchForCharacter, used to search by name
 const searchCharacter = () => {
   const inputChar = document.getElementById("char-value").value;
-
+ 
   document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(inputChar, array);  
 };
 //function which creates radio buttons with the options related to the values inside each select tag (gender, status and species)
@@ -163,12 +158,11 @@ const drawChartSpeciesByGender = () => {
 google.charts.setOnLoadCallback(drawChartGender);
 google.charts.setOnLoadCallback(drawChartStatus);
 google.charts.setOnLoadCallback(drawChartSpecies);
-google.charts.setOnLoadCallback(drawChartSpeciesByGender);
+// google.charts.setOnLoadCallback(drawChartSpeciesByGender);
 
 window.onload = function() {
   showEverybody();
   openRadioButton();
-  cssResponsive();
 };
 
 document.getElementById("search-type").addEventListener("change", openRadioButton);
