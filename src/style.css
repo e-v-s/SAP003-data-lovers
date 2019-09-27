@@ -99,6 +99,7 @@ body{
   font-weight: bold;
   text-align: center;
   text-decoration: none;
+  padding-top: 5px;
 }
 
 .nav-bar a {
@@ -150,27 +151,46 @@ body{
     width: 80%;
     margin: 0 auto;
     display: block;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /*------------------MAIN SEARCH--------------------*/
 
-.box-search-by-name, .box-search-by-type {
-    display: inline;
-
+.box-search-by-name {
+    border: 1px solid #000;
+    width: 100%;
 }
 
-.box-search-by-name {
-    float: left;
+.input-char {
+  border-radius: 50px;
+  outline: none;
+  padding: 2px 6px;
+}
+
+.btn-char-send {
+  border-radius: 45px;
+  padding: 4px 6px 4px 6px;
+  background-color: #000;
+  border: none;
+  outline: none;
+}
+
+.fa-search {
+  color: #f2f2f2;
+}
+
+.fa-search:hover {
+  color: #FFBC33;  
 }
 
 .box-search-by-type {
-    float: right;
+    border: 1px solid #DB2156;
+    width: 100%;
 }
 
-/*.input-char, .btn-char-send {
-    display: block;
-}*/
+.radio-btns {
+  display: inline;
+}
 
 .image-plus-list-char {
     width: 100%;
@@ -263,13 +283,14 @@ body{
 
 .dashboard-section {
     background-color: #000;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
 }
 
 .dashboard-title {
     color: #fff;
     text-align: center;
-    padding-top: 60px;
+    padding: 30px 0 30px;
+    border: 1px solid #fff;
 }
 
 .dashboard-gender {
@@ -296,6 +317,11 @@ body{
   justify-content: center;
   border: 1px solid #fff;
   width: 120px;
+}
+
+#piechart-gender {
+  margin-left: 32%;
+  margin-right: 32%;
 }
 
 /*------------------FLOAT BUTTON--------------------*/

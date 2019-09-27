@@ -19,43 +19,31 @@
           <ul class="nav-bar-item"><a href="#target-dashboard">dashboard</a></ul>
           <ul class="nav-bar-item"><a href="#sobre">sobre</a></ul>
           <ul class="nav-bar-item"><a href="#contato">contato</a></ul>
+          <ul>
+            <input id="char-value" class="input-char" type="text" placeholder="Busca por personagem" required value=""/>
+            <button type="submit" id="btn-char" class="btn-char-send"><i class="fa fa-search"></i></button>
+          </ul>
         </li>
-        <a><i id="click-responsive-navbar" class="fa fa-bars icon"></i></a>
       </nav>
     </header>
 
-    <div id="root"></div>
-    <div class="background-image"></div>
-
     <main class="background-main">      
       <section>
-        <div class="box-search-by-name">
-          <p>Quer procurar seu personagem pelo nome?</p>
+        <!-- <div class="box-search-by-name">
+          <p class="input-title">Quer procurar seu personagem pelo nome?</p>
           <input id="char-value" class="input-char" type="text" placeholder="Nome do personagem" required value=""/>
           <button type="submit" id="btn-char" class="btn-char-send"><i class="fa fa-search"></i></button>
-        </div>
+        </div> -->
         
         <div class="box-search-by-type">
           <select name="" id="search-type">
           </select>
           <form id="form-search">      
-            <span id="print-here"></span>
+            <span id="print-here" class="radio-btns"></span>
             <button type="submit" method="get" id="btn-search-type"><i class="fa fa-search"></i></button>
           </form>
         </div>
 
-        <div class="image-plus-list-char">
-         <!--  <div id="image" class="image-char"></div> -->
-          <li class="list-char">
-            <ul id="name" class="list-char-item"></ul>
-            <ul id="species" class="list-char-item"></ul>
-            <ul><p id="origin" class="list-char-item"></p></ul>
-            <ul><p id="gender" class="list-char-item"></p></ul>
-            <ul><p id="status" class="list-char-item"></p></ul>
-            <ul><p id="type" class="list-char-item"></p></ul>
-            <ul><p id="living" class="list-char-item"></p></ul>
-          </li>
-        </div>
       </section>
       
       <section id="show-images-of-all-char" class="character">
@@ -87,8 +75,9 @@
               <h5>Gênero Desconhecido</h5>
             </div>
           </div>
+          <div id="piechart-gender" class=""></div>
         </div>
-        <div id="piechart-gender" class=""></div>
+        <!-- <div id="piechart-gender" class=""></div> -->
         <!-- STATUS -->
         <div class="dashboard-status alive">
           <p>281</p>
