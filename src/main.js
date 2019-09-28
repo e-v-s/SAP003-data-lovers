@@ -1,5 +1,5 @@
 //array created using the object.results
-let array = RICKANDMORTY.results;
+const array = RICKANDMORTY.results; 
 
 //these create options on select tag using the keys gender, species and status from the objects inside array
 const genderSelect = `<option value="gender">${(Object.keys(array[0]))[5]}</option>`;
@@ -8,20 +8,15 @@ const statusSelect = `<option value="status">${(Object.keys(array[0]))[2]}</opti
 
 document.getElementById("search-type").innerHTML = genderSelect + speciesSelect + statusSelect;
 
-const cssResponsive = () => {
-  var x = document.getElementById("nav-bar");
-  if (x.className === "nav-bar") {
-    x.className += " responsive";
-  } else {
-    x.className = "nav-bar";
-  }
-}
-
+document.getElementById("btn-char").addEventListener("click", function() {
+  searchCharacter();
+  cleanInputBox();
+});
 //Function used in searchForCharacter, used to search by name
 const searchCharacter = () => {
   const inputChar = document.getElementById("char-value").value;
-
-  document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(inputChar, array);
+ 
+  document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(inputChar, array);  
 };
 //function which creates radio buttons with the options related to the values inside each select tag (gender, status and species)
 const openRadioButton = () => {
@@ -71,6 +66,33 @@ function drawChartGender() {
 
   const y = window.data.charCountGender();
 
+  document.getElementById("dash-gender").innerHTML = `<div class="dashboard-gender char">
+          <p class="num">${y.size}</p>
+          <p>Personagens</p>
+        </div>
+
+          <div class="dashboard char">
+            <div class="gender female">
+              <p class="num">${((y.female*y.size)/100).toFixed(0)}</p>
+              <p>Feminino</p>
+            </div>
+            <div class="gender male">
+              <p class="num">${((y.male*y.size)/100).toFixed(0)}</p>
+              <p>Masculino</p>
+            </div>
+            <div class="gender genderless">
+              <p class="num">${((y.genderless*y.size)/100).toFixed(0)}</p>
+              <p>Agênero</p>
+            </div>
+            <div class="gender gender-unknown">
+              <p class="num">${((y.genderUnknown*y.size)/100).toFixed(0)}</p>
+              <p class="g">Gênero Desconhecido</p>
+            </div>
+            
+          </div>
+          <div id="piechart-gender"></div>
+        `;
+
   //pizza chart to show all genders
   const dataGender = google.visualization.arrayToDataTable([
     ["Char by gender", "Gender"],
@@ -81,7 +103,7 @@ function drawChartGender() {
   ]);
 
   // Optional; add a title and set the width and height of the chart
-  const optionsGender = { "title": "Characters By Gender", "pieHole": 0.4, "width": 400, "height": 300 };
+  const optionsGender = {"title":"Characters By Gender", "pieHole": 0.4,"width": 300, "height":300};
 
   // Display the chart inside the <div> element with id="piechart"
   const chartGender = new google.visualization.PieChart(document.getElementById("piechart-gender"));
@@ -94,6 +116,26 @@ const drawChartStatus = () => {
 
   const y = window.data.charCountStatus();
 
+  document.getElementById("dash-status").innerHTML = `<div class="dashboard-status char">
+          <p class="num">3</p>
+          <p>Status</p>
+        </div>
+        <div class="dashboard char">
+          <div class="status alive">
+            <p class="num">${((y.alive*y.size)/100).toFixed(0)}</p>
+            <p>Personagens Vivos</p>
+          </div>
+          <div class="status dead">
+            <p class="num">${((y.dead*y.size)/100).toFixed(0)}</p>
+            <p>Personagens Mortos</p>
+          </div>
+          <div class="status status-unknown">
+           <p class="num">${((y.statusUnknown*y.size)/100).toFixed(0)}</p>
+            <p>Situação desconhecida</p>
+          </div>
+        </div>
+        <div id="piechart-status"></div>`;
+
   const dataStatus = google.visualization.arrayToDataTable([
     ["Char by status", "Status"],
     ["Alive", y.alive],
@@ -101,7 +143,7 @@ const drawChartStatus = () => {
     ["unknown", y.statusUnknown]
   ]);
 
-  const optionsStatus = { "title": "Characters by Status", "width": 400, "height": 300, "pieHole": 0.4 };
+  const optionsStatus = {"title": "Characters by Status", "width": 300, "height": 300, "pieHole": 0.4};
 
   const chartStatus = new google.visualization.PieChart(document.getElementById("piechart-status"));
 
@@ -111,6 +153,62 @@ const drawChartStatus = () => {
 const drawChartSpecies = () => {
 
   const y = window.data.charCountSpecies();
+
+  document.getElementById("dash-species").innerHTML = `<div class="dashboard-species char">
+          <p class="num">12</p>
+          <p>Espécies</p>
+        </div>
+        <div  class="dashboard char">
+          <div class="species">
+            <p class="num">${((y.human*y.size)/100).toFixed(0)}</p>
+            <p>Human</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.alien*y.size)/100).toFixed(0)}</p>
+            <p>Alien</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.humanoid*y.size)/100).toFixed(0)}</p>
+            <p>Humanoid</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.speciesUnknown*y.size)/100).toFixed(0)}</p>
+            <p>Unknown</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.poopybutthole*y.size)/100).toFixed(0)}</p>
+            <p>Poopybutpole</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.mytholog*y.size)/100).toFixed(0)}</p>
+            <p>Mytholog</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.animal*y.size)/100).toFixed(0)}</p>
+            <p>Animal</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.vampire*y.size)/100).toFixed(0)}</p>
+            <p>Vampire</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.robot*y.size)/100).toFixed(0)}</p>
+            <p>Robot</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.cronenberg*y.size)/100).toFixed(0)}</p>
+            <p>Cronenberg</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.disease*y.size)/100).toFixed(0)}</p>
+            <p>Disease</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.parasite*y.size)/100).toFixed(0)}</p>
+            <p>Parasite</p>
+          </div>
+          </div>
+          <div id="piechart-species">`;
 
   const dataSpecies = google.visualization.arrayToDataTable([
     ["Char by Species", "Species"],
@@ -128,16 +226,38 @@ const drawChartSpecies = () => {
     ["Parasite", y.parasite]
   ]);
 
-  const optionsSpecies = { "title": "Characters by Species", "width": 600, "height": 500 };
+  const optionsSpecies = {"title": "Characters by Species", "width": 300, "height": 300};
 
   const chartSpecies = new google.visualization.PieChart(document.getElementById("piechart-species"));
 
   chartSpecies.draw(dataSpecies, optionsSpecies);
 };
 
+const selSpecies = () => {
+
+  const arrayMap = array.map(item => item.species);
+
+  let newArray = arrayMap.filter((item, index) => arrayMap.indexOf(item) === index);
+
+  document.getElementById("search-gender").innerHTML += `${newArray.map(i => `<option value="${i}">${i}</option>`)}`;
+
+// document.getElementById("search-gender").addEventListener("change", function() {
+};
+
+const searchSelSpecies = () => {
+
+  let searchType = document.getElementById("search-gender").value;
+
+  document.getElementById("dash-sp-by-gn-perc").innerHTML = window.data.example(searchType, array);
+};
+  
+document.getElementById("search-gender").addEventListener("change", searchSelSpecies);
+
 const drawChartSpeciesByGender = () => {
 
   const y = window.data.charCountSpeciesByGender();
+
+  document.getElementById("dash-species-by-gender").innerHTML = `<div id="column-chart-species-by-gender"></div>`;
 
   const data = google.visualization.arrayToDataTable([
     ["Specie", "Human", "Alien", "Humanoid", "Unknown", "Poopybutthole", "Mytholog", "Animal", "Vampire", "Robot", "Cronenberg", "Disease", "Parasite"],
@@ -150,14 +270,13 @@ const drawChartSpeciesByGender = () => {
   const options = {
       title: "Species By Gender",
       subtitle: "Species, Gender, and Profit: 2014-2017",
-      width: 600,
-      height: 400,
-      legend: { position : 'top' , maxLines : 3 },   
+      "width": 300,
+      height: 300,
+      legend: { position : 'top' , maxLines : 1 },   
       bar: { groupWidth: '25%' },
       isStacked: 'true'
     }
   
-
   const chart = new google.visualization.ColumnChart(document.getElementById('column-chart-species-by-gender'));
 
   chart.draw(data, options);
@@ -171,7 +290,8 @@ google.charts.setOnLoadCallback(drawChartSpeciesByGender);
 window.onload = function () {
   showEverybody();
   openRadioButton();
-  cssResponsive();
+  selSpecies();
+  searchSelSpecies();
 };
 
 document.getElementById("search-type").addEventListener("change", openRadioButton);
