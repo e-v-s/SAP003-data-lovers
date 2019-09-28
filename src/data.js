@@ -116,12 +116,12 @@ const charCountGender = () => {
 	const arrayGender = array.map(item => item.gender);
 
 	const female = Number(((((arrayGender.filter(i => i === "Female")).length)/size)*100).toFixed(1));
-	const male = (arrayGender.filter(i => i === "Male")).length;
+	const male = Number(((((arrayGender.filter(i => i === "Male")).length)/size)*100).toFixed(1));
 	const genderless = Number(((((arrayGender.filter(i => i === "Genderless")).length)/size)*100).toFixed(1));
-	const genderUnknown = Number((((arrayGender.filter(i => i === "unknown")).length)/size).toFixed(1));
+	const genderUnknown = Number(((((arrayGender.filter(i => i === "unknown")).length)/size)*100).toFixed(1));
 
 	//percentage
-	return {female, male, genderUnknown, genderless};
+	return {female, male, genderUnknown, genderless, size};
 };
 
 //Status counter
@@ -132,10 +132,10 @@ const charCountStatus = () => {
 	const arrayStatus = array.map(item => item.status);
 
 	const alive = Number(((((arrayStatus.filter(i => i === "Alive")).length)/size)*100).toFixed(1));
-	const dead = Number((((arrayStatus.filter(i => i === "Dead")).length)/size).toFixed(1));
+	const dead = Number(((((arrayStatus.filter(i => i === "Dead")).length)/size)*100).toFixed(1));
 	const statusUnknown = Number(((((arrayStatus.filter(i => i === "unknown")).length)/size)*100).toFixed(1));
 
-	return {alive, dead, statusUnknown};
+	return {alive, dead, statusUnknown, size};
 };
 
 //Species counter
@@ -158,13 +158,15 @@ const charCountSpecies = () => {
 	const disease = Number(((((arraySpecies.filter(i => i === "Disease")).length)/size)*100).toFixed(1));
 	const parasite = Number(((((arraySpecies.filter(i => i === "Parasite")).length)/size)*100).toFixed(1));
 
-	return {human, alien, humanoid, speciesUnknown, poopybutthole, mytholog, animal, vampire, robot, cronenberg, disease, parasite};
+	return {human, alien, humanoid, speciesUnknown, poopybutthole, mytholog, animal, vampire, robot, cronenberg, disease, parasite, size};
 };
 
 const charCountSpeciesByGender = () => {
 	
 	//HUMAN
 	const arraySpeciesHuman = array.filter(i => i.species === "Human");
+
+	const sizeHuman = arraySpeciesHuman.length;
 
 	const humanFemale = arraySpeciesHuman.filter(i => i.gender === "Female").length;
 	const humanMale = arraySpeciesHuman.filter(i => i.gender === "Male").length;
@@ -173,6 +175,8 @@ const charCountSpeciesByGender = () => {
 
 	//ALIEN
 	const arraySpeciesAlien = array.filter(i => i.species === "Alien");
+
+	const sizeAlien = arraySpeciesAlien.length;
 
 	const alienFemale = arraySpeciesAlien.filter(i => i.gender === "Female").length;
 	const alienMale = arraySpeciesAlien.filter(i => i.gender === "Male").length;
@@ -259,7 +263,41 @@ const charCountSpeciesByGender = () => {
 	const parasiteUnknown = arrayParasite.filter(i => i.gender === "unknown").length;
 	const parasiteGenderless = arrayParasite.filter(i => i.gender === "Genderless").length;
 
-	return {humanFemale, humanMale, humanGenderless, humanUnknown, alienFemale, alienMale, alienGenderless, alienUnknown,humanoidFemale, humanoidMale, humanoidGenderless, humanoidUnknown,speciesUnknownFemale, speciesUnknownMale, speciesUnknownGenderless, speciesUnknownUnknown, poopybuttholeFemale, poopybuttholeMale, poopybuttholeGenderless, poopybuttholeUnknown, mythologFemale, mythologMale, mythologGenderless, mythologUnknown, animalFemale, animalMale, animalGenderless, animalUnknown, vampireFemale, vampireMale, vampireGenderless, vampireUnknown, robotFemale, robotMale, robotGenderless, robotUnknown, cronenbergFemale, cronenbergMale, cronenbergGenderless, cronenbergUnknown, diseaseFemale, diseaseMale, diseaseGenderless, diseaseUnknown, parasiteFemale, parasiteMale, parasiteUnknown, parasiteGenderless};
+	return {humanFemale, humanMale, humanGenderless, humanUnknown, alienFemale, alienMale, alienGenderless, alienUnknown,humanoidFemale, humanoidMale, humanoidGenderless, humanoidUnknown,speciesUnknownFemale, speciesUnknownMale, speciesUnknownGenderless, speciesUnknownUnknown, poopybuttholeFemale, poopybuttholeMale, poopybuttholeGenderless, poopybuttholeUnknown, mythologFemale, mythologMale, mythologGenderless, mythologUnknown, animalFemale, animalMale, animalGenderless, animalUnknown, vampireFemale, vampireMale, vampireGenderless, vampireUnknown, robotFemale, robotMale, robotGenderless, robotUnknown, cronenbergFemale, cronenbergMale, cronenbergGenderless, cronenbergUnknown, diseaseFemale, diseaseMale, diseaseGenderless, diseaseUnknown, parasiteFemale, parasiteMale, parasiteUnknown, parasiteGenderless, sizeHuman, sizeAlien};
+};
+
+const example = (searchType, array) => {
+	const arrayGender = array.filter(i => i.species === searchType);
+  
+  const arrayFemale = arrayGender.filter(i => (i.gender === "Female"));
+      
+  const arrayMale = arrayGender.filter(i => i.gender === "Male");
+
+  const arrayGenderless = arrayGender.filter(i => i.gender === "Genderless");
+
+  const arrayUnknown = arrayGender.filter(i => i.gender === "unknown");
+
+  const typethis = `
+          <div class="dashboard-sp-st">
+            <div class="st-sp female">
+            	<p class="num-mini">${((arrayFemale.length/arrayGender.length)*100).toFixed(1)}%</p>
+            	<p>Female</p>
+            </div>
+            <div class="st-sp male">
+            	<p class="num-mini">${((arrayMale.length/arrayGender.length)*100).toFixed(1)}%</p>
+            	<p>Male</p>
+            </div>
+            <div class="st-sp genderless">
+            	<p class="num-mini">${((arrayGenderless.length/arrayGender.length)*100).toFixed(1)}%</p>
+            	<p>Genderless</p>
+            </div>
+            <div class="st-sp gender-unknown">
+            	<p class="num-mini">${((arrayUnknown.length/arrayGender.length)*100).toFixed(1)}%</p>
+            	<p>Unknown</p>
+            </div>
+          </div>`;
+
+  return typethis;
 };
 
 window.data = {
@@ -270,4 +308,5 @@ window.data = {
   charCountStatus: charCountStatus,
   charCountSpecies: charCountSpecies,
   charCountSpeciesByGender: charCountSpeciesByGender,
+  example: example,
 }; 
