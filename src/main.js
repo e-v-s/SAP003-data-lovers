@@ -88,8 +88,9 @@ function drawChartGender() {
               <p class="num">${((y.genderUnknown*y.size)/100).toFixed(0)}</p>
               <p class="g">Gênero Desconhecido</p>
             </div>
-            <div id="piechart-gender"></div>
+            
           </div>
+          <div id="piechart-gender"></div>
         `;
 
   //pizza chart to show all genders
@@ -102,7 +103,7 @@ function drawChartGender() {
 ]);
 
   // Optional; add a title and set the width and height of the chart
-  const optionsGender = {"title":"Characters By Gender", "pieHole": 0.4,"width":400, "height":300};
+  const optionsGender = {"title":"Characters By Gender", "pieHole": 0.4,"width": 300, "height":300};
 
   // Display the chart inside the <div> element with id="piechart"
   const chartGender = new google.visualization.PieChart(document.getElementById("piechart-gender"));
@@ -132,8 +133,8 @@ const drawChartStatus = () => {
            <p class="num">${((y.statusUnknown*y.size)/100).toFixed(0)}</p>
             <p>Situação desconhecida</p>
           </div>
-          <div id="piechart-status"></div>
-        </div>`;
+        </div>
+        <div id="piechart-status"></div>`;
 
   const dataStatus = google.visualization.arrayToDataTable([
     ["Char by status", "Status"],
@@ -142,7 +143,7 @@ const drawChartStatus = () => {
     ["unknown", y.statusUnknown]
     ]);
 
-  const optionsStatus = {"title": "Characters by Status", "width": 400, "height": 300, "pieHole": 0.4};
+  const optionsStatus = {"title": "Characters by Status", "width": 300, "height": 300, "pieHole": 0.4};
 
   const chartStatus = new google.visualization.PieChart(document.getElementById("piechart-status"));
 
@@ -206,7 +207,8 @@ const drawChartSpecies = () => {
             <p class="num">${((y.parasite*y.size)/100).toFixed(0)}</p>
             <p>Parasite</p>
           </div>
-          <div id="piechart-species"></div>`;
+          </div>
+          <div id="piechart-species">`;
 
   const dataSpecies = google.visualization.arrayToDataTable([
     ["Char by Species", "Species"],
@@ -224,7 +226,7 @@ const drawChartSpecies = () => {
     ["Parasite", y.parasite]
     ]);
 
-  const optionsSpecies = {"title": "Characters by Species", "width": 600, "height": 500};
+  const optionsSpecies = {"title": "Characters by Species", "width": 300, "height": 300};
 
   const chartSpecies = new google.visualization.PieChart(document.getElementById("piechart-species"));
 
@@ -268,9 +270,9 @@ const drawChartSpeciesByGender = () => {
   const options = {
       title: "Species By Gender",
       subtitle: "Species, Gender, and Profit: 2014-2017",
-      width: 600,
-      height: 400,
-      legend: { position : 'top' , maxLines : 3 },   
+      "width": 300,
+      height: 300,
+      legend: { position : 'top' , maxLines : 1 },   
       bar: { groupWidth: '25%' },
       isStacked: 'true'
     }
