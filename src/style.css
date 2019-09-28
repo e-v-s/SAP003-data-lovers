@@ -322,7 +322,8 @@ body{
 
 #piechart-gender {
   margin-top: 20px;
-
+  width: 300px;
+  margin: 20px auto;
 }
 
 /*STATUS*/
@@ -363,6 +364,8 @@ body{
 
 #piechart-status {
   margin-top: 20px;
+  width: 300px;
+  margin: 20px auto;
 }
 
 /*SPECIES*/
@@ -396,6 +399,8 @@ body{
 
 #piechart-species {
   margin-top: 20px;
+  width: 300px;
+  margin: 20px auto;
 }
 
 /*SPECIES BY GENDER*/
@@ -446,13 +451,14 @@ body{
 }
 
 #dash-species-by-gender {
-  display: inline-grid;
   margin-top: 20px;
 }
-/*#column-chart-species-by-gender {
-  margin-top: 20px;
+
+#column-chart-species-by-gender {
+  width: 300px;
+  margin: 40px auto;
   display: grid;
-}*/
+}
 
 /*------------------FLOAT BUTTON--------------------*/
 
