@@ -1,8 +1,3 @@
-/*@viewport (min-width: 30rem) {
-  width: device-width ;
-  zoom: 1.0 ;
-}*/
-
 /* -----------------BASIC STYLE------------------*/
 
 body{
@@ -29,45 +24,6 @@ body{
     width: 80%;
 }
 
-/*.nav-bar {
-  overflow: hidden;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.nav-bar-items {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    background-color: #DB2156;
-}
-
-.nav-bar, .nav-bar-items {
-    justify-content: space-around;
-}
-
-.nav-bar-item {
-    display: flex;
-}
-
-.nav-bar .icon {
-  display: none;
-}
-
-.nav-bar-item>a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    float: left;
-    display: block;
-}
-
-.nav-bar-item>a:hover {
-    color: #FFBC33;
-}*/
-
 .nav-bar {
   overflow: hidden;
   background-color: #DB2156;
@@ -85,10 +41,6 @@ body{
     display: inline-grid;
     justify-content: center;
   }
-  /*.nav-bar-item a {
-    justify-content: center;
-    text-align: center;
-  }*/
 }
 
 .nav-bar .nav-bar-item {
@@ -143,7 +95,6 @@ body{
 }
 
 /*---------------------MAIN------------------------*/
-/*#8CA1FF*/
 .background-main{
     background-color: #000;
     width: 80%;
@@ -446,6 +397,62 @@ body{
 #piechart-species {
   margin-top: 20px;
 }
+
+/*SPECIES BY GENDER*/
+.select-species-by-gender {
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  height: 90px;
+  width: 240px;
+  font-size: 24px;
+  background-color: #DB2156;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.dashboard-sp-st {
+    width: 500px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    float: right;
+    margin-right: 15%;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+  .dashboard-sp-st {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.st-sp {
+  text-align: center;
+  display: inline-grid;
+  align-self: center;
+  justify-content: center;
+}
+
+.num-mini {
+  font-family: 'Buenard', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 20px 0;
+}
+
+#dash-species-by-gender {
+  display: inline-grid;
+  margin-top: 20px;
+}
+/*#column-chart-species-by-gender {
+  margin-top: 20px;
+  display: grid;
+}*/
 
 /*------------------FLOAT BUTTON--------------------*/
 

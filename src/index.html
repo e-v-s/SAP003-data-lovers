@@ -54,120 +54,22 @@
         <h1 class="dashboard-title"><a name="target-dashboard">Dashboard Rick and Morty</a></h1>
 
         <!-- GENDER -->
-        <div class="dashboard-gender char">
-          <p class="num">493</p>
-          <p>Personagens</p>
-        </div>
-
-          <div class="dashboard char">
-            <div class="gender female">
-              <p class="num">73</p>
-              <p>Feminino</p>
-            </div>
-            <div class="gender male">
-              <p class="num">372</p>
-              <p>Masculino</p>
-            </div>
-            <div class="gender genderless">
-              <p class="num">6</p>
-              <p>Agênero</p>
-            </div>
-            <div class="gender gender-unknown">
-              <p class="num">42</p>
-              <p class="g">Gênero Desconhecido</p>
-            </div>
-            <div id="piechart-gender"></div>
-          </div>
-          
-       
+        <span id="dash-gender"></span>   
         
         <!-- STATUS -->
-        <div class="dashboard-status char">
-          <p class="num">3</p>
-          <p>Status</p>
-        </div>
-        <div class="dashboard char">
-          <div class="status alive">
-            <p class="num">281</p>
-            <p>Personagens Vivos</p>
-          </div>
-          <div class="status dead">
-            <p class="num">147</p>
-            <p>Personagens Mortos</p>
-          </div>
-          <div class="status status-unknown">
-           <p class="num">65</p>
-            <p>Situação desconhecida</p>
-          </div>
-          <div id="piechart-status"></div>
-        </div>
-
+        <span id="dash-status"></span>
+        
         <!-- SPECIES -->
-        <div class="dashboard-species char">
-          <p class="num">12</p>
-          <p>Espécies</p>
-        </div>
-        <div  class="dashboard char">
-          <div class="species">
-            <p class="num">244</p>
-            <p>Human</p>
-          </div>
-          <div class="species">
-            <p class="num">132</p>
-            <p>Alien</p>
-          </div>
-          <div class="species">
-            <p class="num">53</p>
-            <p>Humanoid</p>
-          </div>
-          <div class="species">
-            <p class="num">5</p>
-            <p>Unknown</p>
-          </div>
-          <div class="species">
-            <p class="num">6</p>
-            <p>Poopybutpole</p>
-          </div>
-          <div class="species">
-            <p class="num">7</p>
-            <p>Mypolog</p>
-          </div>
-          <div class="species">
-            <p class="num">17</p>
-            <p>Animal</p>
-          </div>
-          <div class="species">
-            <p class="num">3</p>
-            <p>Vampire</p>
-          </div>
-          <div class="species">
-            <p class="num">11</p>
-            <p>Robot</p>
-          </div>
-          <div class="species">
-            <p class="num">8</p>
-            <p>Cronenberg</p>
-          </div>
-          <div class="species">
-            <p class="num">6</p>
-            <p>Disease</p>
-          </div>
-          <div class="species">
-            <p class="num">1</p>
-            <p>Parasite</p>
-          </div>
-              
-            
-          <div id="piechart-species"></div>
-        </div>
-
-        <!-- SPECIES BY GENDER -->
-        <div id="column-chart-species-by-gender"></div>
-
+        <span id="dash-species"></span>
+        
+        <!-- SPECIES BY GENDER -->        
+        <select name="" id="search-gender" class="select-species-by-gender"></select>
+        <span id="dash-sp-by-gn-perc"></span>
+        <span id="dash-species-by-gender"></span>
+        
       </section>
 
     <a href="index.html" class="float-button"><i class="fa fa-arrow-up"></i></a>
-
     </main>
 
     <footer class="page-footer">
@@ -186,14 +88,9 @@
         </li>
       </nav>
     </footer>
-    <!-- <script src="data/injuries/injuries.js"></script> -->
-    <!-- <script src="data/lol/lol.js"></script> -->
-    <!-- <script src="data/patient/patient.js"></script> -->
-    <!-- <script src="data/pokemon/pokemon.js"></script> -->
+    
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="data/rickandmorty/rickandmorty_placeholder.js"></script>
-    <!-- <script src="data/steam/steam.js"></script> -->
-    <!-- <script src="data/worldbank/worldbank.js"></script> -->
     <script src="data.js"></script>
     <script src="main.js"></script>
    

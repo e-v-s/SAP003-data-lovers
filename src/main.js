@@ -60,12 +60,37 @@ const cleanInputBox = () => {
 };
 
 google.charts.load("current", {"packages":["corechart"]});
-google.charts.load("current", {"packages":["bar"]});
 
 // Draw the chart and set the chart values
 function drawChartGender() {
   
   const y = window.data.charCountGender();
+
+  document.getElementById("dash-gender").innerHTML = `<div class="dashboard-gender char">
+          <p class="num">${y.size}</p>
+          <p>Personagens</p>
+        </div>
+
+          <div class="dashboard char">
+            <div class="gender female">
+              <p class="num">${((y.female*y.size)/100).toFixed(0)}</p>
+              <p>Feminino</p>
+            </div>
+            <div class="gender male">
+              <p class="num">${((y.male*y.size)/100).toFixed(0)}</p>
+              <p>Masculino</p>
+            </div>
+            <div class="gender genderless">
+              <p class="num">${((y.genderless*y.size)/100).toFixed(0)}</p>
+              <p>Agênero</p>
+            </div>
+            <div class="gender gender-unknown">
+              <p class="num">${((y.genderUnknown*y.size)/100).toFixed(0)}</p>
+              <p class="g">Gênero Desconhecido</p>
+            </div>
+            <div id="piechart-gender"></div>
+          </div>
+        `;
 
   //pizza chart to show all genders
   const dataGender = google.visualization.arrayToDataTable([
@@ -90,6 +115,26 @@ const drawChartStatus = () => {
 
   const y = window.data.charCountStatus();
 
+  document.getElementById("dash-status").innerHTML = `<div class="dashboard-status char">
+          <p class="num">3</p>
+          <p>Status</p>
+        </div>
+        <div class="dashboard char">
+          <div class="status alive">
+            <p class="num">${((y.alive*y.size)/100).toFixed(0)}</p>
+            <p>Personagens Vivos</p>
+          </div>
+          <div class="status dead">
+            <p class="num">${((y.dead*y.size)/100).toFixed(0)}</p>
+            <p>Personagens Mortos</p>
+          </div>
+          <div class="status status-unknown">
+           <p class="num">${((y.statusUnknown*y.size)/100).toFixed(0)}</p>
+            <p>Situação desconhecida</p>
+          </div>
+          <div id="piechart-status"></div>
+        </div>`;
+
   const dataStatus = google.visualization.arrayToDataTable([
     ["Char by status", "Status"],
     ["Alive", y.alive],
@@ -107,6 +152,61 @@ const drawChartStatus = () => {
 const drawChartSpecies = () => {
 
   const y = window.data.charCountSpecies();
+
+  document.getElementById("dash-species").innerHTML = `<div class="dashboard-species char">
+          <p class="num">12</p>
+          <p>Espécies</p>
+        </div>
+        <div  class="dashboard char">
+          <div class="species">
+            <p class="num">${((y.human*y.size)/100).toFixed(0)}</p>
+            <p>Human</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.alien*y.size)/100).toFixed(0)}</p>
+            <p>Alien</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.humanoid*y.size)/100).toFixed(0)}</p>
+            <p>Humanoid</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.speciesUnknown*y.size)/100).toFixed(0)}</p>
+            <p>Unknown</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.poopybutthole*y.size)/100).toFixed(0)}</p>
+            <p>Poopybutpole</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.mytholog*y.size)/100).toFixed(0)}</p>
+            <p>Mytholog</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.animal*y.size)/100).toFixed(0)}</p>
+            <p>Animal</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.vampire*y.size)/100).toFixed(0)}</p>
+            <p>Vampire</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.robot*y.size)/100).toFixed(0)}</p>
+            <p>Robot</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.cronenberg*y.size)/100).toFixed(0)}</p>
+            <p>Cronenberg</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.disease*y.size)/100).toFixed(0)}</p>
+            <p>Disease</p>
+          </div>
+          <div class="species">
+            <p class="num">${((y.parasite*y.size)/100).toFixed(0)}</p>
+            <p>Parasite</p>
+          </div>
+          <div id="piechart-species"></div>`;
 
   const dataSpecies = google.visualization.arrayToDataTable([
     ["Char by Species", "Species"],
@@ -131,38 +231,65 @@ const drawChartSpecies = () => {
   chartSpecies.draw(dataSpecies, optionsSpecies);
 };
 
+const selSpecies = () => {
+
+  const arrayMap = array.map(item => item.species);
+
+  let newArray = arrayMap.filter((item, index) => arrayMap.indexOf(item) === index);
+
+  document.getElementById("search-gender").innerHTML += `${newArray.map(i => `<option value="${i}">${i}</option>`)}`;
+
+// document.getElementById("search-gender").addEventListener("change", function() {
+};
+
+const searchSelSpecies = () => {
+
+  let searchType = document.getElementById("search-gender").value;
+
+  document.getElementById("dash-sp-by-gn-perc").innerHTML = window.data.example(searchType, array);
+};
+  
+document.getElementById("search-gender").addEventListener("change", searchSelSpecies);
+
 const drawChartSpeciesByGender = () => {
 
   const y = window.data.charCountSpeciesByGender();
 
+  document.getElementById("dash-species-by-gender").innerHTML = `<div id="column-chart-species-by-gender"></div>`;
+
   const data = google.visualization.arrayToDataTable([
-          ["Gender", "Female", "Male", "Genderless", "Unknown", "Female", "Male", "Genderless", "Unknown", "Female", "Male", "Genderless", "Unknown"],
-          ["Female", y.humanFemale, y.alienFemale, y.humanoidFemale, y.speciesUnknownFemale, y.poopybuttholeFemale, y.mythologFemale, y.animalFemale, y.vampireFemale, y.robotFemale, y.cronenbergFemale, y.diseaseFemale, y.parasiteFemale],      
-          ["Male", y.humanMale, y.alienMale, y.humanoidMale, y.speciesUnknownMale, y.poopybuttholeMale, y.mythologMale, y.animalMale, y.vampireMale, y.robotMale, y.cronenbergMale, y.diseaseMale,  y.parasiteMale],           
-          ["Genderless", y.humanGenderless, y.humanoidGenderless, y.humanoidUnknown, y.alienGenderless, y.speciesUnknownGenderless, y.poopybuttholeGenderless, y.mythologGenderless, y.animalGenderless, y.vampireGenderless, y.robotGenderless, y.cronenbergGenderless, y.diseaseGenderless, y.parasiteGenderless],
-          ["Unknown", y.humanUnknown, y.alienUnknown, y.speciesUnknownUnknown, y.poopybuttholeUnknown, y.mythologUnknown, y.animalUnknown, y.vampireUnknown, y.robotUnknown, y.cronenbergUnknown, y.diseaseUnknown, y.parasiteUnknown],
-        ]);
+    ["Specie", "Human", "Alien", "Humanoid", "Unknown", "Poopybutthole", "Mytholog", "Animal", "Vampire", "Robot", "Cronenberg", "Disease", "Parasite"],
+    ["Female", y.humanFemale, y.alienFemale, y.humanoidFemale, y.speciesUnknownFemale, y.poopybuttholeFemale, y.mythologFemale, y.animalFemale, y.vampireFemale, y.robotFemale, y.cronenbergFemale, y.diseaseFemale, y.parasiteFemale],
+    ["Male", y.humanMale, y.alienMale, y.humanoidMale, y.speciesUnknownMale, y.poopybuttholeMale, y.mythologMale, y.animalMale, y.vampireMale, y.robotMale, y.cronenbergMale, y.diseaseMale, y.parasiteMale],
+    ["Genderless", y.humanGenderless, y.alienGenderless, y.humanoidGenderless, y.speciesUnknownGenderless, y.poopybuttholeGenderless, y.mythologGenderless, y.animalGenderless, y.vampireGenderless, y.robotGenderless, y.cronenbergGenderless, y.diseaseGenderless, y.parasiteGenderless],
+    ["Unknown", y.humanUnknown, y.alienUnknown, y.humanoidUnknown, y.speciesUnknownUnknown, y.poopybuttholeUnknown, y.mythologUnknown, y.animalUnknown, y.vampireUnknown, y.robotUnknown, y.cronenbergUnknown, y.diseaseUnknown, y.parasiteUnknown]
+  ]);
 
-        const options = {
-          chart: {
-            title: "Species By Gender",
-            subtitle: "Species, Gender, and Profit: 2014-2017", "width": 700, "height":700
-          }
-        };
+  const options = {
+      title: "Species By Gender",
+      subtitle: "Species, Gender, and Profit: 2014-2017",
+      width: 600,
+      height: 400,
+      legend: { position : 'top' , maxLines : 3 },   
+      bar: { groupWidth: '25%' },
+      isStacked: 'true'
+    }
+  
+  const chart = new google.visualization.ColumnChart(document.getElementById('column-chart-species-by-gender'));
 
-        const chart = new google.charts.Bar(document.getElementById('column-chart-species-by-gender'));
-
-        chart.draw(data, options);
+  chart.draw(data, options);
 };
 
 google.charts.setOnLoadCallback(drawChartGender);
 google.charts.setOnLoadCallback(drawChartStatus);
 google.charts.setOnLoadCallback(drawChartSpecies);
-// google.charts.setOnLoadCallback(drawChartSpeciesByGender);
+google.charts.setOnLoadCallback(drawChartSpeciesByGender);
 
 window.onload = function() {
   showEverybody();
   openRadioButton();
+  selSpecies();
+  searchSelSpecies();
 };
 
 document.getElementById("search-type").addEventListener("change", openRadioButton);

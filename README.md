@@ -2,9 +2,9 @@
 
 ## Índice
 
-* [1. Preâmbulo](#1-preâmbulo)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+* [1. Introdução](#1-introdução)
+* [2. O Dataset](#2-o-dataset)
+* [3. Histórias do Usuário](#3-historias-do-usuario)
 * [4. Considerações gerais](#4-consideracoes-gerais)
 * [5. Critérios mínimos de aceitação do projeto](#5-criterios-minimos-de-aceitacao-do-projeto)
 * [6. Hacker edition](#6-hacker-edition)
@@ -14,143 +14,95 @@
 
 ***
 
-## 1. Preâmbulo
+## 1. Introdução
 
-Segundo a [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read)
-90% dos dados que existem hoje foram gerados durante os últimos dois anos.
-A cada dia geramos 2.5 milhões de terabytes de dados, uma cifra sem
-precedentes.
+O presente projeto tem como objetivo construir uma *dashboard* a partir de um arquivo de objetos contendo todos os personagens da série **Rick and Morty**, que pode ser acessada [**aqui**](https://e-v-s.github.io/SAP003-data-lovers/src/index.html).
 
-Apesar disso, os dados por si só são de pouca utilidade. Para que essas grandes
-quantidades de dados se convertam em **informação** compreensível para os
-usuários, precisamos entender e processar estes dados. Uma forma simples de
-fazer isso é criando _interfaces_ e _visualizações_.
+Neste projeto utilizamos HTML 5, CSS 3, ES6 e a biblioteca Google Charts para criar a visualização dos dados em gráficos. Além destas ferramentas, também foi necessária a construção de histórias de usuários para nos guiar em relação ao que deveria ser realizado no projeto.
 
-Na imagem seguinte, você pode ser como os dados que estão na parte esquerda
-podem ser usados para construir a interface amigável e compreensível que está
-na parte direita.
+Com o intuito de conhecer e construir testes unitários, estes também foram codados para algumas funções existente no *data.js*.
 
-![json-interface](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
+## 2. O Problema
 
-\* Você pode ver em detalhe os dados neste [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
-e a interface construída a partir dele neste [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
+A série **Rick and Morty** possui uma grande variedade de personagens, características bem diferentes para cada um, 3 temporadas e um tempo consideravelmente longo entre o lançamento de uma temporada e outra.
 
-## 2. Resumo do projeto
+Para facilitar a vida dos consumidores dessa série, fizemos o [**Wubba Lubbd Dub Dub** Dashboard](https://e-v-s.github.io/SAP003-data-lovers/src/index.html), que permite a busca pelo nome do personagem e também através de filtros específicos, mas não só isso.
 
-Neste projeto você **construirá uma _página web_ para visualizar um conjunto
-(set) de dados_** que se adeque às necessidades de seu usuário.
+Pensando na visualização dos dados de personagens tão diferentes entre si, também disponibilizamos uma dashboard específica para os diversos *gêneros*, *espécies* e *status* existentes. O usuário pode então ver números e porcentagens relacionadas a essas características em charts e quadros.
 
-Como entregável final terá uma página web que permita **visualizar dados,
-filtrá-los, ordená-los e fazer algum cálculo agregado**. Por cálculo agregado
-nos referimos aos diversos cálculos que pode fazer com os dados para mostrar a
-informação mais relevante para os usuários (médias, valores máximos e míimos,
-etc).
+## 3. O Dataset
 
-Para este projeto trazemos uma série de dados de _temáticas diferentes_ para
-que você explore e decida com qual delas deseja trabalhar. Escolhemos
-especificamente estes conjuntos de dados porque cremos que se adequem bem a
-esta etapa de sua aprendizagem.
+O Dataset utilizado foi o da série **Rick and Morty**, que contém informações diversas (nome, gênero, status, espécie, mundo de origem, localização, dentre outras informações menos relevantes para o objetivo deste projeto específico) sobre todos os 493 personagens da série.
 
-Uma vez que você defina sua área de interesse, busque entender quem é seu
-usuário e o que exatamente ele necessita saber ou ver, para que assim possa
-construir a interface que o ajude a interagir e entender melhor os dados.
+Este conjunto de dados foi obtido a partir de uma [API](https://rickandmortyapi.com/) própria.
 
-Este são os dados que propomos:
+## 4. Histórias do Usuário
 
-* [Indicadores de desenvolvimento do Banco Mundial](src/data/worldbank/worldbank.json)
-  de alguns países (Brasil, Chile, México e Perú). Estes dados incluem
-  indicadores demográficos, econômicos e comerciais.
-* [Pokémon](src/data/pokemon/pokemon.json):
-  Neste conjunto você encontrará uma lista com os 151 Pokémon da região de
-  Kanto, com suas respectivas estatísticas utilizadas no jogo [Pokémon GO](http://pokemongolive.com).
-* [Steam notícias](src/data/steam/steam.json):
-  Lista notícias relacionadas aos jogos da plataforma [Steam](https://store.steampowered.com/).
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este conjunto mostra a lista de jogadores de uma liga do jogo League of
-  Legends (LoL). Você pode revisar a documentação da API neste [link](https://developer.riotgames.com/api-methods/).
-* [Pessoas feridas por meios de transporte nos EUA](src/data/injuries/injuries.json).
-  Este conjunto mostra o número de pessoas feridas em acidentes de transporte,
-  com dados anuais desde 1960 e categorizados por tipo de transporte
-  (avião, barco, automóvel, moto e bicicleta).
-* [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
-  Lista de personagens da série Rick & Morty. Você pode revisar a documentação
-  da API neste [link](https://rickandmortyapi.com).
-* [Pacientes nos EUA](src/data/patient/patient.json).
-  Uma lista de pacientes nos EUA. Você pode revisar a documentação da API neste
-  [link](https://r2.smarthealthit.org/Patient).
+Foram criadas quatro histórias do usuário:
 
-Alguns conjuntos de dados têm uma identidade gráfica que você deverá utilizar
-na interface. Os guias de identidade gráfica podem ser encontrados neste
-[link](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE).
+### História 1
 
-## 3. Objetivos de aprendizagem
+*Como fã da série Rick and Morty, quero visualizar todos os personagens da série com suas características mais importantes em cards ao carregar a página;*
 
-O objetivo principal deste projeto é que aprenda a desenhar e construir uma
-interface web onde se possa visualizar e manipular dados, entendendo o que o
-usuário necessita.
+**Definição de pronto:** todos os personagens e suas características devem estar no index.html, no formato de cards.
 
-Em outras palavras, você aprenderá a:
+**Critérios de aceitação:** funções devidamente distribuídas em main.js e data.js, e testes unitários OK.
 
-* Aplicar e aprofundar tudo o que aprendeu no projeto anterior.
-* Pensar nas **necessidades dos usuários** para criar histórias de usuário.
-* Escrever e trabalhar com **histórias de usuário**, suas definições de pronto
-  (_definition of done_) e critérios de aceitação como ferramentas centrais
-  de organização e planejamento de seu trabalho.
-* Definir que dados utilizar e de que forma exibí-los em seu produto,
-  baseando-se no seu **entendimento do usuário**.
-* Iterar o desenho do produto, baseando-se nos resultados dos
-  **testes de usabilidade**.
-* Manipular **arrays e objetos**.
-* **Manipular o DOM** (agregar elementos de forma dinâmica)
-* **Manejar eventos do DOM** para permitir interação com o usuário (filtros,
-  ordenação, etc).
-* Entender os benefícios e complexidades de **trabalhar em equipe** em um
-  ambiente de incerteza.
+### História 2
 
-## 4. Considerações gerais
+*Como fã da série Rick and Morty, gostaria de poder buscar o personagem pelo nome e visualizar suas características principais (espécie, gênero, status, origem, localização e tipo) em cards;*
 
-* Este projeto será executado em duplas.
-* Este projeto será entregue através do GitHub e a interface deve ser publicada
-  no [GitHub Pages](https://pages.github.com/).
-* Tempo para completá-lo: três semanas.
+**Definição de pronto:** O site deve ter uma caixa de busca para que o usuário possa digitar o nome do personagem. A função que manipule este dado junto ao dataset deveser capaz de buscar pelo personagem independente do usuário ter digitado com ou sem caixa alta. A manipulação do DOM deve ser feita pelo click do botão buscar, resultando na visualização dos personagens que correspondam ao *input* do usuário.
 
-## 5. Critérios mínimos de aceitação do projeto
+**Critérios de aceitação:** funções devidamente distribuídas em main.js e data.js, testes unitários OK.
 
-Os critérios considerados para que tenha terminado este projeto são:
+### História 3
 
-### Definição de produto
+*Como fã da série Rick and Morty, quero poder filtrar os personagens por gênero, feminino,masculino, agênero ou desconhecido; por espécie; ou por status, se morto, vivo ou desconhecido; e poder visualizar estes conjuntos de personagens em cards.*
 
-Documente brevemente seu trabalho no arquivo `README.md` de seu repositório,
-contando como foi o processo de desenho e como você acredita que o produto
-possa resolver o problema (ou problemas) de seu usuário.
+**Definição de pronto:** O site deve ter uma tag *select* para que o usuário possa escolher se quer filtrar o personagem pelo gênero, espécie ou status. Ao ser selecionada alguma destas opções, deve ter disponíveis as sub-opções. Quando o usuário selecionar sua opção e clicar no botão de busca, o site deve gerar cards com os personagens que correspondem à busca do usuário.
 
-### Histórias de usuário
+**Critérios de aceitação:** funções devidamente distribuídas em main.js e data.js, testes unitários OK.
 
-Uma vez que entenda a necessidade dos usuários, escreva as [Historias de
-Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representem
-tudo que o usuário precisa fazer/ver. As **histórias de usuário** devem ser o
-resultado de seu processo de investigação/pesquisa de seus usuários.
+### História 4
 
-Não esqueça de incluir a definição de pronto (_definition of done_) e os
-critérios de aceitação para cada uma.
+*Como fã da série rick and morty, gostaria de ver as estatísticas relacionadas a gênero, espécie e status em charts, e também o quantitativo total das subdivisões desses tipos.*
 
-Na medida do possível, termine uma história de usuário antes de passar para a
-seguinte (cumpra com as definições de pronto + critérios de aceitação).
+**Definição de pronto:** O usuário deve ser capaz de visualizar todas as estatísticas em charts na tela ao carregar a página, bem como o quantitativo das opções gênero, espécie e status.
 
-### Desenho de interface do usuário
+**Critérios de aceitação:** funções devidamente distribuídas em main.js e data.js.
 
-#### Protótipo de baixa fidelidade
+## 5. Desenho 
 
-Durante seu trabalho você deverá fazer e iterar rascunhos de sua solução usando
-lápis e papel. Recomendamos que fotografe todas as iterações que fizer, suba
-para seu repositório e as mencione no `README.md`.
+### Protótipo de baixa fidelidade
 
-#### Testes de usabilidade
+### Testes de usabilidade
 
 Durante o desafio você deverá fazer testes de usabilidade com usuários
 diferentes, e com base nos resultados desses testes, iterar seus desenhos de
 interface. Conte-nos quais problemas de usabilidade você detectou através dos
 testes e como os resolveu na proposta final.
+
+
+## 6. Resultados
+
+* Aprendemos a desenhar e construir uma interface web onde se possa visualizar e manipular dados, entendendo o que o usuário necessita.
+
+* Criamos histórias do usuário com base nas **necessidades** de suspostos fãs de Rick and Morty. 
+* As **definitions of done** e os critérios de aceitação estavam relacionados, para todas as histórias, em manipular o dataset, extrair dele as informações necessárias para a realização da tarefa, construção de funções para manipular estas informações, o retorno dos dados trabalhados para o usuário e por fim os testes unitários para as funções do arquivo data.js;
+* Definimos quais dados utilizar como base no **entendimento do usuário**;
+* Manipulamos **arrays** e **objetos**;
+* Manipulamos o **DOM**;
+* Manejamos os eventos **DOM** para permitir interação com o usuário (filtros e busca);
+
+## 6. Considerações Finais
+
+
+
+## 5. Critérios mínimos de aceitação do projeto
+
+Os critérios considerados para que tenha terminado este projeto são:
+
 
 ### Implementação da interface de usuário (HTML/CSS/JS)
 
@@ -169,110 +121,7 @@ No mínimo, sua implementação deverá:
 4. Ser _responsivo_, ou seja, deve ser visualizada sem problemas a partir de
    diversos tamanhos de tela: celulares, tablets, notebooks, etc.
 
-### Testes unitários
 
-O _boilerplate_ do projeto não inclui testes unitários. Assim, você terá que
-escrever seus próprios testes para as funções encarregadas de _processar_,
-_filtrar_ e _ordenar_ os dados, assim como _calcular_ estatísticas.
-
-Seus testes unitários devem ter cobertura mínima de 70% de _statements_
-(_sentenças_), _functions_ (_funções_), _lines_ (_linhas_), e _branches_
-(_ramos_) do arquivo `src/data.js`, que irá conter suas funções e que está
-detalhado na seção de [Considerações técnicas](#srcdatajs).
-
-## 6. Hacker edition
-
-As seções chamadas _Hacker Edition_ são **opcionais**. Se já tiver terminado
-todos os requisitos anteriores e tiver tempo, pode tentar completá-las. Dessa
-forma, você pode aprofundar e/ou exercitar mais os objetivos de aprendizagem
-deste projeto.
-
-Features/características extra sugeridas:
-
-* Ao invés de consumir dados estáticos do repositório, pode fazer isso de forma
-  dinâmica, carregando um arquivo JSON com `fetch`. A pasta `src/data` contém
-  uma versão `.js` e uma `.json` de cada conjunto de dados.
-* Adicione à sua interface visualização de dados em forma de gráficos. Para
-  isso, recomendamos explorar bibliotecas de gráficos como [Chart.js](https://www.chartjs.org/)
-  ou [Google Charts](https://developers.google.com/chart/).
-* 100% de cobertura nos testes.
-
-## 7. Considerações técnicas
-
-A lógica do projeto deve estar implementada somente em JavaScript (ES6), HTML e
-CSS. Neste projeto não está permitido o uso de bibliotecas e frameworks, apenas
-[vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
-com exceção das bibliotecas para gráficos (ver
-[_Parte opcional_](#6-hacker-edition) acima).
-
-Não se deve utilizar a _pseudo-variável_ `this`.
-
-O _boilerplate_ contém uma estrutura de arquivos como ponto de partida, assim
-como toda a configuração de dependências:
-
-```text
-.
-├── EXTRA.md
-├── README.md
-├── package.json
-├── src
-|  ├── data
-|  |  ├── injuries
-|  |  |  ├── injuries.js
-|  |  |  └── injuries.json
-|  |  ├── lol
-|  |  |  ├── lol.js
-|  |  |  └── lol.json
-|  |  ├── patient
-|  |  |  ├── patient.js
-|  |  |  └── patient.json
-|  |  ├── pokemon
-|  |  |  ├── pokemon.js
-|  |  |  └── pokemon.json
-|  |  ├── rickandmorty
-|  |  |  ├── rickandmorty.js
-|  |  |  └── rickandmorty.json
-|  |  ├── steam
-|  |  |  ├── steam.js
-|  |  |  └── steam.json
-|  |  └── worldbank
-|  |     ├── worldbank.js
-|  |     └── worldbank.json
-|  ├── data.js
-|  ├── index.html
-|  ├── main.js
-|  └── style.css
-└── test
-   └── data.spec.js
-
-directory: 10 file: 22
-```
-
-### `src/index.html`
-
-Como no projeto anterior, existe um arquivo `index.html`. Como já sabe, aqui
-entra a página que vai ser exibida ao usuário. Também serve para indicar quais
-scripts serão utilizados e juntar tudo o que foi feito.
-
-Neste arquivo você encontrará uma séris de _tags_ `<script>` _comentadas_. Para
-carregar diferentes fontes de dados, você deverá "descomentar" estas _tags_.
-Cada um destes scripts criará uma variável global com os dados correspondentes
-à fonte escolhida.
-
-Por exemplo, se "descomentamos" a seguinte linha:
-
-```html
-<!-- <script src="./data/worldbank/worldbank.js"></script> -->
-```
-
-A linha ficaria assim:
-
-```html
-<script src="./data/worldbank/worldbank.js"></script>
-```
-
-E agora teríamos a variável global `WORLDBANK` disponível em nossos outros
-scripts (como `src/data.js` ou `src/main.js`).
 
 ### `src/main.js`
 
