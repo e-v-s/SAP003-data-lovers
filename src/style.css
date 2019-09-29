@@ -36,10 +36,11 @@ body{
   justify-content: space-around;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .nav-bar-items {
     display: inline-grid;
     justify-content: center;
+    width: 100%;
   }
 }
 
@@ -72,7 +73,7 @@ body{
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .nav-bar a:not(:first-child) {display: none;}
   .nav-bar a.icon {
     float: right;
@@ -80,7 +81,7 @@ body{
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: f00px) {
   .nav-bar.responsive {position: relative;}
   .nav-bar.responsive .icon {
     position: absolute;
@@ -286,7 +287,7 @@ body{
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .dashboard-gender {
     width: 100%;
   }
@@ -336,7 +337,7 @@ body{
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .dashboard-status {
     width: 100%;
   }
@@ -378,7 +379,7 @@ body{
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .dashboard-species {
     width: 100%;
   }
@@ -428,7 +429,7 @@ body{
     justify-content: space-around;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .dashboard-sp-st {
     display: grid;
     justify-content: center;
@@ -461,6 +462,7 @@ body{
 }
 
 /*------------------FLOAT BUTTON--------------------*/
+
 .float-button{
   position: fixed;
   width: 40px;
@@ -488,29 +490,34 @@ body{
   opacity: 0.8;
 }
 
-.nav-bar-footer-left {
-  display: inline;
-  float: left;
-  width: 50%;
+@media screen and (max-width: 800px){
+  .page-footer {
+    height: 100%;
+  }
 }
 
-/*.nav-bar-footer-items-left {
-  display: inline;
-}
-*/
-.nav-bar-footer-item-left>a {
-  display: inline;
-  float: left;
+.nav-bar-footer {
+  margin: 0 auto;
+  width: 300px;
 }
 
-.nav-bar-footer-right {
+.nav-bar-footer-item>a {
   display: inline;
   float: right;
-  width: 50%;
+  margin-right: 20px;
+  text-decoration: none;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #fff;
 }
 
-.nav-bar-footer-item-right>a {
-  display: inline;
-  float: right;
-  margin-right: 30px;
+.made-by {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.nav-bar-footer-item>a:hover {
+  color: #FFBC33;
 }
