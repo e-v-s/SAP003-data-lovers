@@ -1,4 +1,5 @@
 # Data Lovers
+## Rick and Morty Dashboard
 
 ## Índice
 
@@ -7,10 +8,8 @@
 * [3. O Dataset](#3-o-dataset)
 * [4. Histórias do Usuário](#4-historias-do-usuario)
 * [5. Desenho](#5-desenho)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Pistas, dicas e leituras complementares](#8-pistas-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist)
+* [6. Resultados](#6-resultados)
+* [7. Considerações finais](#7-considerações-finais)
 
 ***
 
@@ -42,48 +41,51 @@ Foram criadas quatro histórias do usuário:
 
 ### História 1
 
-*Como fã da série Rick and Morty, quero visualizar todos os personagens da série com suas características mais importantes em cards ao carregar a página;*
+*Como fã da série Rick and Morty, quero visualizar todos os personagens da série ao carregar a página;*
 
 **Definição de pronto:** todos os personagens e suas características devem estar no index.html, no formato de cards.
 
-**Critérios de aceitação:** funções devidamente distribuídas em main.js e data.js, e testes unitários OK.
+**Critérios de aceitação:** quero visualizar os personagens em cards, e quero que estes contenham informações sobre os personganes, como imagem, nome, espécie, gênero, tipo, mundo de origem, localização atual e status.
 
 ### História 2
 
-*Como fã da série Rick and Morty, gostaria de poder buscar o personagem pelo nome e visualizar suas características principais (espécie, gênero, status, origem, localização e tipo) em cards;*
+*Como fã da série Rick and Morty, gostaria de poder buscar o personagem pelo nome*
 
 **Definição de pronto:** O site deve ter uma caixa de busca para que o usuário possa digitar o nome do personagem. A função que manipule este dado junto ao dataset deveser capaz de buscar pelo personagem independente do usuário ter digitado com ou sem caixa alta. A manipulação do DOM deve ser feita pelo click do botão buscar, resultando na visualização dos personagens que correspondam ao *input* do usuário.
 
-**Critérios de aceitação:** funções devidamente distribuídas em main.js e data.js, testes unitários OK.
+**Critérios de aceitação:** quero filtrar o usuário por nome, como eu não sei o nome completo dos personagens quero que a busca me traga resultados mesmo com parte do nome. Quero que a pesquisa me retorne todos os personagens sensíveis à minha busca, em cards, com informações como imagem, nome, espécie, gênero, tipo, mundo de origem, localização atual e status.
 
 ### História 3
 
-*Como fã da série Rick and Morty, quero poder filtrar os personagens por gênero, feminino,masculino, agênero ou desconhecido; por espécie; ou por status, se morto, vivo ou desconhecido; e poder visualizar estes conjuntos de personagens em cards.*
+*Como fã da série Rick and Morty, quero poder filtrar os personagens por gênero, status e espécie.*
 
 **Definição de pronto:** O site deve ter uma tag *select* para que o usuário possa escolher se quer filtrar o personagem pelo gênero, espécie ou status. Ao ser selecionada alguma destas opções, deve ter disponíveis as sub-opções. Quando o usuário selecionar sua opção e clicar no botão de busca, o site deve gerar cards com os personagens que correspondem à busca do usuário.
 
-**Critérios de aceitação:** funções devidamente distribuídas em main.js e data.js, testes unitários OK.
+**Critérios de aceitação:**  Quero poder escolher o filtro, seja ele gênero, status e espécie. Quero que, quando esse filtro for selecionado, me apareçam as opções associadas a ele. Quero que me seja apresentado os personagens que satisfaçam as condições do filtro, em cards, com informações como imagem, nome, espécie, gênero, tipo, mundo de origem, localização atual e status.
+
 
 ### História 4
 
-*Como fã da série rick and morty, gostaria de ver as estatísticas relacionadas a gênero, espécie e status em charts, e também o quantitativo total das subdivisões desses tipos.*
+*Como fã da série rick and morty, gostaria de ver as porcentagens relacionadas a gênero, espécie e status em charts, e também o quantitativo total das subdivisões desses seletores.*
 
 **Definição de pronto:** O usuário deve ser capaz de visualizar todas as estatísticas em charts na tela ao carregar a página, bem como o quantitativo das opções gênero, espécie e status.
 
-**Critérios de aceitação:** funções devidamente distribuídas em main.js e data.js.
+**Critérios de aceitação:** Quero que me seja apresentado um chart com as porcentagens de personagens do gênero feminino, masculino, agênero e desconhecido, e junto dele o quantitativo dos personagens. Quero um chart com as porcentagens relacionadas ao status - vivo, morto ou desconhecido -, e junto dele os dados numéricos do quantitativo de personagen de cada opção. Também quero visualizar um chart com a distribuição, em porcentagem, das 12 espécies existentes, bem como o quantitativo. E por fim, quero poder selecionar a espécie e ver a porcentagem de personagens por gênero para esta espécie, e também quero visualizar um chart com o quantitativo numérico da distribuição de gênero por espécie, relacionando todas as espécies.
 
 ## 5. Desenho 
 
 ### Protótipo de baixa fidelidade
 
-Utilizamos a ferramenta disponibilizada pelo site [draw.io](http://draw.io) para construir o nosso protótipo.
+Utilizamos a ferramenta disponibilizada pelo site [draw.io](http://draw.io) para construir o nosso protótipo. Que pode ser visualizado [aqui](https://github.com/e-v-s/SAP003-data-lovers/blob/master/prototipo.pdf).
 
 ### Testes de usabilidade
 
-Durante o desafio você deverá fazer testes de usabilidade com usuários
-diferentes, e com base nos resultados desses testes, iterar seus desenhos de
-interface. Conte-nos quais problemas de usabilidade você detectou através dos
-testes e como os resolveu na proposta final.
+Foram realizados testes de usabilidade com usuários diferentes, onde foi identificada a necessidade de exibir todos os cards dos personagens contendo informações sobre as suas características principais, portanto os inserimos de forma centralizada. Para que a pesquisa pudesse ser feita pelo nome, inserimos campo para a digitação. De acordo com a relevância, obtida através da análise no interesse do usuário, disponibilizamos pesquisa por gênero, status e também por espécie, em uma barra seletora com as opções. Exibimos o dashboard abaixo dos cards para facilitar a amostragem de quantitativo baseado nas opções de pesquisa que o usuário possui.
+
+Após os testes com usuários, observou-se a necessidade de validar os inputs de texto para aceitar qualquer tamanho de caracter.
+Ao notar que o usuário não sabia o nome completo do personagem (Rick Sanhez, por exemplo), nos deparamos com outro desafio: fornecer ao usuário opção para que o mesmo pudesse localizar seu personagem por parte do nome.
+
+O usuário também possuía interesse em saber o quantitativo de gênero por espécie: foi necessária busca por um gráfico que pudesse exibir as informações correlacionadas.
 
 
 ## 6. Resultados
@@ -99,183 +101,7 @@ testes e como os resolveu na proposta final.
 
 ## 6. Considerações Finais
 
-
-
-## 5. Critérios mínimos de aceitação do projeto
-
-Os critérios considerados para que tenha terminado este projeto são:
-
-
-### Implementação da interface de usuário (HTML/CSS/JS)
-
-Após desenhar sua interface de usuário, deverá trabalhar na sua implementação.
-**Não** é necessário que construa a interface exatamente da mesma forma que
-desenhou. Terá um tempo limitado para trabalhar no projeto, então você deve
-priorizar as tarefas.
-
-No mínimo, sua implementação deverá:
-
-1. Mostrar os dados em uma interface: pode ser em cards, tabelas, listas, etc.
-2. Permitir ao usuário filtrar e ordenar dados;
-3. Calcular estatísticas, como média aritmética, máximo ou mínimo de algum
-   atributo numérico, ou contar quantas vezes aparece determinada informação,
-   por exemplo.
-4. Ser _responsivo_, ou seja, deve ser visualizada sem problemas a partir de
-   diversos tamanhos de tela: celulares, tablets, notebooks, etc.
+Em nossa interface final é possível visualizar os dados em cards, quadros e charts. O usuário é capaz fazer uma busca pelo nome do personagem, e também de filtrar os personagens por status, espécie e gênero. Nosso projeto também calcula porcentagens e o número total de personagens dependendo do objetivo. E por fim, conseguimos fazer um site responsivo utilizando CSS.
 
 
 
-### `src/main.js`
-
-Recomendamos que utilize `src/main.js` para todos os códigos que tenham a ver
-com a exibição dos dados na tela. Com isto nos referimos basicamente à
-interação com o DOM. Operações como criação de nós, registro de manejadores de
-eventos (_event listeners_ ou _event handlers_) e etc.
-
-Esta não é a única forma de dividir seu código. Pode utilizar mais arquivos e
-pastas, sempre e quando a estrutura estiver clara para suas colegas.
-
-### `src/data.js`
-
-O coração deste projeto é a manipulação de dados através de arrays e objetos.
-
-Recomendamos que este arquivo contenha toda a funcionalidade que corresponda a
-obter, processar e manipular dados (suas funções):
-
-* `filterData(data, condition)`: esta função receberia os dados e nos
-  retornaria os que cumprem com a condição.
-
-* `sortData(data, sortBy, sortOrder)`: esta função recebe três parâmetros.
-  O primeiro, `data`, nos entrega os dados.
-  O segundo, `sortBy`, diz respeito a qual das informações quer usar para
-  ordenar.
-  O terceiro, `sortOrder`, indica se quer ordenar de maneira crescente ou
-  decrescente.
-
-* `computeStats(data)`: essa função nos permite fazer cálculos estatísticos
-  básicos para serem exibidos de acordo com o que os dados permitem.
-
-Estes nomes de funções e parâmetros são somente referência, o que vocês decidir
-utilizar vai depender da sua implementação.
-
-Estas funções devem ser [_puras_](https://imasters.com.br/desenvolvimento/serie-js-e-vida-pure-functions-funcoes-puras)
-e independentes do DOM. Estas funções serão depois usadas a partir do arquivo
-`src/main.js`, ao carregar a página e a cada vez que o usuário interagir com
-a interface (cliques, seleções, filtros, ordenação, etc).
-
-### `src/data`
-
-Nesta pasta estão os dados de diferentes fontes. Você vai encontrar uma pasta
-para cada fonte, e dentro de cada pasta estão dois arquivos: um com a extensão
-`.js` e outro `.json`. Ambos os arquivos contém os mesmos dados; a diferença é
-que podemos usar o `.js` com uma tag `<script>`, enquanto o `.json` servirá
-para, opcionalmnente, ser carregado de forma assíncrona com
-[`fetch()`](https://developer.mozilla.org/pt-br/docs/Web/API/Fetch_API)
-(ver seção da [_Parte Opcional_](#6-hacker-edition)).
-
-### `test/data.spec.js`
-
-Você também deverá fazer os teste unitários das funções implementadas no
-arquivo `data.js`.
-
-***
-
-## 8. Pistas, dicas e leituras complementares
-
-### Primeiros passos
-
-Antes de começar a escrever o código, você deve definir seu produto com base no
-conhecimento que puder obter a respeito de seus usuários. Estas perguntas podem
-ajudar:
-
-* Quem são os usuários principais do produto?
-* Quais são os objetivos dos usuários com relação ao produto?
-* Quais são os dados mais relevantes que querem ver na interface e por quê?
-* Quando utilizam ou utilizariam o produto?
-* Toda sua investigação prévia deve ter como resultado as histórias de
-  usuário de seu projeto.
-
-Quando estiver pronta para codar, sugerimos começar desta forma:
-
-1. Uma das integrantes da dupla deve fazer um :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) do repositório de sua
-   turma (a equipe de formação fornecerá o link). A outra integrante da dupla
-   deve fazer um fork **a partir do repositório de sua companheira** e
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um
-   `remote` a partir dele.
-
-2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   seu _fork_ para seu computador (cópia local).
-
-3. Instale as dependências do projeto com o comando `npm install`, assumindo
-   que já tenha instalado o [Node.js](https://nodejs.org/) (que inclui [npm](https://docs.npmjs.com/)).
-
-4. Se tudo correr bem, deve ser capaz de executar os :traffic_light:
-   testes unitários (unit tests) com o comando `npm test`.
-
-5. Para ver a interface de seu programa no navegador, utilize o comando
-   `npm start` para subir o servidor web no endereço `http://localhost:5000`.
-
-6. Comece a codar! :rocket:
-
-***
-
-### Conteúdo de referência
-
-#### UX Design (Experiência do usuário)
-
-* Pesquisa com usuarios / entrevistas
-* Princípios de design/UI
-
-#### Desenvolvimento Front-End
-
-* Unidade de testes do curso de JavaScript do LMS.
-* Unidade de arrays do curso de JavaScript do LMS.
-* Unidade de objetos do curso de JavaScript do LMS.
-* Unidade de funções do curso de JavaScript do LMS.
-* Unidade de DOM do curso de JavaScript do LMS.
-* [Array no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
-* [Array.sort no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-* [Array.map no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-* [Array.filter no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filtro)
-* [Array.reduce no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-* [Array.forEach no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-* [Object.keys no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
-* [Object.entries no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
-* [Fetch API no MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-* [json.org](https://json.org/json-pt.html)
-
-#### Ferramentas
-
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com/)
-* [GitHub Pages](https://pages.github.com/)
-* [Node.js](https://nodejs.org/)
-* [Jest](https://jestjs.io/)
-
-#### Organização do trabalho
-
-* [Histórias de Usuário](https://www.youtube.com/watch?v=sEtiCJfXTE8)
-* [Definição de pronto](https://www.youtube.com/watch?v=Kfss63Q42F8)
-* [Critérios de aceitação](https://medium.com/@karladiasn/user-stories-e-crit%C3%A9rios-de-aceita%C3%A7%C3%A3o-317c48403fcd)
-* [Guia para Data Lovers](https://docs.google.com/presentation/d/1bOq8ns5wsvXdksdqYL3aQoxzFQsXTVlyvlV-yxI2oBM/present?token=AC4w5VhHBbEEA9u2w8bm3Ey1Cse349frbg%3A1567540902700&includes_info_params=1&eisi=CM_ytPW4teQCFQrJgQodeTcEZg#slide=id.g5282e1a53f_1_106)
-
-***
-
-## 9. Checklist
-
-* [ ] Usar VanillaJS.
-* [ ] Não utilizar `this`.
-* [ ] Passa pelo linter (`npm run pretest`)
-* [ ] Passa pelos testes (`npm test`)
-* [ ] Testes unitários cobrem um mínimo de 70% de statements, functions,
-  lines e branches.
-* [ ] Inclui uma _definição de produto_ clara e informativa no `README.md`.
-* [ ] Inclui histórias de usuário no `README.md`.
-* [ ] Inclui rascunho da solução (protótipo de baixa fidelidade) no
-  `README.md`.
-* [ ] Inclui uma lista de problemas detectados nos testes de usabilidade no `README.md`.
-* [ ] UI: Mostra lista/tabela/etc com dados e/ou indicadores.
-* [ ] UI: Permite ordenar dados por um ou mais campos (asc e desc).
-* [ ] UI: Permite filtrar dados com base em uma condição.
-* [ ] UI: É _responsivo_.
