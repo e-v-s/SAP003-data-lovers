@@ -3,10 +3,10 @@
 ## Índice
 
 * [1. Introdução](#1-introdução)
-* [2. O Dataset](#2-o-dataset)
-* [3. Histórias do Usuário](#3-historias-do-usuario)
-* [4. Considerações gerais](#4-consideracoes-gerais)
-* [5. Critérios mínimos de aceitação do projeto](#5-criterios-minimos-de-aceitacao-do-projeto)
+* [2. O Problema](#2-o-problema)
+* [3. O Dataset](#3-o-dataset)
+* [4. Histórias do Usuário](#4-historias-do-usuario)
+* [5. Desenho](#5-desenho)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Considerações técnicas](#7-considerações-técnicas)
 * [8. Pistas, dicas e leituras complementares](#8-pistas-dicas-e-leituras-complementares)
@@ -75,6 +75,8 @@ Foram criadas quatro histórias do usuário:
 ## 5. Desenho 
 
 ### Protótipo de baixa fidelidade
+
+Utilizamos a ferramenta disponibilizada pelo site [draw.io](http://draw.io) para construir o nosso protótipo.
 
 ### Testes de usabilidade
 
