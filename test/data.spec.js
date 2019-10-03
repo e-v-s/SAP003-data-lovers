@@ -56,3 +56,4 @@ describe("showAllChar", () => {
 		</div>`);
   });
 });
+
