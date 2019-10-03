@@ -1,7 +1,5 @@
-//array created using the object.results
 const array = RICKANDMORTY.results; 
 
-//these create options on select tag using the keys gender, species and status from the objects inside array
 const genderSelect = `<option value="gender">${(Object.keys(array[0]))[5]}</option>`;
 const speciesSelect = `<option value="species">${(Object.keys(array[0]))[3]}</option>`;
 const statusSelect = `<option value="status">${(Object.keys(array[0]))[2]}</option>`;
@@ -12,11 +10,28 @@ document.getElementById("btn-char").addEventListener("click", function() {
   searchCharacter();
   cleanInputBox();
 });
-//Function used in searchForCharacter, used to search by name
+
 const searchCharacter = () => {
   const inputChar = document.getElementById("char-value").value;
  
-  document.getElementById("show-images-of-all-char").innerHTML = window.data.searchForCharacter(inputChar, array);  
+  const dataSearchForChar = window.data.searchForCharacter(inputChar, array);
+
+  let character = [];
+
+  for (let i of dataSearchForChar) {
+    character += `<div class="all-char">
+    <p class="all-name" id="char-name-search">${i.name}</p>
+    <p><img class="all-image" src="${i.image}"/></p>
+    <p class="all-gender"> Gender: ${i.gender}</p>
+    <p class="all-status"> Status: ${i.status}</p>
+    <p class="all-species"> Species: ${i.species}</p>
+    <p class="all-type"> Type: ${i.type}</p>
+    <p class="all-origin"> Origin: ${i.origin.name}</p>
+    <p class="all-location"> Location: ${i.location.name} </p>
+    </div>`;
+  }
+
+  document.getElementById("show-images-of-all-char").innerHTML = character;  
 };
 //function which creates radio buttons with the options related to the values inside each select tag (gender, status and species)
 const openRadioButton = () => {
@@ -31,37 +46,61 @@ const openRadioButton = () => {
   document.getElementById("print-here").innerHTML += `${newArray.map(item => `<input class="checkbox" name="radio" type="radio" value="${item}">${item}</input>`).join(" ")}`;
 };
 
-//funtion which submit the values from the checkboxes created above to the searchRadioButton function
-const submit = () => {
+const submit = (event) => {
   event.preventDefault();
 
-  //select tag value (gender, species or status)
   const searchType = document.getElementById("search-type").value;
 
-  //value from the radio button selected
   buttonValue = document.querySelector(".checkbox:checked").value;
 
-  document.getElementById("show-images-of-all-char").innerHTML = window.data.searchByRadioButton(buttonValue, array, searchType);
+  const arrayType = window.data.searchByRadioButton(buttonValue, array, searchType);
 
-  //reseting the form after clicking search button
+  let type = [];
+
+  for (let i of arrayType) {
+      type +=`<div class="all-char">
+        <p class="all-name" id="char-name-search">${i.name}</p>
+        <p><img class="all-image" src="${i.image}"/></p>
+        <p class="all-gender"> Gender: ${i.gender}</p>
+        <p class="all-status"> Status: ${i.status}</p>
+        <p class="all-species"> Species: ${i.species}</p>
+        <p class="all-type"> Type: ${i.type}</p>
+        <p class="all-origin"> Origin: ${i.origin.name}</p>
+        <p class="all-location"> Location: ${i.location.name} </p>
+        </div>`;
+    }
+
+  document.getElementById("show-images-of-all-char").innerHTML = type;
+
   document.getElementById("form-search").reset();
 };
 
-//function to show all characters at homepage by default
 const showEverybody = () => {
-  let showAllChar = window.data.showAllChar(array);
+  
+  let imageAllChar = [];
 
-  document.getElementById("show-images-of-all-char").innerHTML = imageAllChar;
+  for (let i of array) {
+    imageAllChar += `<div class="all-char">
+    <p class="all-name" id="char-name-search">${i.name}</p>
+    <p><img class="all-image" src="${i.image}"/></p>
+    <p class="all-gender"> Gender: ${i.gender}</p>
+    <p class="all-status"> Status: ${i.status}</p>
+    <p class="all-species"> Species: ${i.species}</p>
+    <p class="all-type"> Type: ${i.type}</p>
+    <p class="all-origin"> Origin: ${i.origin.name}</p>
+    <p class="all-location"> Location: ${i.location.name} </p>
+    </div>`;
+  }
+
+  document.getElementById("show-images-of-all-char").innerHTML += imageAllChar;
 };
 
-//function to clean input box
 const cleanInputBox = () => {
   document.getElementById("char-value").value = "";
 };
 
 google.charts.load("current", {"packages":["corechart"]});
 
-// Draw the chart and set the chart values
 function drawChartGender() {
   
   const y = window.data.charCountGender();
@@ -73,19 +112,20 @@ function drawChartGender() {
 
           <div class="dashboard char">
             <div class="gender female">
-              <p class="num">${((y.female*y.size)/100).toFixed(0)}</p>
+              <p class="num">${y.countGender.Female
+              }</p>
               <p>Feminino</p>
             </div>
             <div class="gender male">
-              <p class="num">${((y.male*y.size)/100).toFixed(0)}</p>
+              <p class="num">${y.countGender.Male}</p>
               <p>Masculino</p>
             </div>
             <div class="gender genderless">
-              <p class="num">${((y.genderless*y.size)/100).toFixed(0)}</p>
+              <p class="num">${y.countGender.Genderless}</p>
               <p>Agênero</p>
             </div>
             <div class="gender gender-unknown">
-              <p class="num">${((y.genderUnknown*y.size)/100).toFixed(0)}</p>
+              <p class="num">${y.countGender.unknown}</p>
               <p class="g">Gênero Desconhecido</p>
             </div>
             
@@ -93,19 +133,16 @@ function drawChartGender() {
           <div id="piechart-gender"></div>
         `;
 
-  //pizza chart to show all genders
   const dataGender = google.visualization.arrayToDataTable([
   ["Char by gender", "Gender"],
-  ["Female", y.female],
-  ["Male", y.male],
-  ["Unknown", y.genderUnknown],
-  ["Genderless", y.genderless],
+  ["Female", y.countGender.Female],
+  ["Male", y.countGender.Male],
+  ["Unknown", y.countGender.unknown],
+  ["Genderless", y.countGender.Genderless],
 ]);
 
-  // Optional; add a title and set the width and height of the chart
   const optionsGender = {"title":"Characters By Gender", "pieHole": 0.4,"width": 300, "height":300};
 
-  // Display the chart inside the <div> element with id="piechart"
   const chartGender = new google.visualization.PieChart(document.getElementById("piechart-gender"));
 
   chartGender.draw(dataGender, optionsGender);
@@ -117,20 +154,20 @@ const drawChartStatus = () => {
   const y = window.data.charCountStatus();
 
   document.getElementById("dash-status").innerHTML = `<div class="dashboard-status char">
-          <p class="num">3</p>
+          <p class="num">${Object.keys(y.countStatus).length}</p>
           <p>Status</p>
         </div>
         <div class="dashboard char">
           <div class="status alive">
-            <p class="num">${((y.alive*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countStatus.Alive}</p>
             <p>Personagens Vivos</p>
           </div>
           <div class="status dead">
-            <p class="num">${((y.dead*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countStatus.Dead}</p>
             <p>Personagens Mortos</p>
           </div>
           <div class="status status-unknown">
-           <p class="num">${((y.statusUnknown*y.size)/100).toFixed(0)}</p>
+           <p class="num">${y.countStatus.unknown}</p>
             <p>Situação desconhecida</p>
           </div>
         </div>
@@ -138,9 +175,9 @@ const drawChartStatus = () => {
 
   const dataStatus = google.visualization.arrayToDataTable([
     ["Char by status", "Status"],
-    ["Alive", y.alive],
-    ["Dead", y.dead],
-    ["unknown", y.statusUnknown]
+    ["Alive", y.countStatus.Alive],
+    ["Dead", y.countStatus.Dead],
+    ["unknown", y.countStatus.unknown]
     ]);
 
   const optionsStatus = {"title": "Characters by Status", "width": 300, "height": 300, "pieHole": 0.4};
@@ -160,51 +197,51 @@ const drawChartSpecies = () => {
         </div>
         <div  class="dashboard char">
           <div class="species">
-            <p class="num">${((y.human*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.Human}</p>
             <p>Human</p>
           </div>
           <div class="species">
-            <p class="num">${((y.alien*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.Alien}</p>
             <p>Alien</p>
           </div>
           <div class="species">
-            <p class="num">${((y.humanoid*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.Humanoid}</p>
             <p>Humanoid</p>
           </div>
           <div class="species">
-            <p class="num">${((y.speciesUnknown*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.unknown}</p>
             <p>Unknown</p>
           </div>
           <div class="species">
-            <p class="num">${((y.poopybutthole*y.size)/100).toFixed(0)}</p>
-            <p>Poopybutpole</p>
+            <p class="num">${y.countSpecies.Poopybutthole}</p>
+            <p>Poopybutthole</p>
           </div>
           <div class="species">
-            <p class="num">${((y.mytholog*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.Mytholog}</p>
             <p>Mytholog</p>
           </div>
           <div class="species">
-            <p class="num">${((y.animal*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.Animal}</p>
             <p>Animal</p>
           </div>
           <div class="species">
-            <p class="num">${((y.vampire*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.Vampire}</p>
             <p>Vampire</p>
           </div>
           <div class="species">
-            <p class="num">${((y.robot*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.Robot}</p>
             <p>Robot</p>
           </div>
           <div class="species">
-            <p class="num">${((y.cronenberg*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.Cronenberg}</p>
             <p>Cronenberg</p>
           </div>
           <div class="species">
-            <p class="num">${((y.disease*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.Disease}</p>
             <p>Disease</p>
           </div>
           <div class="species">
-            <p class="num">${((y.parasite*y.size)/100).toFixed(0)}</p>
+            <p class="num">${y.countSpecies.Parasite}</p>
             <p>Parasite</p>
           </div>
           </div>
@@ -212,18 +249,18 @@ const drawChartSpecies = () => {
 
   const dataSpecies = google.visualization.arrayToDataTable([
     ["Char by Species", "Species"],
-    ["Human", y.human],
-    ["Alien", y.alien],
-    ["Humanoid", y.humanoid],
-    ["Species unknown", y.speciesUnknown],
-    ["Poopybutthole", y.poopybutthole],
-    ["Mytholog", y.mytholog],
-    ["Animal", y.animal],
-    ["Vampire", y.vampire],
-    ["Robot", y.robot],
-    ["Cronenberg", y.cronenberg],
-    ["Disease", y.disease],
-    ["Parasite", y.parasite]
+    ["Human", y.countSpecies.Human],
+    ["Alien", y.countSpecies.Alien],
+    ["Humanoid", y.countSpecies.Humanoid],
+    ["Species unknown", y.countSpecies.unknown],
+    ["Poopybutthole", y.countSpecies.Poopybutthole],
+    ["Mytholog", y.countSpecies.Mytholog],
+    ["Animal", y.countSpecies.Animal],
+    ["Vampire", y.countSpecies.Vampire],
+    ["Robot", y.countSpecies.Robot],
+    ["Cronenberg", y.countSpecies.Cronenberg],
+    ["Disease", y.countSpecies.Disease],
+    ["Parasite", y.countSpecies.Parasite]
     ]);
 
   const optionsSpecies = {"title": "Characters by Species", "width": 300, "height": 300};

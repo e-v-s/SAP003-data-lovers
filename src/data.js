@@ -1,113 +1,22 @@
-//search character by name
-//inputChar is the user's input
-//array is the object.results, which contains every character
 const searchForCharacter = (inputChar, array) => {
 	
   let arrayResult = [];
 
-  //includes every character inside arrayResults which includes the input from the user
   for (let i of array) {
     if (i.name.toLowerCase().includes(inputChar.toLowerCase())) {
       arrayResult.push(i);
     }
   }
-
-  //show all char pushed to the arrayResult in cards
-  let character = [];
-
-  for (let i of arrayResult) {
-    character += `<div class="all-char">
-		<p class="all-name" id="char-name-search">${i.name}</p>
-		<p><img class="all-image" src="${i.image}"/></p>
-		<p class="all-gender"> Gender: ${i.gender}</p>
-		<p class="all-status"> Status: ${i.status}</p>
-		<p class="all-species"> Species: ${i.species}</p>
-		<p class="all-type"> Type: ${i.type}</p>
-		<p class="all-origin"> Origin: ${i.origin.name}</p>
-		<p class="all-location"> Location: ${i.location.name} </p>
-		</div>`;
-  }
-  return character;
+  return arrayResult;
 };
 
-//search by radio button after selected option in select tag
 const searchByRadioButton = (buttonValue, array, searchType) => {
-
-  let type = [];
 	
-  //first check the searchType chosen by the user in the select tag
-  if (searchType === "status") {
-    //then the result is filtered comparing the values inside the searchType with the buttonValue chosen by the user
-    let statusResult = array.filter(i => i.status === buttonValue);
-    //just a for running through the result array to print the cards with the characers
-    for (let i of statusResult) {
-      type +=`<div class="all-char">
-				<p class="all-name" id="char-name-search">${i.name}</p>
-				<p><img class="all-image" src="${i.image}"/></p>
-				<p class="all-gender"> Gender: ${i.gender}</p>
-				<p class="all-status"> Status: ${i.status}</p>
-				<p class="all-species"> Species: ${i.species}</p>
-				<p class="all-type"> Type: ${i.type}</p>
-				<p class="all-origin"> Origin: ${i.origin.name}</p>
-				<p class="all-location"> Location: ${i.location.name} </p>
-				</div>`;
-    }
-  } else if (searchType === "gender") {
-    let genderResult = array.filter(i => i.gender === buttonValue);
-    for (let i of genderResult) {
-      type +=`<div class="all-char">
-				<p class="all-name" id="char-name-search">${i.name}</p>
-				<p><img class="all-image" src="${i.image}"/></p>
-				<p class="all-gender"> Gender: ${i.gender}</p>
-				<p class="all-status"> Status: ${i.status}</p>
-				<p class="all-species"> Species: ${i.species}</p>
-				<p class="all-type"> Type: ${i.type}</p>
-				<p class="all-origin"> Origin: ${i.origin.name}</p>
-				<p class="all-location"> Location: ${i.location.name} </p>
-				</div>`;
-    }
-  } else if (searchType === "species") {
-    let speciesResult = array.filter(i => i.species === buttonValue);
-    for (let i of speciesResult) {
-      type +=`<div class="all-char">
-				<p class="all-name" id="char-name-search">${i.name}</p>
-				<p><img class="all-image" src="${i.image}"/></p>
-				<p class="all-gender"> Gender: ${i.gender}</p>
-				<p class="all-status"> Status: ${i.status}</p>
-				<p class="all-species"> Species: ${i.species}</p>
-				<p class="all-type"> Type: ${i.type}</p>
-				<p class="all-origin"> Origin: ${i.origin.name}</p>
-				<p class="all-location"> Location: ${i.location.name} </p>
-				</div>`;
-    }
-  }
-  return type;
+
+  const statusResult = array.filter(i => i[searchType] === buttonValue);    
+  	
+  return statusResult;
 };
-
-//function to get every data of every character
-let imageAllChar = "";
-
-const showAllChar = (array) => {
-
-  for (let i of array) {
-    imageAllChar += `<div class="all-char">
-		<p class="all-name" id="char-name-search">${i.name}</p>
-		<p><img class="all-image" src="${i.image}"/></p>
-		<p class="all-gender"> Gender: ${i.gender}</p>
-		<p class="all-status"> Status: ${i.status}</p>
-		<p class="all-species"> Species: ${i.species}</p>
-		<p class="all-type"> Type: ${i.type}</p>
-		<p class="all-origin"> Origin: ${i.origin.name}</p>
-		<p class="all-location"> Location: ${i.location.name} </p>
-		</div>`;
-  }
-  return imageAllChar;
-};
-
-//Dashboard functions
-
-//Gender counter
-//let femPerc, malePerc,gendUnkPerc, genssPerc;
 
 const charCountGender = () => {
 
@@ -115,27 +24,26 @@ const charCountGender = () => {
 
 	const arrayGender = array.map(item => item.gender);
 
-	const female = Number(((((arrayGender.filter(i => i === "Female")).length)/size)*100).toFixed(1));
-	const male = Number(((((arrayGender.filter(i => i === "Male")).length)/size)*100).toFixed(1));
-	const genderless = Number(((((arrayGender.filter(i => i === "Genderless")).length)/size)*100).toFixed(1));
-	const genderUnknown = Number(((((arrayGender.filter(i => i === "unknown")).length)/size)*100).toFixed(1));
+	const countGender = arrayGender.reduce((count, word) => {
+		count[word] = count[word] ? count[word] + 1 : 1
+		return count;
+	}, {});
 
-	//percentage
-	return {female, male, genderUnknown, genderless, size};
+	return {size, countGender};
 };
 
-//Status counter
 const charCountStatus = () => {
 
 	const size = array.length;
 
 	const arrayStatus = array.map(item => item.status);
 
-	const alive = Number(((((arrayStatus.filter(i => i === "Alive")).length)/size)*100).toFixed(1));
-	const dead = Number(((((arrayStatus.filter(i => i === "Dead")).length)/size)*100).toFixed(1));
-	const statusUnknown = Number(((((arrayStatus.filter(i => i === "unknown")).length)/size)*100).toFixed(1));
+	const countStatus = arrayStatus.reduce((count, word) => {
+		count[word] = count[word] ? count[word] +1 : 1
+		return count;
+	}, {});
 
-	return {alive, dead, statusUnknown, size};
+	return {size, countStatus};
 };
 
 //Species counter
@@ -145,20 +53,12 @@ const charCountSpecies = () => {
 
 	const size = array.length;
 
-	const human = Number(((((arraySpecies.filter( i => i === "Human")).length)/size)*100).toFixed(1));
-	const alien = Number(((((arraySpecies.filter(i => i === "Alien")).length)/size)*100).toFixed(1));
-	const humanoid = Number(((((arraySpecies.filter(i => i === "Humanoid")).length)/size)*100).toFixed(1));
-	const speciesUnknown = Number(((((arraySpecies.filter(i => i === "unknown")).length)/size)*100).toFixed(1));
-	const poopybutthole = Number(((((arraySpecies.filter(i => i === "Poopybutthole")).length)/size)*100).toFixed(1));
-	const mytholog = Number(((((arraySpecies.filter(i => i === "Mytholog")).length)/size)*100).toFixed(1));
-	const animal = Number(((((arraySpecies.filter(i => i === "Animal")).length)/size)*100).toFixed(1));
-	const vampire = Number(((((arraySpecies.filter(i => i === "Vampire")).length)/size)*100).toFixed(1));
-	const robot = Number(((((arraySpecies.filter(i => i === "Robot")).length)/size)*100).toFixed(1));
-	const cronenberg = Number(((((arraySpecies.filter(i => i === "Cronenberg")).length)/size)*100).toFixed(1));
-	const disease = Number(((((arraySpecies.filter(i => i === "Disease")).length)/size)*100).toFixed(1));
-	const parasite = Number(((((arraySpecies.filter(i => i === "Parasite")).length)/size)*100).toFixed(1));
+	const countSpecies = arraySpecies.reduce((count, word) => {
+		count[word] = count[word] ? count[word] + 1 : 1
+		return count;
+	}, {});
 
-	return {human, alien, humanoid, speciesUnknown, poopybutthole, mytholog, animal, vampire, robot, cronenberg, disease, parasite, size};
+	return {size, countSpecies};	
 };
 
 const charCountSpeciesByGender = () => {
@@ -301,12 +201,11 @@ const example = (searchType, array) => {
 };
 
 window.data = {
-  searchForCharacter: searchForCharacter,
-  showAllChar: showAllChar,
-  searchByRadioButton: searchByRadioButton,
-  charCountGender: charCountGender,
-  charCountStatus: charCountStatus,
-  charCountSpecies: charCountSpecies,
-  charCountSpeciesByGender: charCountSpeciesByGender,
-  example: example,
+  searchForCharacter,
+  searchByRadioButton,
+  charCountGender,
+  charCountStatus,
+  charCountSpecies,
+  charCountSpeciesByGender,
+  example,
 }; 
