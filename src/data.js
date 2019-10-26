@@ -64,7 +64,16 @@ const charCountSpecies = () => {
 const charCountSpeciesByGender = () => {
 	
 	//HUMAN
-	const arraySpeciesHuman = array.filter(i => i.species === "Human");
+	const arraySpeciesHuman = array.map(i => i.species);
+
+	console.log(arraySpeciesHuman.reduce((count, word) => {
+		count[word] = count[word] ? count[word] + 1 : 1
+		return count
+	}, {}));
+
+	console.log(arraySpeciesHuman)
+
+
 
 	const sizeHuman = arraySpeciesHuman.length;
 
