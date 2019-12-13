@@ -145,6 +145,11 @@ body{
 
 .select-option {
   margin: 20px 0;
+  background-color: #DB2156;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  padding: 10px;
 }
 
 .btn-char-type {
@@ -330,7 +335,7 @@ body{
 /*STATUS*/
 .dashboard-status {
   border: 1px solid #fff;
-  width: 310px;
+  width: 400px;
   text-align: center;
   color: #fff;
   margin-top: 20px;

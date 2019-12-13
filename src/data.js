@@ -1,7 +1,5 @@
-const searchForCharacter = (inputChar, array) => {
-	
+const searchForCharacter = (inputChar, array) => {	
   let arrayResult = [];
-
   for (let i of array) {
     if (i.name.toLowerCase().includes(inputChar.toLowerCase())) {
       arrayResult.push(i);
@@ -11,76 +9,53 @@ const searchForCharacter = (inputChar, array) => {
 };
 
 const searchByRadioButton = (buttonValue, array, searchType) => {
-	
-
-  const statusResult = array.filter(i => i[searchType] === buttonValue);    
-  	
+  const statusResult = array.filter(i => i[searchType] === buttonValue);  	
   return statusResult;
 };
 
 const charCountGender = () => {
-
 	const size = array.length;
-
 	const arrayGender = array.map(item => item.gender);
-
 	const countGender = arrayGender.reduce((count, word) => {
 		count[word] = count[word] ? count[word] + 1 : 1
 		return count;
 	}, {});
-
 	return {size, countGender};
 };
 
 const charCountStatus = () => {
-
 	const size = array.length;
-
 	const arrayStatus = array.map(item => item.status);
-
 	const countStatus = arrayStatus.reduce((count, word) => {
 		count[word] = count[word] ? count[word] +1 : 1
 		return count;
 	}, {});
-
 	return {size, countStatus};
 };
 
-//Species counter
 const charCountSpecies = () => {
-
 	const arraySpecies = array.map(item => item.species);
-
 	const size = array.length;
-
 	const countSpecies = arraySpecies.reduce((count, word) => {
 		count[word] = count[word] ? count[word] + 1 : 1
 		return count;
 	}, {});
-
 	return {size, countSpecies};	
 };
 
-const charCountSpeciesByGender = () => {
-	
-	//HUMAN
-	const arraySpeciesHuman = array.map(i => i.species);
-
-	console.log(arraySpeciesHuman.reduce((count, word) => {
+const charCountSpeciesByGender = () => {	
+	const arraySpecies = array.map( i => i.species);
+	const test = arraySpecies.reduce((count, word) => {
 		count[word] = count[word] ? count[word] + 1 : 1
 		return count
-	}, {}));
+	}, {});
 
-	console.log(arraySpeciesHuman)
-
-
-
-	const sizeHuman = arraySpeciesHuman.length;
-
-	const humanFemale = arraySpeciesHuman.filter(i => i.gender === "Female").length;
-	const humanMale = arraySpeciesHuman.filter(i => i.gender === "Male").length;
-	const humanUnknown = arraySpeciesHuman.filter(i => i.gender === "unknown").length;
-	const humanGenderless = arraySpeciesHuman.filter(i => i.gender === "Genderless").length;
+	//HUMAN
+	const sizeHuman = test.Human;
+	const humanFemale = array.filter(i => i.species == 'Human' && i.gender == 'Female').length;
+	const humanMale = array.filter(i => i.species == 'Human' && i.gender == 'Male').length;
+	const humanUnknown = array.filter(i => i.species == 'Human' && i.gender == 'unknown').length;
+	const humanGenderless = array.filter(i => i.species == 'Human' && i.gender == 'Genderless').length;
 
 	//ALIEN
 	const arraySpeciesAlien = array.filter(i => i.species === "Alien");
@@ -177,36 +152,26 @@ const charCountSpeciesByGender = () => {
 
 const example = (searchType, array) => {
 	const arrayGender = array.filter(i => i.species === searchType);
-  
-  const arrayFemale = arrayGender.filter(i => (i.gender === "Female"));
-      
-  const arrayMale = arrayGender.filter(i => i.gender === "Male");
-
-  const arrayGenderless = arrayGender.filter(i => i.gender === "Genderless");
-
-  const arrayUnknown = arrayGender.filter(i => i.gender === "unknown");
-
-  const typethis = `
-          <div class="dashboard-sp-st">
-            <div class="st-sp female">
-            	<p class="num-mini">${((arrayFemale.length/arrayGender.length)*100).toFixed(1)}%</p>
-            	<p>Female</p>
-            </div>
-            <div class="st-sp male">
-            	<p class="num-mini">${((arrayMale.length/arrayGender.length)*100).toFixed(1)}%</p>
-            	<p>Male</p>
-            </div>
-            <div class="st-sp genderless">
-            	<p class="num-mini">${((arrayGenderless.length/arrayGender.length)*100).toFixed(1)}%</p>
-            	<p>Genderless</p>
-            </div>
-            <div class="st-sp gender-unknown">
-            	<p class="num-mini">${((arrayUnknown.length/arrayGender.length)*100).toFixed(1)}%</p>
-            	<p>Unknown</p>
-            </div>
-          </div>`;
-
-  return typethis;
+  const template = `
+    <div class="dashboard-sp-st">
+      <div class="st-sp female">
+       	<p class="num-mini">${(((arrayGender.filter(i => (i.gender === "Female").length))/arrayGender.length)*100).toFixed(1)}%</p>
+      	<p>Female</p>
+      </div>
+      <div class="st-sp male">
+       	<p class="num-mini">${(((arrayGender.filter(i => i.gender === "Male")).length/arrayGender.length)*100).toFixed(1)}%</p>
+       	<p>Male</p>
+      </div>
+      <div class="st-sp genderless">
+       	<p class="num-mini">${(((arrayGender.filter(i => i.gender === "Genderless")).length/arrayGender.length)*100).toFixed(1)}%</p>
+       	<p>Genderless</p>
+      </div>
+      <div class="st-sp gender-unknown">
+       	<p class="num-mini">${(((arrayGender.filter(i => i.gender === "unknown")).length/arrayGender.length)*100).toFixed(1)}%</p>
+      	<p>Unknown</p>
+      </div>
+    </div>`;
+  return template;
 };
 
 window.data = {
